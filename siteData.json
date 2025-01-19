@@ -878,15 +878,13 @@
       "src": "students/talksSchedule.md",
       "title": "CS3282 - Lightning Talks",
       "headings": {
-        "round-a-week-3-4-5": "Round A (week 3, 4, 5)",
+        "round-a-week-4-5": "Round A (week 4, 5)",
         "round-a1": "Round A1",
         "round-a2": "Round A2",
-        "round-a3": "Round A3",
-        "round-b-week-7-8-9": "Round B (week 7, 8, 9)",
+        "round-b-week-7-8": "Round B (week 7, 8)",
         "round-b1": "Round B1",
         "round-b2": "Round B2",
-        "round-b3": "Round B3",
-        "round-c-week-12-13": "Round C (week 12, 13)",
+        "round-c-week-11-12": "Round C (week 11, 12)",
         "round-c1": "Round C1",
         "round-c2": "Round C2"
       },
