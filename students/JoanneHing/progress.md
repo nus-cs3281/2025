@@ -1,0 +1,4 @@
+| Week | Achievements                                                                                                                                  |
+|------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| 1    | Solved issue: [Upgrade GitHub Actions macOS runners to 13 and 14 (and possibly 15) #2259](https://github.com/reposense/RepoSense/issues/2259) |
+| 1    | Solved issue: [Add ubuntu-24.04 to CI runners and bump publish-RepoSense runner #2252](https://github.com/reposense/RepoSense/issues/2252)    |
