@@ -497,7 +497,11 @@
     },
     {
       "src": "students/jasonqiu212/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary",
+        "pre-cs3282-work": "Pre-CS3282 Work",
+        "cs3282-work": "CS3282 Work"
+      },
       "headingKeywords": {}
     },
     {
