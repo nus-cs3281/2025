@@ -46,7 +46,7 @@ footer:
 {% endmacro %}
 
 
-## Round A (week 3, 4, 5)
+## Round A (week 4, 5)
 
 {% set criteria%}:far-square: started with PUNCH | :far-square: gave WIIFY | :far-square: gave roadmap | :far-square: key points clear | :far-square: ended with key points and CtA{% endset %}
 
@@ -54,22 +54,20 @@ footer:
 
 {{ print_feedback_table('A1') }}
 {{ print_feedback_table('A2') }}
-{{ print_feedback_table('A3') }}
 
 {{ page_break }}
 
-## Round B (week 7, 8, 9)
+## Round B (week 7, 8)
 
 {% set criteria %}:far-square: slides visual-enough | :far-square: no visual clutter | :far-square: key slides stand out | :far-square: _assertion-evidence_ style used (if applicable) | :far-square: no excessive jargons :far-square: meaningful animations | :far-square: demo not too late | :far-square: PUNCH, WIIFY, Roadmap, Key Points, Last Slide etc.{% endset %}
 
 {% set sorted_projects = [projects[1], projects[2], projects[3], projects[0]] %}
 {{ print_feedback_table('B1') }}
 {{ print_feedback_table('B2') }}
-{{ print_feedback_table('B3') }}
 
 {{ page_break }}
 
-## Round C (week 12, 13)
+## Round C (week 11, 12)
 
 {% set criteria %}{% endset %}
 
