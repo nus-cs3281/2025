@@ -9,8 +9,7 @@ pageNav: 2
     {name: 'CATcher', students: [
         ['ARIF KHALID', 'Arif-Khalid', 'A1', 'B1', 'C1'],
         ['Li Zhaoqi', 'Eclipse-Dominator', 'A2', 'B2', 'C2'],
-        ['NGUYEN KHOI NGUYEN', 'nknguyenhc', 'A2', 'B2', 'C2'],
-        ['Sun Xinyu', 'Echomo-Xinyu', 'A1', 'B1', 'C1']
+        ['NGUYEN KHOI NGUYEN', 'nknguyenhc', 'A2', 'B2', 'C2']
     ]},
     {name: 'MarkBind', students: [
         ['Lee Hyung Woon', 'lhw-1', 'A2', 'B2', 'C2']
