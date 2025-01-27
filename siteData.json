@@ -459,10 +459,10 @@
       "src": "students/gerteck/knowledge.md",
       "headings": {
         "tool-technology": "Tool/Technology",
+        "internal-tools-technology": "Internal Tools/Technology",
         "markbind-s-search-utility": "Markbind's Search Utility",
-        "how-native-markbind-search-works": "How Native MarkBind Search works",
-        "how-proposed-markbind-pagefind-plugin-works": "How Proposed Markbind PageFind Plugin Works",
-        "integration-of-pagefind-into-markbind": "Integration of Pagefind into MarkBind"
+        "external-tools-technology": "External Tools/Technology",
+        "research-on-other-ssgs": "Research on Other SSGs"
       },
       "headingKeywords": {}
     },
@@ -576,10 +576,10 @@
         "tool-technology-2-5": "Tool/Technology 2",
         "chan-ger-teck": "CHAN GER TECK",
         "tool-technology": "Tool/Technology",
+        "internal-tools-technology": "Internal Tools/Technology",
         "markbind-s-search-utility": "Markbind's Search Utility",
-        "how-native-markbind-search-works": "How Native MarkBind Search works",
-        "how-proposed-markbind-pagefind-plugin-works": "How Proposed Markbind PageFind Plugin Works",
-        "integration-of-pagefind-into-markbind": "Integration of Pagefind into MarkBind",
+        "external-tools-technology": "External Tools/Technology",
+        "research-on-other-ssgs": "Research on Other SSGs",
         "cheah-gee-nung-ian": "CHEAH GEE NUNG, IAN",
         "tool-technology-1-6": "Tool/Technology 1",
         "tool-technology-2-6": "Tool/Technology 2",
