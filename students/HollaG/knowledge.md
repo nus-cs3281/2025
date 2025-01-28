@@ -9,7 +9,7 @@ Each component is generated with:
 2. *.component.html
 3. *.component.css
 
-Component state is maintained in the .ts file.  These state variables can be bound to HTML elements through use of curly braces {{ }}.
+Component state is maintained in the .ts file.  These state variables can be bound to HTML elements through use of curly braces `{{ }}`.
 
 Angular offers directives such as ngIf, ngFor that allow us to "use" JS in the HTML files.
 
