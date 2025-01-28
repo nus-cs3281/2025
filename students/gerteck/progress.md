@@ -8,3 +8,4 @@ The work will build on previous work done, recorded [here](https://docs.google.c
 | Week | Achievements |
 | ---- | ------------ |
 | 1 | Authored PR: [Add Pagefind Plugin #2568](https://github.com/MarkBind/markbind/pull/2568) |
+| 2 | Reviewed PR: [#2584](https://github.com/MarkBind/markbind/pull/2584) |
