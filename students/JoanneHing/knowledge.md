@@ -1,6 +1,3 @@
 ## gitHub Actions
-1. I learned how to update gitHub action runners to different version for macOS, ubuntu and window. Resource referred from [stackoverflow](https://stackoverflow.com/questions/77781713/using-github-strategy-matrix-to-select-a-runner). I found that how the gitHub runner is updated using the gitHub strategy matrix.
-
-### Tool/Technology 2
-
-...
+1. I updated the gitHub Action because we noticed that the CI is failing because of deprecated macOS-12, I also updated the ubuntu version to ubuntu-24.04. Through this I learned how to update gitHub action runners to different version for macOS, ubuntu and window. Resource referred from [stackoverflow](https://stackoverflow.com/questions/77781713/using-github-strategy-matrix-to-select-a-runner). I found that how the gitHub runner is updated using the gitHub strategy matrix.
+2. I faced some problem while updating the gitHub Action runner as the Cypress Frontend test was failing because of the environment couldn't be set up properly as some of the dependencies were missing. Fortunately my mentor gave some guidance and I managed to solve the problem at last. Resource reffered from [cypress-documentation issue](https://github.com/cypress-io/cypress-documentation/issues/5816) provided by my mentor, Si Kai. I also tried installing `apt` package as a job for the Cypress Frontend test and it works, but the former solution is more elegant and concise. Resource referred from [GitHub Docs](https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/customizing-github-hosted-runners#installing-software-on-ubuntu-runners).
