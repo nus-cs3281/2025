@@ -1,7 +1,5 @@
-### Tool/Technology 1
+### Vue framework
 
-List the aspects you learned, and the resources you used to learn them, and a brief summary of each resource.
+### Java Gson library
 
-### Tool/Technology 2
-
-...
+### Advanced git commands

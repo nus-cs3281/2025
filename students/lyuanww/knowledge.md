@@ -1,7 +1,3 @@
-### Tool/Technology 1
+### The distinctions between Git and GitHub in RepoSense
 
-List the aspects you learned, and the resources you used to learn them, and a brief summary of each resource.
-
-### Tool/Technology 2
-
-...
+While doing my user experiments on RepoSense, I noticed that the GitHub IDs of contributors were not displayed correctly in the generated contribution dashboards with only the "--repos" flag without the config files. This led me to investigate how RepoSense handles GitHub-specific information and how it differs from Git. Since Git logs only contain commit metadata such as author names and emails, RepoSense is unable to capture GitHub-specific information like GitHub IDs. This is because Git and GitHub, while related, are fundamentally different: Git is a version control system that tracks code changes locally, whereas GitHub is a platform built on top of Git that provides additional features like user profiles and collaboration tools. As a result, the current implementation of RepoSense cannot directly link contributions to GitHub profiles without the config files.
