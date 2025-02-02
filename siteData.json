@@ -627,6 +627,7 @@
         "tool-technology-2-4": "Tool/Technology 2",
         "wong-li-yuan": "WONG LI YUAN",
         "the-distinctions-between-git-and-github-in-reposense": "The distinctions between Git and GitHub in RepoSense",
+        "normalize-css": "Normalize.css",
         "teammates": "TEAMMATES",
         "dhiraputta-pathama-tengara": "DHIRAPUTTA PATHAMA TENGARA",
         "tool-technology-1-6": "Tool/Technology 1",
@@ -687,7 +688,8 @@
     {
       "src": "students/lyuanww/knowledge.md",
       "headings": {
-        "the-distinctions-between-git-and-github-in-reposense": "The distinctions between Git and GitHub in RepoSense"
+        "the-distinctions-between-git-and-github-in-reposense": "The distinctions between Git and GitHub in RepoSense",
+        "normalize-css": "Normalize.css"
       },
       "headingKeywords": {}
     },
