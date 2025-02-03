@@ -477,8 +477,11 @@
       "headings": {
         "tool-technology": "Tool/Technology",
         "internal-tools-technology": "Internal Tools/Technology",
+        "how-markbind-works-overview-of-everything": "How MarkBind Works (Overview of everything)",
         "markbind-s-search-utility": "Markbind's Search Utility",
         "external-tools-technology": "External Tools/Technology",
+        "vue-2-to-vue-3": "Vue 2 to Vue 3",
+        "external-packages-used-by-markbind": "External Packages used by MarkBind",
         "research-on-other-ssgs": "Research on Other SSGs"
       },
       "headingKeywords": {}
@@ -596,8 +599,11 @@
         "chan-ger-teck": "CHAN GER TECK",
         "tool-technology": "Tool/Technology",
         "internal-tools-technology": "Internal Tools/Technology",
+        "how-markbind-works-overview-of-everything": "How MarkBind Works (Overview of everything)",
         "markbind-s-search-utility": "Markbind's Search Utility",
         "external-tools-technology": "External Tools/Technology",
+        "vue-2-to-vue-3": "Vue 2 to Vue 3",
+        "external-packages-used-by-markbind": "External Packages used by MarkBind",
         "research-on-other-ssgs": "Research on Other SSGs",
         "cheah-gee-nung-ian": "CHEAH GEE NUNG, IAN",
         "tool-technology-1-2": "Tool/Technology 1",
