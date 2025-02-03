@@ -1,3 +1,6 @@
 ### The distinctions between Git and GitHub in RepoSense
 
 While doing my user experiments on RepoSense, I noticed that the GitHub IDs of contributors were not displayed correctly in the generated contribution dashboards with only the "--repos" flag without the config files. This led me to investigate how RepoSense handles GitHub-specific information and how it differs from Git. Since Git logs only contain commit metadata such as author names and emails, RepoSense is unable to capture GitHub-specific information like GitHub IDs. This is because Git and GitHub, while related, are fundamentally different: Git is a version control system that tracks code changes locally, whereas GitHub is a platform built on top of Git that provides additional features like user profiles and collaboration tools. As a result, the current implementation of RepoSense cannot directly link contributions to GitHub profiles without the config files.
+
+### Normalize.css
+While researching an issue about `<hr>` elements in the Markdown files not appearing in the Reposense report, I discovered about the functionality of normalize.css, which provides default styling for this element along with many others. This CSS normalization ensures consistent rendering across different browsers by correcting bugs and browser inconsistencies for more predictable website styling.
