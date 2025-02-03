@@ -4,6 +4,12 @@ List the aspects you learned, and the resources you used to learn them, and a br
 
 ## Internal Tools/Technology
 
+### How MarkBind Works (Overview of everything)
+
+In order to make more well informed changes and tackle deeper issues, I decided to cover the whole codebase of Markbind just so I could have a much fuller understanding of how different parts worked together.
+
+While doing so, I used a MarkBind site to document the architecture and different packages and classes in the MarkBind codebase. The site can be viewed here: [https://gerteck.github.io/mb-architecture/](https://gerteck.github.io/mb-architecture/)
+
 ### Markbind's Search Utility
 
 #### How Native MarkBind Search works
@@ -50,6 +56,33 @@ It runs after the website framework, and only requires the folder containing the
 
 
 ## External Tools/Technology
+
+### Vue 2 to Vue 3
+
+https://v3-migration.vuejs.org/migration-build
+
+MarkBind (v5.5.3) is currently using Vue 2. However, Vue 2 has reached EOL and limits the extensibility and maintainability of MarkBind, especially the vue-components package. (UI Library Package). 
+
+Vue 2 components can be authored in two different API styles: Option API and Composition API. Read the difference [here](https://dev.to/sucodelarangela/vue3-options-api-vs-composition-api-en-1fbo#:~:text=However%2C%20with%20the%20release%20of,known%20as%20the%20Options%20API.) It was interesting to read the difference between the two. 
+
+* The Option API organizes code into predefined options like data, methods, and computed, making it simpler and more beginner-friendly but less flexible for complex logic. 
+* In contrast, the Composition API uses a setup() function and reactive utilities like ref and reactive, allowing logic to be grouped by feature for better modularity and reusability. While the Option API relies on mixins for reuse, which can lead to conflicts, the Composition API enables cleaner and more scalable code through composable functions. 
+  * Additionally, the Composition API offers superior TypeScript support and is better suited for large, complex applications, though it has a steeper learning curve compared to the straightforward Option API.
+
+
+> Server-side rendering: the migration build can be used for SSR, but migrating a custom SSR setup is much more involved. The general idea is replacing vue-server-renderer with @vue/server-renderer. Vue 3 no longer provides a bundle renderer and it is recommended to use Vue 3 SSR with Vite. If you are using Nuxt.js, it is probably better to wait for Nuxt 3.
+
+Currently, MarkBind Vue components are authored in the Options API style. If migrated to Vue 3, we can continue to use this API style.
+
+
+
+### External Packages used by MarkBind
+
+* `live-server` – A simple development server with live reloading functionality, used to automatically refresh the browser when changes are made to MarkBind projects.
+* `commander.js` – A command-line argument parser for Node.js, used to define and handle CLI commands in MarkBind.
+* `fs` (Node.js built-in) – The File System module, used for reading, writing, and managing files and directories in MarkBind projects.
+* `lodash` – A utility library providing helper functions for working with arrays, objects, and other JavaScript data structures, improving code efficiency and readability in MarkBind
+
 
 ### Research on Other SSGs
 
