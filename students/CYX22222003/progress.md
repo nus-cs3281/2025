@@ -11,3 +11,4 @@
 | 3    | Responded to contributor queries: [Netlify Deployment Instructions No Longer Work](https://github.com/reposense/RepoSense/issues/2258)|
 | 3    | Reviewed PR: [[#2265][#2267]Fix outdated suggested solution for backend Task 1](https://github.com/reposense/RepoSense/pull/2268)|
 | 4    | Submitted issue: [Specify different time periods for different repos (backend) ](https://github.com/reposense/RepoSense/issues/2280)|
+| 4    | Reviewd PR: [[#2213] Fix hr element not appearing in report](https://github.com/reposense/RepoSense/pull/2279)|
