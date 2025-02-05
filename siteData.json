@@ -583,6 +583,7 @@
         "koo-yu-cong": "KOO YU CONG",
         "nvm-node-version-manager": "NVM (Node Version Manager)",
         "angular-2": "Angular",
+        "catcher-2": "CATcher",
         "loh-ze-qing-norbert": "LOH ZE QING, NORBERT",
         "ngx-markdown": "ngx-markdown",
         "marked": "Marked",
@@ -1011,7 +1012,8 @@
       "src": "students/yucongkoo/knowledge.md",
       "headings": {
         "nvm-node-version-manager": "NVM (Node Version Manager)",
-        "angular": "Angular"
+        "angular": "Angular",
+        "catcher": "CATcher"
       },
       "headingKeywords": {}
     },
