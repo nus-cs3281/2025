@@ -480,9 +480,10 @@
         "how-markbind-works-overview-of-everything": "How MarkBind Works (Overview of everything)",
         "markbind-s-search-utility": "Markbind's Search Utility",
         "external-tools-technology": "External Tools/Technology",
-        "vue-2-to-vue-3": "Vue 2 to Vue 3",
+        "vue": "Vue",
         "external-packages-used-by-markbind": "External Packages used by MarkBind",
-        "research-on-other-ssgs": "Research on Other SSGs"
+        "research-on-other-ssgs": "Research on Other SSGs",
+        "general-development-knowledge": "General Development Knowledge"
       },
       "headingKeywords": {}
     },
@@ -603,9 +604,10 @@
         "how-markbind-works-overview-of-everything": "How MarkBind Works (Overview of everything)",
         "markbind-s-search-utility": "Markbind's Search Utility",
         "external-tools-technology": "External Tools/Technology",
-        "vue-2-to-vue-3": "Vue 2 to Vue 3",
+        "vue": "Vue",
         "external-packages-used-by-markbind": "External Packages used by MarkBind",
         "research-on-other-ssgs": "Research on Other SSGs",
+        "general-development-knowledge": "General Development Knowledge",
         "cheah-gee-nung-ian": "CHEAH GEE NUNG, IAN",
         "tool-technology-1-2": "Tool/Technology 1",
         "specific-to-vue": "Specific to Vue",
