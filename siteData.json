@@ -643,6 +643,8 @@
         "li-mingyang": "LI MINGYANG",
         "tool-technology-1-angular-and-dark-mode-implementation-for-the-frontend": "Tool/Technology 1: Angular and Dark Mode Implementation for the frontend",
         "final-thoughts": "Final Thoughts",
+        "tool-technology-2-mockito-and-advanced-unit-testing": "Tool/Technology 2: Mockito and advanced unit testing",
+        "final-thoughts-2": "Final Thoughts",
         "poh-jun-kang": "POH JUN KANG",
         "angular-and-frontend": "Angular and Frontend",
         "aspects-learnt": "Aspects Learnt",
@@ -714,7 +716,9 @@
       "src": "students/mingyang143/knowledge.md",
       "headings": {
         "tool-technology-1-angular-and-dark-mode-implementation-for-the-frontend": "Tool/Technology 1: Angular and Dark Mode Implementation for the frontend",
-        "final-thoughts": "Final Thoughts"
+        "final-thoughts": "Final Thoughts",
+        "tool-technology-2-mockito-and-advanced-unit-testing": "Tool/Technology 2: Mockito and advanced unit testing",
+        "final-thoughts-2": "Final Thoughts"
       },
       "headingKeywords": {}
     },
