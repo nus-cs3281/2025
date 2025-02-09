@@ -11,8 +11,26 @@ Resources:
 - https://tomgregory.com/gradle/gradle-tutorial-for-complete-beginners
 - https://docs.gradle.org/current/userguide/userguide.html
 
+## Github Actions
+CI/CD platform automates build, test and deployment pipeline. There are several main components for Github Actions: workflow, event, job, action and runner
+
+**Workflow**   
+configurable automated process that will run one or more jobs. Defined by YAML file in `.github/workflows`. A repo can have multiple workflows.  
+
+**Events**  
+a specific activity that triggers the workflow run, e.g. creating PR and openning issues. 
+
+**Jobs**  
+A job is a set of steps in the workflow that is executed on the same runner. Each step can be a `shell script` or `action`
+
+**Actions**  
+Reusable set of repeated task. This helps reduce the amount of repetative code.  
+
+**Runners**
+a server that run the workflows when they are triggered. They can be configured with different OS.
+
 ### Vue framework
 
 ### Java Gson library
 
-### Advanced git commands
+
