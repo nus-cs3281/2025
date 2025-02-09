@@ -4,6 +4,12 @@ List the aspects you learned, and the resources you used to learn them, and a br
 
 ## Internal Tools/Technology
 
+### How MarkBind Works (Overview of everything)
+
+In order to make more well informed changes and tackle deeper issues, I decided to cover the whole codebase of Markbind just so I could have a much fuller understanding of how different parts worked together.
+
+While doing so, I used a MarkBind site to document the architecture and different packages and classes in the MarkBind codebase. The site can be viewed here: [https://gerteck.github.io/mb-architecture/](https://gerteck.github.io/mb-architecture/)
+
 ### Markbind's Search Utility
 
 #### How Native MarkBind Search works
@@ -51,6 +57,89 @@ It runs after the website framework, and only requires the folder containing the
 
 ## External Tools/Technology
 
+### Vue
+
+#### Vue 2 to Vue 3
+
+https://v3-migration.vuejs.org/migration-build
+
+MarkBind (v5.5.3) is currently using Vue 2. However, Vue 2 has reached EOL and limits the extensibility and maintainability of MarkBind, especially the vue-components package. (UI Library Package). 
+
+Vue 2 components can be authored in two different API styles: Option API and Composition API. Read the difference [here](https://dev.to/sucodelarangela/vue3-options-api-vs-composition-api-en-1fbo#:~:text=However%2C%20with%20the%20release%20of,known%20as%20the%20Options%20API.) It was interesting to read the difference between the two. 
+
+* The Option API organizes code into predefined options like data, methods, and computed, making it simpler and more beginner-friendly but less flexible for complex logic. 
+* In contrast, the Composition API uses a setup() function and reactive utilities like ref and reactive, allowing logic to be grouped by feature for better modularity and reusability. While the Option API relies on mixins for reuse, which can lead to conflicts, the Composition API enables cleaner and more scalable code through composable functions. 
+  * Additionally, the Composition API offers superior TypeScript support and is better suited for large, complex applications, though it has a steeper learning curve compared to the straightforward Option API.
+
+
+> Server-side rendering: the migration build can be used for SSR, but migrating a custom SSR setup is much more involved. The general idea is replacing vue-server-renderer with @vue/server-renderer. Vue 3 no longer provides a bundle renderer and it is recommended to use Vue 3 SSR with Vite. If you are using Nuxt.js, it is probably better to wait for Nuxt 3.
+
+Currently, MarkBind Vue components are authored in the Options API style. If migrated to Vue 3, we can continue to use this API style.
+
+#### Vue SFC (Single File Components)
+
+[Reference](https://vuejs.org/guide/scaling-up/sfc.html)
+
+> Vue uses an HTML based template syntax. All Vue templates `<template/>` are syntactically valid HTML tht can be parsed by browsers. Under the hood, Vue compiles the template into highly optimized JS code. Using reactivity, Vue figures out minimal number of components to re-render and apply minimal DOM manipulations.
+
+
+SFC stands for Single File Components (*.vue files) and is a special file format thaat allows us to encapsulate the template, logic, styling of a Vue component in a single file.
+
+* All `*.vue` files only consist of three parts, `<template>` where HTML content is, `<script>` for Vue code and `<style>`.
+
+* SFC requires a build step, but it allows for pre-compiled templates without runtime compilation cost. SFC is a defining feature of Vue as a framework, and is the reccomended approach of using Vue for Static Site Generation and SPA. Needless to say, MarkBind uses Vue SFCs.
+
+* `<style>` tags inside SFCs are usually injected as native style tags during development to support hot updates, but for production can be extracted and merged into a single CSS file. (which is what Webpack does)
+
+
+#### Vue Rendering Mechanism
+
+Reference: https://vuejs.org/guide/extras/rendering-mechanism
+
+Terms:
+* `virtual DOM (VDOM)` - concept where an ideal 'virtual' DOM representation of UI kept in memory, synced with the 'real' DOM. Adopted by React, Vue, other frontend frameworks.
+* `mount`: Runtime renderer walk a virtual DOM tree and construct a real DOM tree from it.
+* `patch`: Given two copies of virtual DOM trees, renderer walk and compare the two trees, figure out difference, apply changes to actual DOM.
+
+The VDOM gives the ability to programmatically create inspect and compose desired UI structures in a declarative way (and leave direct DOM manipulation to renderer).
+
+***Render Pipeline***
+What happens when Vue Component is Mounted:
+1. **Compile**: Vue template compiled into render function, functions that return VDOM trees. (Done ahead of time in MarkBind)
+1. **Mount**: Runtime renderer invoke render function, walks VDOM, creates actual DOM node.
+1. **Patch**: When dependency used during mount changes, effect re-runs, new updated VDOM created. Then, patch the actual DOM.
+
+#### Vue Server Side Rendering (SSR)
+
+It is possible to render the Vue components into HTML strings on the server, send directly to the browser and finally 'hydrate' static markup into fully interactive app on the client.
+
+Advantages of SSR:
+* Faster time to content, especially on slower devices
+* Unified Mental Model using same language and same declarative 
+* Better SEO since crawlers see fully rendered page
+
+##### Roles of Server and Client in SSR:
+
+**SSR:** The server's job is to:
+* Compile the Vue template into a render function.
+* Use the render function to generate static HTML.
+* Send the static HTML to the browser.
+
+**Client-Side Hydration**: Once the browser receives the static HTML from the server, the client-side Vue app takes over. Its job is to:
+* Attach event listeners and reactivity to the static HTML.
+* Make the app interactive (e.g., responding to user actions like clicks or input).
+
+**Vue 3 `createApp() vs createSSRApp()`**
+`createApp` does not bother with hydration. It assumes direct access to the DOM, creates and inserts its rendered HTML. `createSSRApp()` used for creating Vue application instance specifically for SSR, where inital HTML is rendered on the server and sent to client for hydration. Instead of rendering (creating and inserting whole HTML from scratch), it does patching. It also does initialization by setting up reactivity, components, global properties etc, event binding during the mount process (aka Hydration).
+
+### External Packages used by MarkBind
+
+* `live-server` – A simple development server with live reloading functionality, used to automatically refresh the browser when changes are made to MarkBind projects.
+* `commander.js` – A command-line argument parser for Node.js, used to define and handle CLI commands in MarkBind.
+* `fs` (Node.js built-in) – The File System module, used for reading, writing, and managing files and directories in MarkBind projects.
+* `lodash` – A utility library providing helper functions for working with arrays, objects, and other JavaScript data structures, improving code efficiency and readability in MarkBind
+
+
 ### Research on Other SSGs
 
 While working on Markbind, I thought that it would definitely be essential to survey other Static Site Generators and the competition faced by MarkBind. 
@@ -75,3 +164,29 @@ Overall, some insights that can be applied to MarkBind would be to:
   * Create specialized templates for use cases like course sites, research documentation, or user guides.
   * Create ready-made themes/templates focused on education and documentation.
   * Allow users to deploy quickly with minimal setup.
+
+### General Development Knowledge
+
+#### CommonJS and ESM
+
+CommonJS (CJS) is the older type of modules and CJS were the only supported style of modules in NodeJS up till v12. 
+* Use the syntax `require` and `module.exports = {XX:{},}`
+* Global, synchronouse require function added to import other odules.
+* mark the file as a CJS module by naming as `.cjs` or by using type `commonjs` in package.json.
+
+EcmaScript Modules (ESM) standardized later and are the only natively supported module style in browsers. It is the (EcmaScript standard) JS standard way of writing modules/
+* use `import { XXX } from YYY` (top of file), `const { ZZ } = await import("CCC");` and `export const XXX = {}`. 
+* Syntax addition to JS and allows to easily import and export static members.
+
+Issues I faced:
+* I didn't realize tha my TypeScript code was being compiled to CommonJS (`require`) instead of ES module syntax (`import`), and hence `import` was not working correctly.
+* Had to change the `tsconfig.json` settings appropriately.
+
+#### TypeScript
+
+TypeScript has two main kinds of files. `.ts` files are implementation files that contain types and executable code. These are the files that produce `.js` outputs, and are where you’d normally write your code. .d.ts files are declaration files that contain only type information. These files don’t produce `.js` outputs; they are only used for typechecking.
+
+* DefinitelyTyped / `@types`: The DefinitelyTyped repository is a centralized repo storing declaration files for thousands of libraries. The vast majority of commonly-used libraries have declaration files available on DefinitelyTyped.
+
+* **Declaration Maps**: `.d.ts.map` Declaration map (.d.ts.map) files also known as declaration source maps, contain mapping definitions that link each type declaration generated in .d.ts files back to your original source file (.ts). The mapping definition in these files are in JSON format.
+  * This is helpful in code navigation. This enables editor features like “Go to Definition” and Rename to transparently navigate and edit code across sub projects when you have split a big project into small multiple projects using project references.
