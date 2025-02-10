@@ -589,6 +589,7 @@
         "nvm-node-version-manager": "NVM (Node Version Manager)",
         "angular-2": "Angular",
         "catcher-2": "CATcher",
+        "github-workflows-actions": "Github Workflows/Actions",
         "loh-ze-qing-norbert": "LOH ZE QING, NORBERT",
         "ngx-markdown": "ngx-markdown",
         "marked": "Marked",
@@ -1027,7 +1028,8 @@
       "headings": {
         "nvm-node-version-manager": "NVM (Node Version Manager)",
         "angular": "Angular",
-        "catcher": "CATcher"
+        "catcher": "CATcher",
+        "github-workflows-actions": "Github Workflows/Actions"
       },
       "headingKeywords": {}
     },
