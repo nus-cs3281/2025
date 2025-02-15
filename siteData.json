@@ -628,6 +628,7 @@
         "devops": "DevOps",
         "bots": "Bots",
         "yu-chenbo": "YU CHENBO",
+        "markbind-processing-flow": "MarkBind Processing Flow",
         "reposense": "RepoSense",
         "alexander-liswandy": "ALEXANDER LISWANDY",
         "cypress": "Cypress",
@@ -1044,7 +1045,9 @@
     },
     {
       "src": "students/yyccbb/knowledge.md",
-      "headings": {},
+      "headings": {
+        "markbind-processing-flow": "MarkBind Processing Flow"
+      },
       "headingKeywords": {}
     },
     {
