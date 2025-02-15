@@ -10,3 +10,4 @@
 | 4 | Authored PR: [Remove PR message workflow check for bots #2598](https://github.com/MarkBind/markbind/pull/2598) |
 | 4 | Reviewing issue: [Provide a search feature for icons #2553](https://github.com/MarkBind/markbind/issues/2553) |
 | 4 | Reviewing issue: [Vue Migration (Vue 2 -> Vue 3) #2597](https://github.com/MarkBind/markbind/issues/2597) |
+| 5 | Reviewing issue: [Text Wrap wraps by character instead of word #2600](https://github.com/MarkBind/markbind/issues/2600) |
