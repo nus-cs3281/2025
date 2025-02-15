@@ -525,7 +525,8 @@
       "headings": {
         "summary": "Summary",
         "pre-cs3282-work": "Pre-CS3282 Work",
-        "cs3282-work": "CS3282 Work"
+        "internal-project-work": "Internal Project Work",
+        "external-project-work": "External Project Work"
       },
       "headingKeywords": {}
     },
