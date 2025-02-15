@@ -349,7 +349,8 @@
     {
       "src": "students/Incogdino/knowledge.md",
       "headings": {
-        "vue-components": "Vue components",
+        "frontend": "FrontEnd",
+        "vue": "Vue",
         "devops": "DevOps",
         "bots": "Bots"
       },
@@ -624,7 +625,8 @@
         "others": "Others",
         "1-adding-hyperlinks-in-html-and-markdown": "1. Adding Hyperlinks in HTML and Markdown",
         "javier-tan-meng-wee": "JAVIER TAN MENG WEE",
-        "vue-components": "Vue components",
+        "frontend": "FrontEnd",
+        "vue-2": "Vue",
         "devops": "DevOps",
         "bots": "Bots",
         "yu-chenbo": "YU CHENBO",
