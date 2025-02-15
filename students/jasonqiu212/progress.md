@@ -40,8 +40,15 @@
 | 28 Oct 2023 | Reviewed PR: [[#12588] Add unit tests for FeedbackPathPanelComponent #12613](https://github.com/TEAMMATES/teammates/pull/12613)                                                                                |
 | 21 Dec 2023 | Reviewed PR: [[#12668] Instructor's Student Records Page: Feedback session panel chevron barely visible #12673](https://github.com/TEAMMATES/teammates/pull/12673)                                             |
 
-## CS3282 Work
+## Internal Project Work
 
-| Week | Achievements |
-| ---- | ------------ |
-| XXXX | XXX          |
+| Week | Achievements                                                                                                                         |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 5    | Raised issue: [Improve documentation on testing #13227](https://github.com/TEAMMATES/teammates/issues/13227)                         |
+| 5    | Reviewed PR: [[#12048] Migrate tests for DeleteFeedbackQuestionActionTest #13218](https://github.com/TEAMMATES/teammates/pull/13218) |
+
+## External Project Work
+
+| Week | Project                                                                   | Achievements                                                                             |
+| ---- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| 2    | [reactjs/zh-hans.react.dev](https://github.com/reactjs/zh-hans.react.dev) | Merged PR: [Improve translation](https://github.com/reactjs/zh-hans.react.dev/pull/1656) |
