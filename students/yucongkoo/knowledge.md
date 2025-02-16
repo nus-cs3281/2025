@@ -31,3 +31,32 @@ While working on issue [#1309](https://github.com/CATcher-org/CATcher/issues/130
   - The base issues data provided by `IssueService`, which is initialized based on `IssuesFilter`, and will periodically pull the issues from github
   - The `filters` we inject when creating the `IssueTablesComponent`, where the base issues can be filtered down to the issues that we are concerned of
   - The action buttons and its respective functionalities are pre-defined in the `IssueTableComponent` itself, we only specify the action buttons that we want when creating the `IssuesTablesComponent` through the `actions` input.
+
+### Github Workflows/Actions
+
+#### How github workflows/actions are being triggered
+
+While working on the new phase (i.e. bug-trimming phase) for CATcher, the team decided to
+use a `feature-bug-trimming` branch as the target branch we all merge into. However, I noticed that when we created PRs / merged PRs to that feature branch, there are no github workflows/actions being run. As this puts us at the risk of failing tests without knowing, I spent some time to learn how github workflows/actions are being triggered, summarised as follows:
+
+- The potential trigger points for workflows are defined under the `on:` section within the workflow file (i.e. `.yml` file)
+- We can automatically trigger the workflows when we `push` or `pull-request` to certain branches that are included:
+
+```
+on:
+  # Automatically triggers this workflow when there is a push (i.e. new commit) on any of the included branches
+  push:
+    branches: [sample-branch1, sample-branch2]
+
+  # Similar to push:, but for PRs towards the included branches
+  pull_request:
+    branches: [sample-branch1]
+```
+
+- We can also define an manual trigger point using the `workflow_dispatch` keyword:
+
+```
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+```
