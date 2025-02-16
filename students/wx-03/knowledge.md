@@ -21,10 +21,23 @@ CATcher and WATcher are both built using the Angular framework, which is a singl
     - Pipes
     - Directives
 
-<!-- ### GraphQL
-- GraphQL is a query language, which is a specific syntax used to query a server to request or mutate data
+### GraphQL
+- CATcher and WATcher use GraphQL to fetch and update issues, PRs, and comments from GitHub.
+- GraphQL is a query language, which is a specific syntax used to query a server to request or mutate data.
 
 Drawbacks to using a traditional REST API:
 - Overfetching
-  - Getting back more data than needed -->
+  - Getting back more data than needed
+- Underfetching
+  - Getting back less data than needed 
+  - Need to make multiple requests to different end points
 
+GraphQL API is resolved into its schema and resolvers:
+- Schema describes how the API will work
+- Every schema has two required types: the query and the mutation type
+  - Query: for fetching and reading data
+  - Mutation: For creating, updating, or deleting data from API
+
+GraphQL allows users to manually choose which fields they want to fetch from the API
+
+<!-- Give sample code from CATcher -->
