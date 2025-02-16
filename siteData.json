@@ -606,6 +606,7 @@
         "tool-technology-2": "Tool/Technology 2",
         "tng-wen-xi": "TNG WEN XI",
         "angular-4": "Angular",
+        "graphql-2": "GraphQL",
         "markbind": "MarkBind",
         "adrian-leonardo-liang": "ADRIAN LEONARDO LIANG",
         "tech-stack": "Tech Stack",
@@ -963,7 +964,8 @@
     {
       "src": "students/wx-03/knowledge.md",
       "headings": {
-        "angular": "Angular"
+        "angular": "Angular",
+        "graphql": "GraphQL"
       },
       "headingKeywords": {}
     },
