@@ -134,8 +134,11 @@
     {
       "src": "students/AgentHagu/knowledge.md",
       "headings": {
-        "markbind-highlighter-component": "MarkBind Highlighter Component",
-        "typescript": "TypeScript"
+        "tech-stack": "Tech Stack",
+        "vuejs": "VueJS",
+        "typescript": "TypeScript",
+        "markbind": "MarkBind",
+        "markbind-highlighter-component": "MarkBind Highlighter Component"
       },
       "headingKeywords": {}
     },
@@ -605,8 +608,11 @@
         "angular-4": "Angular",
         "markbind": "MarkBind",
         "adrian-leonardo-liang": "ADRIAN LEONARDO LIANG",
-        "markbind-highlighter-component": "MarkBind Highlighter Component",
+        "tech-stack": "Tech Stack",
+        "vuejs": "VueJS",
         "typescript": "TypeScript",
+        "markbind-2": "MarkBind",
+        "markbind-highlighter-component": "MarkBind Highlighter Component",
         "chan-ger-teck": "CHAN GER TECK",
         "tool-technology": "Tool/Technology",
         "internal-tools-technology": "Internal Tools/Technology",
