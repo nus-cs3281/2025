@@ -9,3 +9,6 @@
 | 4    | Opened PR: [[#12048] Migrate tests for GetReadNotificationsActionTest #13220](https://github.com/TEAMMATES/teammates/pull/13220) |
 | 4    | Opened PR: [[#12048] Migrate tests for MarkNotificationAsReadActionTest #13222](https://github.com/TEAMMATES/teammates/pull/13222) |
 | 4    | Opened PR: [[#12048] Migrate tests for UpdateNotificationActionTest #13224](https://github.com/TEAMMATES/teammates/pull/13224) |
+| 5    | Reviewed PR: [[#12048] Migrate tests for GetSessionResultsActionTest #13216](https://github.com/TEAMMATES/teammates/pull/13216) |
+| 5    | Opened PR: [[#12048] Migrate tests for CompileLogsActionTest #13233](https://github.com/TEAMMATES/teammates/pull/13233) |
+| 5    | Opened PR: [[#12048] Migrate tests for QueryLogsActionTest #13234](https://github.com/TEAMMATES/teammates/pull/13234) |
