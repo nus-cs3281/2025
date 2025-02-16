@@ -40,8 +40,22 @@
 | 28 Oct 2023 | Reviewed PR: [[#12588] Add unit tests for FeedbackPathPanelComponent #12613](https://github.com/TEAMMATES/teammates/pull/12613)                                                                                |
 | 21 Dec 2023 | Reviewed PR: [[#12668] Instructor's Student Records Page: Feedback session panel chevron barely visible #12673](https://github.com/TEAMMATES/teammates/pull/12673)                                             |
 
-## CS3282 Work
+## Internal Project Work
 
-| Week | Achievements |
-| ---- | ------------ |
-| XXXX | XXX          |
+| Week | Achievements                                                                                                                         |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 5    | Raised issue: [Improve documentation on testing #13227](https://github.com/TEAMMATES/teammates/issues/13227)                         |
+| 5    | Reviewed PR: [[#12048] Migrate tests for DeleteFeedbackQuestionActionTest #13218](https://github.com/TEAMMATES/teammates/pull/13218) |
+| 5    | Reviewed PR: [[#12048] Migrate tests for DeleteAccountRequestActionTest #13213](https://github.com/TEAMMATES/teammates/pull/13213)   |
+| 5    | Reviewed PR: [[#12048] Migrate tests for UpdateFeedbackQuestionActionTest #13231](https://github.com/TEAMMATES/teammates/pull/13231) |
+| 5    | Reviewed PR: [[#13104] Add mappings #13166](https://github.com/TEAMMATES/teammates/pull/13166)                                       |
+| 5    | Closed PR: [Test date #13198](https://github.com/TEAMMATES/teammates/pull/13198)                                                     |
+
+## External Project Work
+
+| Week | Project                                                                   | Achievements                                                                                              |
+| ---- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| 2    | [reactjs/zh-hans.react.dev](https://github.com/reactjs/zh-hans.react.dev) | Merged PR: [Improve translation](https://github.com/reactjs/zh-hans.react.dev/pull/1656)                  |
+| 5    | [reactjs/react.dev](https://github.com/reactjs/react.dev)                 | Discussed issue: [link to createClass is broken](https://github.com/reactjs/react.dev/issues/7476)        |
+| 5    | [reactjs/react.dev](https://github.com/reactjs/react.dev)                 | Raised issue: [[Typo]: Misspelling on Setup Page #7606](https://github.com/reactjs/react.dev/issues/7606) |
+| 5    | [reactjs/react.dev](https://github.com/reactjs/react.dev)                 | Raised PR: [Fix setup page #7607](https://github.com/reactjs/react.dev/pull/7607)                         |
