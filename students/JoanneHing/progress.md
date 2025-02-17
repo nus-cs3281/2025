@@ -7,3 +7,10 @@
 | 2    | Solved the issue of failing Cypress Frontend test due to missing dependencies: [Updated the apt indexes](https://github.com/reposense/RepoSense/pull/2260#issuecomment-2614490638) |
 | 2    | Solved issue: [Upgrade GitHub Actions macOS runners to 13 and 14 (and possibly 15) #2259](https://github.com/reposense/RepoSense/issues/2259)                                      |
 | 2    | Solved issue: [Add ubuntu-24.04 to CI runners and bump publish-RepoSense runner #2252](https://github.com/reposense/RepoSense/issues/2252)                                         |
+| 3    | Merged PR: [[#2259] Upgrade GitHub Actions macOS runners to 13, 14 and 15](https://github.com/reposense/RepoSense/pull/2260)                                                       |
+| 3    | Merged PR: [[#2252] Add ubuntu-24.04 to CI runners](https://github.com/reposense/RepoSense/pull/2261)                                                                              |
+| 3    | Reviewed PR: [[#2269] Update codecov version](https://github.com/reposense/RepoSense/pull/2271)                                                                                    |
+| 3    | Reviewed PR: [[#2266] Fixed Cypress tests that fail locally](https://github.com/reposense/RepoSense/pull/2272)                                                                     |
+| 4    | Created PR: [[#2252] Update ubuntu runner in publish-RepoSense](https://github.com/reposense/publish-RepoSense/pull/18)                                                            |
+| 4    | Created PR: [[#2252] Enable CI Checks on PRs and Restrict Deployment to Master in publish-RepoSense](https://github.com/reposense/publish-RepoSense/pull/20)                       |
+| 4    | Merged PR: [[#2252] Enable CI Checks on PRs and Restrict Deployment to Master in publish-RepoSense](https://github.com/reposense/publish-RepoSense/pull/20)                        |                                                                                                                                                                             
