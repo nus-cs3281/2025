@@ -16,6 +16,9 @@ CI/CD platform automates build, test and deployment pipeline. There are several 
 
 **Workflow**   
 configurable automated process that will run one or more jobs. Defined by YAML file in `.github/workflows`. A repo can have multiple workflows.  
+- One or more <ins>events</ins> that will trigger the workflow.
+- One or more <ins>jobs</ins>, each of which will execute on a <ins>runner</ins> machine and run a series of one or more steps.
+- Each step can either run a script that you define or run an <ins>action</ins>.
 
 **Events**  
 a specific activity that triggers the workflow run, e.g. creating PR and openning issues. 
@@ -28,6 +31,8 @@ Reusable set of repeated task. This helps reduce the amount of repetative code.
 
 **Runners**
 a server that run the workflows when they are triggered. They can be configured with different OS.
+
+### Lighthouse CI
 
 ### Vue framework
 

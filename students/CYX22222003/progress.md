@@ -7,9 +7,14 @@
 | 3    | Authored PR: [[#2277] Fix cypress setting up error](https://github.com/reposense/RepoSense/pull/2278)|
 | 3    | Authored PR: [[#2258] Update Netlify build](https://github.com/reposense/publish-RepoSense/pull/15) |
 | 3    | Submitted Issues: [Fix failing Cypress frontend test CI run ](https://github.com/reposense/RepoSense/issues/2277)|
-| 3    | Responded to contributor queries: [Fix failing Codecov runs](https://github.com/reposense/RepoSense/issues/2269)|
-| 3    | Responded to contributor queries: [Netlify Deployment Instructions No Longer Work](https://github.com/reposense/RepoSense/issues/2258)|
 | 3    | Reviewed PR: [[#2265][#2267]Fix outdated suggested solution for backend Task 1](https://github.com/reposense/RepoSense/pull/2268)|
 | 4    | Submitted issue: [Specify different time periods for different repos (backend) ](https://github.com/reposense/RepoSense/issues/2280)|
 | 4    | Reviewd PR: [[#2213] Fix hr element not appearing in report](https://github.com/reposense/RepoSense/pull/2279)|
-| 4    | Authored PR: [[2280] Specify time periods for different repos in csv config](https://github.com/reposense/RepoSense/pull/2281) |
+| 4    | Authored PR: [[#2280] Specify time periods for different repos in csv config](https://github.com/reposense/RepoSense/pull/2281) |
+| 5    | Reviewed PR: [[#2252] Enable CI Checks on PRs and Restrict Deployment to Master](https://github.com/reposense/publish-RepoSense/pull/20) |
+| 5    | Reviewed PR: [[#1952] Add description to Gradle tasks](https://github.com/reposense/RepoSense/pull/2288) |
+| 5    | Reviewed PR: [[#1955] Usage of directive shorthand syntax in .vue files](https://github.com/reposense/RepoSense/pull/2290) |
+| 5    | Responded to contributor queries: [Netlify Deployment Instructions No Longer Works](https://github.com/reposense/RepoSense/issues/2258) |
+| 5    | Responded to contributor queries: [Surge.sh Build preview failing on recent PRs](https://github.com/reposense/RepoSense/issues/2292)  |
+| 5    | Authored PR: [[#2258] Update user guide for Netlify deployment](https://github.com/reposense/RepoSense/pull/2294) |
+| 5    | Authored PR: [[#2285] Update Github Actions for publish-RepoSense preview](https://github.com/reposense/RepoSense/pull/2295) |
