@@ -18,3 +18,5 @@
 | 5    | Responded to contributor queries: [Surge.sh Build preview failing on recent PRs](https://github.com/reposense/RepoSense/issues/2292)  |
 | 5    | Authored PR: [[#2258] Update user guide for Netlify deployment](https://github.com/reposense/RepoSense/pull/2294) |
 | 5    | Authored PR: [[#2285] Update Github Actions for publish-RepoSense preview](https://github.com/reposense/RepoSense/pull/2295) |
+| 6    | Submitted issue: [Add blurbs for individual charts](https://github.com/reposense/RepoSense/issues/2308) |
+| 6    | Authored PR: [[#2292] Fix surge.sh preview failure on PR](https://github.com/reposense/RepoSense/pull/2293) |
