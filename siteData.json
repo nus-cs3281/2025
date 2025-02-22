@@ -222,6 +222,7 @@
       "headings": {
         "gradle": "Gradle",
         "github-actions": "Github Actions",
+        "docker": "Docker",
         "lighthouse-ci": "Lighthouse CI",
         "vue-framework": "Vue framework",
         "java-gson-library": "Java Gson library"
@@ -649,6 +650,7 @@
         "chen-yixun": "CHEN YIXUN",
         "gradle-2": "Gradle",
         "github-actions-2": "Github Actions",
+        "docker": "Docker",
         "lighthouse-ci": "Lighthouse CI",
         "vue-framework": "Vue framework",
         "java-gson-library": "Java Gson library",
@@ -678,7 +680,7 @@
         "testing-and-mockito": "Testing and Mockito",
         "aspects-learnt-2": "Aspects Learnt",
         "resources-used-2": "Resources Used",
-        "docker": "Docker",
+        "docker-2": "Docker",
         "aspects-learnt-3": "Aspects Learnt",
         "teng-wei-loon": "TENG WEI LOON",
         "tool-technology-1-mockito-2": "Tool/Technology 1 : Mockito",
