@@ -441,7 +441,9 @@
         "marked": "Marked",
         "nvm-windows": "nvm-windows",
         "catcher-phase-management": "CATcher phase management",
-        "git-commit-hooks": "Git commit hooks"
+        "git-commit-hooks": "Git commit hooks",
+        "github-search-query": "Github search query",
+        "url-encoding": "URL encoding"
       },
       "headingKeywords": {}
     },
@@ -605,6 +607,8 @@
         "nvm-windows": "nvm-windows",
         "catcher-phase-management": "CATcher phase management",
         "git-commit-hooks": "Git commit hooks",
+        "github-search-query": "Github search query",
+        "url-encoding": "URL encoding",
         "soh-zheng-yang-marcus": "SOH ZHENG YANG, MARCUS",
         "tool-technology-1": "Tool/Technology 1",
         "tool-technology-2": "Tool/Technology 2",
