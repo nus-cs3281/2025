@@ -40,8 +40,32 @@
 | 28 Oct 2023 | Reviewed PR: [[#12588] Add unit tests for FeedbackPathPanelComponent #12613](https://github.com/TEAMMATES/teammates/pull/12613)                                                                                |
 | 21 Dec 2023 | Reviewed PR: [[#12668] Instructor's Student Records Page: Feedback session panel chevron barely visible #12673](https://github.com/TEAMMATES/teammates/pull/12673)                                             |
 
-## CS3282 Work
+## Internal Project Work
 
-| Week | Achievements |
-| ---- | ------------ |
-| XXXX | XXX          |
+| Week | Achievements                                                                                                                         |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 5    | Raised issue: [Improve documentation on testing #13227](https://github.com/TEAMMATES/teammates/issues/13227)                         |
+| 5    | Reviewed PR: [[#12048] Migrate tests for DeleteFeedbackQuestionActionTest #13218](https://github.com/TEAMMATES/teammates/pull/13218) |
+| 5    | Reviewed PR: [[#12048] Migrate tests for DeleteAccountRequestActionTest #13213](https://github.com/TEAMMATES/teammates/pull/13213)   |
+| 5    | Reviewed PR: [[#12048] Migrate tests for UpdateFeedbackQuestionActionTest #13231](https://github.com/TEAMMATES/teammates/pull/13231) |
+| 5    | Reviewed PR: [[#13104] Add mappings #13166](https://github.com/TEAMMATES/teammates/pull/13166)                                       |
+| 5    | Closed PR: [Test date #13198](https://github.com/TEAMMATES/teammates/pull/13198)                                                     |
+| 5    | Reviewed PR: [[#13164] Fix typo #13165](https://github.com/TEAMMATES/teammates/pull/13165)                                           |
+| 5    | Discussed issue: [Failing component test #13173](https://github.com/TEAMMATES/teammates/issues/13173)                                |
+| 6    | Reviewed PR: [[#8557] Standardize locale #13162](https://github.com/TEAMMATES/teammates/pull/13162)                                  |
+| 6    | Reviewed PR: [[#12048] Migrate tests for GetAccountsAction.java #13214](https://github.com/TEAMMATES/teammates/pull/13214)           |
+| 6    | Reviewed PR: [[#12048] Migrate tests for GetAccountActionTest #13212](https://github.com/TEAMMATES/teammates/pull/13212)             |
+| 6    | Reviewed PR: [[#12048] Migrate tests #13206](https://github.com/TEAMMATES/teammates/pull/13206)                                      |
+| 6    | Reviewed PR: [[#12048] Migrate Tests for DeleteStudentActionTest #13204](https://github.com/TEAMMATES/teammates/pull/13204)          |
+| 6    | Reviewed PR: [[#12048] Migrate Tests for DeleteStudentsActionTest #13205](https://github.com/TEAMMATES/teammates/pull/13205)         |
+| 6    | Reviewed PR: [[#13160] Update documentation to use Docker Compose v2 #13161](https://github.com/TEAMMATES/teammates/pull/13161)      |
+| 6    | Closed PR: [[#13202] Feature/show collapse all button #13225](https://github.com/TEAMMATES/teammates/pull/13225)                     |
+
+## External Project Work
+
+| Week | Project                                                                   | Achievements                                                                                              |
+| ---- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| 2    | [reactjs/zh-hans.react.dev](https://github.com/reactjs/zh-hans.react.dev) | Merged PR: [Improve translation #1656](https://github.com/reactjs/zh-hans.react.dev/pull/1656)            |
+| 5    | [reactjs/react.dev](https://github.com/reactjs/react.dev)                 | Discussed issue: [link to createClass is broken #7476](https://github.com/reactjs/react.dev/issues/7476)  |
+| 5    | [reactjs/react.dev](https://github.com/reactjs/react.dev)                 | Raised issue: [[Typo]: Misspelling on Setup Page #7606](https://github.com/reactjs/react.dev/issues/7606) |
+| 5    | [reactjs/react.dev](https://github.com/reactjs/react.dev)                 | Merged PR: [Fix setup page #7607](https://github.com/reactjs/react.dev/pull/7607)                         |
