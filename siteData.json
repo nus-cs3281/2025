@@ -668,6 +668,8 @@
         "wong-li-yuan": "WONG LI YUAN",
         "the-distinctions-between-git-and-github-in-reposense": "The distinctions between Git and GitHub in RepoSense",
         "normalize-css": "Normalize.css",
+        "tracing-the-flow-of-the-program-using-the-debugger": "Tracing the flow of the program using the debugger",
+        "junit-tests-and-the-usage-of-resources": "Junit tests and the usage of resources",
         "teammates": "TEAMMATES",
         "dhiraputta-pathama-tengara": "DHIRAPUTTA PATHAMA TENGARA",
         "tool-technology-1-mockito": "Tool/Technology 1: Mockito",
@@ -730,7 +732,9 @@
       "src": "students/lyuanww/knowledge.md",
       "headings": {
         "the-distinctions-between-git-and-github-in-reposense": "The distinctions between Git and GitHub in RepoSense",
-        "normalize-css": "Normalize.css"
+        "normalize-css": "Normalize.css",
+        "tracing-the-flow-of-the-program-using-the-debugger": "Tracing the flow of the program using the debugger",
+        "junit-tests-and-the-usage-of-resources": "Junit tests and the usage of resources"
       },
       "headingKeywords": {}
     },
