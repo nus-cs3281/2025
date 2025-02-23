@@ -18,3 +18,9 @@ While working on creating a new phase, I learnt a lot about how phases are manag
 
 ### Git commit hooks
 While I was working on a PR, I was wondering why certain parts of the code are modified after pushing a commit. I then found out that there are commit hooks in place to fix and format and lint issues. Source tree actually allows users to bypass the commit hooks if the changes are irrelevant to the PR that the user is working on.
+
+### Github search query
+While working on implementing the feature 'View on github' for WATcher where a user will be able to see the current dashboard in github, I learnt that github searches can actually be done using URL queries.
+
+### URL encoding
+While working with URL queries, I learnt that some characters are not allowed in URLs. Such characters are "!"$$()" etc. In order to use them, they must be encoded into UTF-8. More information can be found [here](https://www.w3schools.com/tags/ref_urlencode.ASP).
