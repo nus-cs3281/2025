@@ -51,4 +51,7 @@ GraphQL is a architecture for building APIs like REST. Unlike REST where the ser
 
 Apple laptops changed to using ARM64 architecture back in 2020. This meant that Node versions released before then were not directly supported by the ARM64 architecture. This caused issues with the github actions. There is a workaround for this by running `arch -x86_64` and manually installing node instead of using the setup-node Github action, but the simpler solution was to upgrade the test to use Node version 16.x.
 
+### Playwright testing
+
+Tests the application by hosting it on a browser then interacting with html components and checking for expected behaviour. You can use the Playwright extension for chrome and the extension for visual studio code to generate tests and selectors.
 ...
