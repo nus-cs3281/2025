@@ -706,15 +706,15 @@
     {
       "src": "students/lhw-1/knowledge.md",
       "headings": {
-        "tool-technology-1": "Tool/Technology 1",
-        "tool-technology-2": "Tool/Technology 2"
+        "tools-technology": "Tools / Technology",
+        "node-package-manager-npm-and-security-risks": "Node Package Manager (npm) and Security Risks"
       },
       "headingKeywords": {}
     },
     {
       "src": "students/lhw-1/observations.md",
       "headings": {
-        "project-foo": "Project: Foo",
+        "project-markbind": "Project: MarkBind",
         "my-contributions": "My Contributions",
         "my-learning-record": "My Learning Record"
       },
@@ -722,7 +722,12 @@
     },
     {
       "src": "students/lhw-1/progress.md",
-      "headings": {},
+      "headings": {
+        "cs3282-progress": "CS3282 Progress",
+        "summary": "Summary",
+        "pull-requests": "Pull Requests",
+        "issues-discussions": "Issues / Discussions"
+      },
       "headingKeywords": {}
     },
     {
@@ -811,37 +816,37 @@
         "my-learning-record-3": "My Learning Record",
         "markbind": "MarkBind",
         "lee-hyung-woon": "Lee Hyung Woon",
-        "project-foo-4": "Project: Foo",
+        "project-markbind": "Project: MarkBind",
         "my-contributions-4": "My Contributions",
         "my-learning-record-4": "My Learning Record",
         "reposense": "RepoSense",
         "chang-si-kai": "Chang Si Kai",
-        "project-foo-5": "Project: Foo",
+        "project-foo-4": "Project: Foo",
         "my-contributions-5": "My Contributions",
         "my-learning-record-5": "My Learning Record",
         "jonas-ong-si-wei": "JONAS ONG SI WEI",
-        "project-foo-6": "Project: Foo",
+        "project-foo-5": "Project: Foo",
         "my-contributions-6": "My Contributions",
         "my-learning-record-6": "My Learning Record",
         "poon-yip-hang-ryan": "POON YIP HANG, RYAN",
-        "project-foo-7": "Project: Foo",
+        "project-foo-6": "Project: Foo",
         "my-contributions-7": "My Contributions",
         "my-learning-record-7": "My Learning Record",
         "teammates": "TEAMMATES",
         "dominic-berzin-chua-way-gin": "DOMINIC BERZIN CHUA WAY GIN",
-        "project-foo-8": "Project: Foo",
+        "project-foo-7": "Project: Foo",
         "my-contributions-8": "My Contributions",
         "my-learning-record-8": "My Learning Record",
         "qiu-jiasheng-jason": "Qiu Jiasheng, Jason",
-        "project-foo-9": "Project: Foo",
+        "project-foo-8": "Project: Foo",
         "my-contributions-9": "My Contributions",
         "my-learning-record-9": "My Learning Record",
         "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
-        "project-foo-10": "Project: Foo",
+        "project-foo-9": "Project: Foo",
         "my-contributions-10": "My Contributions",
         "my-learning-record-10": "My Learning Record",
         "zhu-yuanxi": "ZHU YUANXI",
-        "project-foo-11": "Project: Foo",
+        "project-foo-10": "Project: Foo",
         "my-contributions-11": "My Contributions",
         "my-learning-record-11": "My Learning Record"
       },
