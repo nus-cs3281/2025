@@ -404,7 +404,8 @@
         "angular": "Angular",
         "arcsecond": "Arcsecond",
         "graphql": "GraphQL",
-        "node-14-x-support-on-macos": "Node 14.x support on macos"
+        "node-14-x-support-on-macos": "Node 14.x support on macos",
+        "playwright-testing": "Playwright testing"
       },
       "headingKeywords": {}
     },
@@ -597,6 +598,7 @@
         "arcsecond": "Arcsecond",
         "graphql": "GraphQL",
         "node-14-x-support-on-macos": "Node 14.x support on macos",
+        "playwright-testing": "Playwright testing",
         "koo-yu-cong": "KOO YU CONG",
         "nvm-node-version-manager": "NVM (Node Version Manager)",
         "angular-2": "Angular",
