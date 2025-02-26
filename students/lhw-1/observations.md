@@ -1,4 +1,4 @@
-### Project: Foo
+### Project: MarkBind
 
 Give an intro to the project here ...
 
