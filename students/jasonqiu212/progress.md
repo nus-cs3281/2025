@@ -42,24 +42,32 @@
 
 ## Internal Project Work
 
-| Week | Achievements                                                                                                                         |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 5    | Raised issue: [Improve documentation on testing #13227](https://github.com/TEAMMATES/teammates/issues/13227)                         |
-| 5    | Reviewed PR: [[#12048] Migrate tests for DeleteFeedbackQuestionActionTest #13218](https://github.com/TEAMMATES/teammates/pull/13218) |
-| 5    | Reviewed PR: [[#12048] Migrate tests for DeleteAccountRequestActionTest #13213](https://github.com/TEAMMATES/teammates/pull/13213)   |
-| 5    | Reviewed PR: [[#12048] Migrate tests for UpdateFeedbackQuestionActionTest #13231](https://github.com/TEAMMATES/teammates/pull/13231) |
-| 5    | Reviewed PR: [[#13104] Add mappings #13166](https://github.com/TEAMMATES/teammates/pull/13166)                                       |
-| 5    | Closed PR: [Test date #13198](https://github.com/TEAMMATES/teammates/pull/13198)                                                     |
-| 5    | Reviewed PR: [[#13164] Fix typo #13165](https://github.com/TEAMMATES/teammates/pull/13165)                                           |
-| 5    | Discussed issue: [Failing component test #13173](https://github.com/TEAMMATES/teammates/issues/13173)                                |
-| 6    | Reviewed PR: [[#8557] Standardize locale #13162](https://github.com/TEAMMATES/teammates/pull/13162)                                  |
-| 6    | Reviewed PR: [[#12048] Migrate tests for GetAccountsAction.java #13214](https://github.com/TEAMMATES/teammates/pull/13214)           |
-| 6    | Reviewed PR: [[#12048] Migrate tests for GetAccountActionTest #13212](https://github.com/TEAMMATES/teammates/pull/13212)             |
-| 6    | Reviewed PR: [[#12048] Migrate tests #13206](https://github.com/TEAMMATES/teammates/pull/13206)                                      |
-| 6    | Reviewed PR: [[#12048] Migrate Tests for DeleteStudentActionTest #13204](https://github.com/TEAMMATES/teammates/pull/13204)          |
-| 6    | Reviewed PR: [[#12048] Migrate Tests for DeleteStudentsActionTest #13205](https://github.com/TEAMMATES/teammates/pull/13205)         |
-| 6    | Reviewed PR: [[#13160] Update documentation to use Docker Compose v2 #13161](https://github.com/TEAMMATES/teammates/pull/13161)      |
-| 6    | Closed PR: [[#13202] Feature/show collapse all button #13225](https://github.com/TEAMMATES/teammates/pull/13225)                     |
+| Week | Achievements                                                                                                                                    |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 5    | Raised issue: [Improve documentation on testing #13227](https://github.com/TEAMMATES/teammates/issues/13227)                                    |
+| 5    | Reviewed PR: [[#12048] Migrate tests for DeleteFeedbackQuestionActionTest #13218](https://github.com/TEAMMATES/teammates/pull/13218)            |
+| 5    | Reviewed PR: [[#12048] Migrate tests for DeleteAccountRequestActionTest #13213](https://github.com/TEAMMATES/teammates/pull/13213)              |
+| 5    | Reviewed PR: [[#12048] Migrate tests for UpdateFeedbackQuestionActionTest #13231](https://github.com/TEAMMATES/teammates/pull/13231)            |
+| 5    | Reviewed PR: [[#13104] Add mappings #13166](https://github.com/TEAMMATES/teammates/pull/13166)                                                  |
+| 5    | Closed PR: [Test date #13198](https://github.com/TEAMMATES/teammates/pull/13198)                                                                |
+| 5    | Reviewed PR: [[#13164] Fix typo #13165](https://github.com/TEAMMATES/teammates/pull/13165)                                                      |
+| 5    | Discussed issue: [Failing component test #13173](https://github.com/TEAMMATES/teammates/issues/13173)                                           |
+| 6    | Reviewed PR: [[#8557] Standardize locale #13162](https://github.com/TEAMMATES/teammates/pull/13162)                                             |
+| 6    | Reviewed PR: [[#12048] Migrate tests for GetAccountsAction.java #13214](https://github.com/TEAMMATES/teammates/pull/13214)                      |
+| 6    | Reviewed PR: [[#12048] Migrate tests for GetAccountActionTest #13212](https://github.com/TEAMMATES/teammates/pull/13212)                        |
+| 6    | Reviewed PR: [[#12048] Migrate tests #13206](https://github.com/TEAMMATES/teammates/pull/13206)                                                 |
+| 6    | Reviewed PR: [[#12048] Migrate Tests for DeleteStudentActionTest #13204](https://github.com/TEAMMATES/teammates/pull/13204)                     |
+| 6    | Reviewed PR: [[#12048] Migrate Tests for DeleteStudentsActionTest #13205](https://github.com/TEAMMATES/teammates/pull/13205)                    |
+| 6    | Reviewed PR: [[#13160] Update documentation to use Docker Compose v2 #13161](https://github.com/TEAMMATES/teammates/pull/13161)                 |
+| 6    | Closed PR: [[#13202] Feature/show collapse all button #13225](https://github.com/TEAMMATES/teammates/pull/13225)                                |
+| 6    | Reviewed PR: [[#12048] Migrate Tests for DeleteInstructorActionTest #13207](https://github.com/TEAMMATES/teammates/pull/13207)                  |
+| 6    | Raised PR: [[#13227] Improve testing docs #13242](https://github.com/TEAMMATES/teammates/pull/13242)                                            |
+| R    | Reviewed PR: [[#12048] Migrate tests for GetReadNotificationsActionTest #13220](https://github.com/TEAMMATES/teammates/pull/13220)              |
+| R    | Reviewed PR: [[#12048] Migrate Tests for FeedbackSessionPublishedRemindersActionTest #13223](https://github.com/TEAMMATES/teammates/pull/13223) |
+| R    | Reviewed PR: [[#12048] Migrate tests for GetTimeZonesActionTest #13244](https://github.com/TEAMMATES/teammates/pull/13244)                      |
+| R    | Reviewed PR: [[#12048] Migrate tests for GetUsageStatisticsActionTest #13245](https://github.com/TEAMMATES/teammates/pull/13245)                |
+| R    | Reviewed PR: [[#12048] Migrate tests for CalculateUsageStatisticsAction #13247](https://github.com/TEAMMATES/teammates/pull/13247)              |
+| R    | Reviewed PR: [[#12048] Refactor tests for DeleteFeedbackQuestionActionTest #13246](https://github.com/TEAMMATES/teammates/pull/13246)           |
 
 ## External Project Work
 
