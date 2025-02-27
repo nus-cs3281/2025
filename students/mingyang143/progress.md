@@ -12,3 +12,4 @@
 | 6    | Merged PR: [[#12048] Migrate tests for GetAccountsActionTest #13214](https://github.com/TEAMMATES/teammates/pull/13214)            |
 | 6    | Opened PR: [[#12048] Migrate tests for GetStudentActionTest #13241](https://github.com/TEAMMATES/teammates/pull/13241)             |
 | 6    | Opened PR: [[#12048] Migrate tests for GetStudentsActionTest #13243](https://github.com/TEAMMATES/teammates/pull/13243)            |
+| 6    | Reviewed PR: [[#13227] Improve testing docs #13242](https://github.com/TEAMMATES/teammates/pull/13242)                             |
