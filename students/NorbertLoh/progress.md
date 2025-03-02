@@ -13,3 +13,6 @@
 | 6 | Reviewed PR: [Remove feature branch from github-actions.yml #1329](https://github.com/CATcher-org/CATcher/pull/1329) |
 | 6 | Created PR: [Merge Feature bug trimming branch to main #1331](https://github.com/CATcher-org/CATcher/pull/1331) |
 | 6 | Created PR: [Fix view on GitHub #414](https://github.com/CATcher-org/WATcher/pull/414) |
+| 6 | Assisted in issue research: [Add bug-trimming phase to userworkflowmd #43](https://github.com/CATcher-org/catcher-org.github.io/pull/43) |
+| 7 | Participated in issue discussion: [Problem accessing CATcher as an admin #1337](https://github.com/CATcher-org/CATcher/issues/1337) |
+| 7 | Created Issue: [Unclear sections while filtering #421](https://github.com/CATcher-org/WATcher/issues/421) |
