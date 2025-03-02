@@ -61,6 +61,9 @@ It runs after the website framework, and only requires the folder containing the
 
 #### Vue 2 to Vue 3
 
+I got the chance to experience [this](https://www.reddit.com/r/vuejs/comments/1bp72k5/vue_2_to_vue_3_upgrade_is_one_of_the_most_painful/) firsthand.
+* Through the process (ongoing), it has also allowed me to uncover a significant number of bugs in MarkBind.
+
 https://v3-migration.vuejs.org/migration-build
 
 MarkBind (v5.5.3) is currently using Vue 2. However, Vue 2 has reached EOL and limits the extensibility and maintainability of MarkBind, especially the vue-components package. (UI Library Package). 
@@ -75,6 +78,24 @@ Vue 2 components can be authored in two different API styles: Option API and Com
 > Server-side rendering: the migration build can be used for SSR, but migrating a custom SSR setup is much more involved. The general idea is replacing vue-server-renderer with @vue/server-renderer. Vue 3 no longer provides a bundle renderer and it is recommended to use Vue 3 SSR with Vite. If you are using Nuxt.js, it is probably better to wait for Nuxt 3.
 
 Currently, MarkBind Vue components are authored in the Options API style. If migrated to Vue 3, we can continue to use this API style.
+
+##### Vue 2 to Vue 3 (Biggest Shift)
+
+**Vue 2**
+In Vue 2, global configuration is shared across all root instances as concept of "app" not formalized. All Vue instances in the app used the same global configuration, and this could lead to unexpected behaviors if different parts of the application needed different configurations or global directives. 
+> E.g. global API in Vue 2, like Vue.component() or Vue.directive(), directly mutated the global Vue instance.
+
+Some of MarkBind's plugins depend on this specific property of Vue 2 (directives, in particular, which are registered after mounting).
+
+However, the shift to Vue 3 took into consideration the lack of application boundaries and potential global pollution. Hence, Vue 3 takes a different approach that takes a bit of effort to migrate.
+
+**Vue 3**
+In Vue 3, the introduction of the app instance via `createApp()` changes how global configurations, directives, and components are managed, offering more control and flexibility. 
+* The `createApp()` method allows you to instantiate an "app," providing a boundary for the app's configuration -- Scoped Global Configuration: Instead of mutating the global Vue object, components, directives, or plugins are now registered on a specific app instance.
+
+Also some particularities with using Vue 3:
+* https://github.com/vuejs/core/issues/4344
+
 
 #### Vue SFC (Single File Components)
 
@@ -181,6 +202,30 @@ EcmaScript Modules (ESM) standardized later and are the only natively supported 
 Issues I faced:
 * I didn't realize tha my TypeScript code was being compiled to CommonJS (`require`) instead of ES module syntax (`import`), and hence `import` was not working correctly.
 * Had to change the `tsconfig.json` settings appropriately.
+
+#### Classic Scripts vs Module Scripts in JS 
+
+JavaScript offers two script types: **module** and **non-module**.  (For web pages, JavaScript is the Prog. Lang for the web after all).
+
+**Module Script Files**: use ES Modules (`import`/`export`), run in strict mode, and have local scope, making them ideal for modern, modular applications. They load asynchronously and are supported in modern browsers and Node.js (with `.mjs` or `"type": "module"`).
+- **Scope**: Local (encapsulated)
+- **Execution**: Strict mode by default
+- **Loading**: Asynchronous, deferred
+- **Reusability**: High (modular)
+- **Browser Support**: Modern browsers
+- **Node.js**: Native (`.mjs` or `"type": "module"`)
+
+**Non-Module Script File** rely on global scope, lack strict mode by default, and load synchronously. They work in all browsers and use CommonJS (`require`) in Node.js, making them suitable for legacy projects or simple scripts.
+- **Syntax**: No `import`/`export`
+- **Scope**: Global (pollution risk)
+- **Execution**: Non-strict by default
+- **Loading**: Synchronous by default
+- **Reusability**: Low (global dependencies)
+- **Browser Support**: All browsers
+- **Node.js**: CommonJS (`require`)
+
+
+Use **modules** for modern, scalable apps and **non-modules** for legacy compatibility or simpler use cases. Transition to modules for better maintainability.
 
 #### TypeScript
 

@@ -18,3 +18,7 @@
 | 6    | Opened PR: [[#12048] Migrate tests for CreateFeedbackSessionLogActionTest #13239](https://github.com/TEAMMATES/teammates/pull/13239) |
 | 6    | Opened PR: [[#12048] Migrate tests for GetTimeZonesActionTest #13244](https://github.com/TEAMMATES/teammates/pull/13244) |
 | 6    | Opened PR: [[#12048] Migrate tests for GetUsageStatisticsActionTest #13245](https://github.com/TEAMMATES/teammates/pull/13245) |
+| 7    | Merged PR: [[#12048] Migrate tests for GetReadNotificationsActionTest #13220](https://github.com/TEAMMATES/teammates/pull/13220) |
+| 7    | Merged PR: [[#12048] Migrate tests for MarkNotificationAsReadActionTest #13222](https://github.com/TEAMMATES/teammates/pull/13222) |
+| 7    | Opened PR: [[#12048] Migrate tests for CalculateUsageStatisticsAction #13247](https://github.com/TEAMMATES/teammates/pull/13247) |
+| 7    | Reviewed PR: [[#13227] Improve testing docs #13242](https://github.com/TEAMMATES/teammates/pull/13242) |
