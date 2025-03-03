@@ -14,3 +14,10 @@
 | 4    | Created PR: [[#2252] Update ubuntu runner in publish-RepoSense](https://github.com/reposense/publish-RepoSense/pull/18)                                                            |
 | 4    | Created PR: [[#2252] Enable CI Checks on PRs and Restrict Deployment to Master in publish-RepoSense](https://github.com/reposense/publish-RepoSense/pull/20)                       |
 | 4    | Merged PR: [[#2252] Enable CI Checks on PRs and Restrict Deployment to Master in publish-RepoSense](https://github.com/reposense/publish-RepoSense/pull/20)                        |                                                                                                                                                                             
+| 4    | Created issue: [Surge.sh Build Preview failing on recent PRs #2292](https://github.com/reposense/RepoSense/issues/2292)                                                            |
+| 5    | Created PR: [[#1955] Usage of directive shorthand syntax in .vue files #2290](https://github.com/reposense/RepoSense/pull/2290)                                                    |
+| 5    | Solved issue: [Usage of directive shorthand syntax in .vue files #1955](https://github.com/reposense/RepoSense/issues/1955)                                                        |
+| 5    | Created PR: [[#2224] Update GitHub workflow to avoid deprecation warnings](https://github.com/reposense/RepoSense/pull/2298)                                                       |
+| 5    | Solved part of issue: [Deprecation warnings for publish-RepoSense #2224](https://github.com/reposense/RepoSense/issues/2224)                                                       |
+| 6    | Created issue: [Add blurbs for Authors #2311](https://github.com/reposense/RepoSense/issues/2311)                                                                                  |
+
