@@ -939,8 +939,8 @@
     {
       "src": "students/sopa301/knowledge.md",
       "headings": {
-        "tool-technology-1": "Tool/Technology 1",
-        "tool-technology-2": "Tool/Technology 2"
+        "yaml": "YAML",
+        "github-actions": "Github Actions"
       },
       "headingKeywords": {}
     },
