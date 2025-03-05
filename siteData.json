@@ -955,7 +955,10 @@
     },
     {
       "src": "students/sopa301/progress.md",
-      "headings": {},
+      "headings": {
+        "progress": "Progress",
+        "summary": "Summary"
+      },
       "headingKeywords": {}
     },
     {
