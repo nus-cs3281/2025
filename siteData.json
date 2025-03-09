@@ -488,7 +488,6 @@
     {
       "src": "students/gerteck/knowledge.md",
       "headings": {
-        "tool-technology": "Tool/Technology",
         "internal-tools-technology": "Internal Tools/Technology",
         "how-markbind-works-overview-of-everything": "How MarkBind Works (Overview of everything)",
         "markbind-s-search-utility": "Markbind's Search Utility",
@@ -496,7 +495,8 @@
         "vue": "Vue",
         "external-packages-used-by-markbind": "External Packages used by MarkBind",
         "research-on-other-ssgs": "Research on Other SSGs",
-        "general-development-knowledge": "General Development Knowledge"
+        "general-development-knowledge": "General Development Knowledge",
+        "typescript": "TypeScript"
       },
       "headingKeywords": {}
     },
@@ -626,7 +626,6 @@
         "markbind-2": "MarkBind",
         "markbind-highlighter-component": "MarkBind Highlighter Component",
         "chan-ger-teck": "CHAN GER TECK",
-        "tool-technology": "Tool/Technology",
         "internal-tools-technology": "Internal Tools/Technology",
         "how-markbind-works-overview-of-everything": "How MarkBind Works (Overview of everything)",
         "markbind-s-search-utility": "Markbind's Search Utility",
@@ -635,6 +634,7 @@
         "external-packages-used-by-markbind": "External Packages used by MarkBind",
         "research-on-other-ssgs": "Research on Other SSGs",
         "general-development-knowledge": "General Development Knowledge",
+        "typescript-2": "TypeScript",
         "cheah-gee-nung-ian": "CHEAH GEE NUNG, IAN",
         "tool-technology-1-2": "Tool/Technology 1",
         "specific-to-vue": "Specific to Vue",
