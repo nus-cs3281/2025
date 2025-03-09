@@ -9,3 +9,7 @@
 | 6    | Opened PR: [[#12048] Migrate tests for CreateFeedbackResponseCommentActionTest #13248](https://github.com/TEAMMATES/teammates/pull/13248) |
 | 6    | Opened PR: [[#12048] Migrate tests for DeleteFeedbackResponseCommentActionTest #13249](https://github.com/TEAMMATES/teammates/pull/13249) |
 | 6    | Opened PR: [[#12048] Migrate tests for UpdateFeedbackResponseCommentActionTest #13251](https://github.com/TEAMMATES/teammates/pull/13251) |
+| 7    | Opened PR: [[#12048] Migrate tests for CreateInstructorActionTest #13255](https://github.com/TEAMMATES/teammates/pull/13255)              |
+| 7    | Opened PR: [[#12048] Migrate tests for UpdateInstructorActionTest #13256](https://github.com/TEAMMATES/teammates/pull/13256)              |
+| 7    | Merged PR: [[#12048] Migrate tests for UpdateInstructorActionTest #13256](https://github.com/TEAMMATES/teammates/pull/13256)              |
+| 7    | Merged PR: [[#12048] Migrate tests for CreateInstructorActionTest #13255](https://github.com/TEAMMATES/teammates/pull/13255)              |
