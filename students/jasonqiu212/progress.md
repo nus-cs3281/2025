@@ -68,6 +68,14 @@
 | R    | Reviewed PR: [[#12048] Migrate tests for GetUsageStatisticsActionTest #13245](https://github.com/TEAMMATES/teammates/pull/13245)                |
 | R    | Reviewed PR: [[#12048] Migrate tests for CalculateUsageStatisticsAction #13247](https://github.com/TEAMMATES/teammates/pull/13247)              |
 | R    | Reviewed PR: [[#12048] Refactor tests for DeleteFeedbackQuestionActionTest #13246](https://github.com/TEAMMATES/teammates/pull/13246)           |
+| 7    | Reviewed PR: [[#12048] Migrate tests for CreateFeedbackQuestionActionTest #13240](https://github.com/TEAMMATES/teammates/pull/13240)            |
+| 7    | Reviewed PR: [[#12048] Migrate tests for CreateFeedbackSessionLogActionTest #13239](https://github.com/TEAMMATES/teammates/pull/13239)          |
+| 7    | Reviewed PR: [[#12048] Migrate tests for CompileLogsActionTest #13233](https://github.com/TEAMMATES/teammates/pull/13233)                       |
+| 7    | Reviewed PR: [[#12048] Migrate tests for QueryLogsActionTest #13234](https://github.com/TEAMMATES/teammates/pull/13234)                         |
+| 7    | Raised PR: [[#13173] Fix SearchAccountRequestsActionTest #13257](https://github.com/TEAMMATES/teammates/pull/13257)                             |
+| 7    | Reviewed PR: [[#12048] Migrate Tests for RegenerateInstructorKeyActionTest #13226](https://github.com/TEAMMATES/teammates/pull/13226)           |
+| 7    | Reviewed PR: [[#12048] Migrate tests for GetStudentActionTest #13241](https://github.com/TEAMMATES/teammates/pull/13241)                        |
+| 7    | Reviewed PR: [[#12048] Migrate tests for GetCoursesActionTest #13232](https://github.com/TEAMMATES/teammates/pull/13232)                        |
 
 ## External Project Work
 

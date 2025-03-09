@@ -18,3 +18,9 @@
 | 6    | Reviewed PR: [Fix strikethrough on Safari #1328](https://github.com/CATcher-org/CATcher/pull/1328#pullrequestreview-2619991780)                                                                                                               |
 | 6    | Merged PR: [Remove feature branch from github-actions.yml #1329](https://github.com/CATcher-org/CATcher/pull/1329)                                                                                                                            |
 | 6    | Reviewed PR: [Merge Feature bug trimming branch to main #1331](https://github.com/CATcher-org/CATcher/pull/1331#pullrequestreview-2620080929)                                                                                                 |
+| 6    | Participated in Issue Investigation: [Filter bar overflows horizontal screen space #396](https://github.com/CATcher-org/WATcher/issues/396#issuecomment-2682312709)                                                                           |
+| 7    | Merged PR: [Add bug-trimming phase to user-workflow.md #43](https://github.com/CATcher-org/catcher-org.github.io/pull/43)                                                                                                                     |
+| 7    | Reported and Researched Bug: [npm test on MacOS is failing #1335](https://github.com/CATcher-org/CATcher/issues/1335)                                                                                                                         |
+| 7    | Merged PR: [Update karma config #1336](https://github.com/CATcher-org/CATcher/pull/1336)                                                                                                                                                      |
+|7| Created Issue: [Deselect all selections for filters #423](https://github.com/CATcher-org/WATcher/issues/423)|
+|7| Merged PR: [Add side border to draft PR cards #426](https://github.com/CATcher-org/WATcher/pull/426)|
