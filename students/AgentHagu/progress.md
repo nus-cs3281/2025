@@ -14,3 +14,5 @@
 | 7 | Created Issue: [Unavailable address opening the wrong URL during serve command #2620](https://github.com/MarkBind/markbind/issues/2620) |
 | 7 | Authored PR: [Fix issues with serve and URL of live preview #2621](https://github.com/MarkBind/markbind/pull/2621) |
 | 8 | Reviewed PR: [Refactor codeBlockButton Plugins #2625](https://github.com/MarkBind/markbind/pull/2625) |
+| 8 | Created Issue: [Optimization: Migrate standalone JavaScript test files in core package to TypeScript #2634](https://github.com/MarkBind/markbind/issues/2634) |
+| 8 | Created Issue: [Incomplete test coverage for MarkBind CLI commands #2635](https://github.com/MarkBind/markbind/issues/2635) |
