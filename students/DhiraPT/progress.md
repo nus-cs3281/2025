@@ -9,3 +9,5 @@
 | 7    | Merged PR: [[#12048] Migrate Tests for FeedbackSessionPublishedRemindersActionTest #13223](https://github.com/TEAMMATES/teammates/pull/13223)  |
 | 7    | Responded to contributor queries: [#13199](https://github.com/TEAMMATES/teammates/issues/13199#issuecomment-2707383293)                        |
 | 7    | Merged PR: [[#13228] Standardize the Naming Conventions for FeedbackSession Actions #13229](https://github.com/TEAMMATES/teammates/pull/13229) |
+| 8    | Submitted Issue: [Allow MockEmailSender to Simulate Email Sending Failures #13261](https://github.com/TEAMMATES/teammates/issues/13261)        |
+| 8    | Merged PR: [[#13261] Implement Email Sending Failure Behavior in MockEmailSender #13262](https://github.com/TEAMMATES/teammates/pull/13262)    |
