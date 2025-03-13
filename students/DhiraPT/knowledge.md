@@ -137,7 +137,7 @@ Although I did not extensively use advanced verification techniques during the m
 These insights have been essential for developing robust tests, and I look forward to applying them in future projects.
 
 
-### Tool/Technology 2 Objectify and Jakarta Persistence (JPA)
+### Tool/Technology 2: Objectify and Jakarta Persistence (JPA)
 
 #### Aspects Learned
 
