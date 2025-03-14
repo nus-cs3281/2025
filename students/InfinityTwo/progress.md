@@ -21,6 +21,7 @@
 | 7    | Merged PR: [[#12048] Migrate tests for GetReadNotificationsActionTest #13220](https://github.com/TEAMMATES/teammates/pull/13220) |
 | 7    | Merged PR: [[#12048] Migrate tests for MarkNotificationAsReadActionTest #13222](https://github.com/TEAMMATES/teammates/pull/13222) |
 | 7    | Opened PR: [[#12048] Migrate tests for CalculateUsageStatisticsAction #13247](https://github.com/TEAMMATES/teammates/pull/13247) |
+| 7    | Opened PR: [[#12048] Abstract Access Controls to BaseActionTest #13254](https://github.com/TEAMMATES/teammates/pull/13254) |
 | 7    | Reviewed PR: [[#13227] Improve testing docs #13242](https://github.com/TEAMMATES/teammates/pull/13242) |
 | 7    | Merged PR: [[#12048] Migrate tests for CreateNotificationActionTest #13209](https://github.com/TEAMMATES/teammates/pull/13209) |
 | 7    | Merged PR: [[#12048] Migrate tests for GetNotificationActionTest #13210](https://github.com/TEAMMATES/teammates/pull/13210) |
@@ -30,3 +31,5 @@
 | 7    | Merged PR: [[#12048] Migrate tests for GetUsageStatisticsActionTest #13245](https://github.com/TEAMMATES/teammates/pull/13245) |
 | 7    | Merged PR: [[#12048] Migrate tests for CalculateUsageStatisticsAction #13247](https://github.com/TEAMMATES/teammates/pull/13247) |
 | 8    | Merged PR: [[#12048] Migrate tests for CompileLogsActionTest #13233](https://github.com/TEAMMATES/teammates/pull/13233) |
+| 8    | Merged PR: [[#12048] Migrate tests for QueryLogsActionTest #13234](https://github.com/TEAMMATES/teammates/pull/13234) |
+| 8    | Merged PR: [[#12048] Migrate tests for CreateFeedbackSessionLogActionTest #13239](https://github.com/TEAMMATES/teammates/pull/13239) |
