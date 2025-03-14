@@ -16,3 +16,12 @@
 | 8 | Reviewed PR: [Refactor codeBlockButton Plugins #2625](https://github.com/MarkBind/markbind/pull/2625) |
 | 8 | Created Issue: [Optimization: Migrate standalone JavaScript test files in core package to TypeScript #2634](https://github.com/MarkBind/markbind/issues/2634) |
 | 8 | Created Issue: [Incomplete test coverage for MarkBind CLI commands #2635](https://github.com/MarkBind/markbind/issues/2635) |
+| 8 | Authored PR: [Update Jest config to exclude duplicated JavaScript tests #2638](https://github.com/MarkBind/markbind/pull/2638) |
+| 8 | Authored PR: [Migrate JavaScript test to TypeScript #2637](https://github.com/MarkBind/markbind/pull/2637) |
+| 8 | Responded to contributor queries: [#2638](https://github.com/MarkBind/markbind/pull/2638) |
+| 8 | Discussed Issue: [#2612](https://github.com/MarkBind/markbind/issues/2612) |
+| 8 | Authored PR: [Reduce logging level and improve error message for popover #2639](https://github.com/MarkBind/markbind/pull/2639) |
+| 8 | Merged PR: [Add code highlighting based on absolute positions #2584](https://github.com/MarkBind/markbind/pull/2584) |
+| 8 | Responded to contributor queries: [#2637](https://github.com/MarkBind/markbind/pull/2637) |
+| 8 | Merged PR: [Migrate filterIconAssets.test.js to TypeScript #2637](https://github.com/MarkBind/markbind/pull/2637) |
+| 8 | Responded to contributor queries: [#2621](https://github.com/MarkBind/markbind/pull/2621) |
