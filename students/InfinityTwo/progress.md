@@ -33,3 +33,4 @@
 | 8    | Merged PR: [[#12048] Migrate tests for CompileLogsActionTest #13233](https://github.com/TEAMMATES/teammates/pull/13233) |
 | 8    | Merged PR: [[#12048] Migrate tests for QueryLogsActionTest #13234](https://github.com/TEAMMATES/teammates/pull/13234) |
 | 8    | Merged PR: [[#12048] Migrate tests for CreateFeedbackSessionLogActionTest #13239](https://github.com/TEAMMATES/teammates/pull/13239) |
+| 8    | Opened PR: [[#12048] Migrate tests for GetDeadlineExtensionActionTest #13266](https://github.com/TEAMMATES/teammates/pull/13266) |
