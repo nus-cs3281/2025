@@ -17,3 +17,5 @@
 | 8    | Opened PR: [[#12048] Migrate tests for JoinCourseActionTest #13265](https://github.com/TEAMMATES/teammates/pull/13265)             |
 | 8    | Merged PR: [[#12048] Migrate tests for GetCoursesActionTest #13232](https://github.com/TEAMMATES/teammates/pull/13232)             |
 | 8    | Merged PR: [[#12048] Migrate tests for GetStudentActionTest #13241](https://github.com/TEAMMATES/teammates/pull/13241)             |
+| 8    | Merged PR: [[#12048] Migrate tests for JoinCourseActionTest #13265](https://github.com/TEAMMATES/teammates/pull/13265)             |
+| 8    | Opened PR: [[#12048] Migrate tests for GetInstructorsActionTest #13267](https://github.com/TEAMMATES/teammates/pull/13267)         |
