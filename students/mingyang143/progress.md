@@ -13,3 +13,9 @@
 | 6    | Opened PR: [[#12048] Migrate tests for GetStudentActionTest #13241](https://github.com/TEAMMATES/teammates/pull/13241)             |
 | 6    | Opened PR: [[#12048] Migrate tests for GetStudentsActionTest #13243](https://github.com/TEAMMATES/teammates/pull/13243)            |
 | 6    | Reviewed PR: [[#13227] Improve testing docs #13242](https://github.com/TEAMMATES/teammates/pull/13242)                             |
+| 7    | Merged PR: [[#12048] Migrate tests for GetAccountActionTest #13212](https://github.com/TEAMMATES/teammates/pull/13212)             |
+| 8    | Opened PR: [[#12048] Migrate tests for JoinCourseActionTest #13265](https://github.com/TEAMMATES/teammates/pull/13265)             |
+| 8    | Merged PR: [[#12048] Migrate tests for GetCoursesActionTest #13232](https://github.com/TEAMMATES/teammates/pull/13232)             |
+| 8    | Merged PR: [[#12048] Migrate tests for GetStudentActionTest #13241](https://github.com/TEAMMATES/teammates/pull/13241)             |
+| 8    | Merged PR: [[#12048] Migrate tests for JoinCourseActionTest #13265](https://github.com/TEAMMATES/teammates/pull/13265)             |
+| 8    | Opened PR: [[#12048] Migrate tests for GetInstructorsActionTest #13267](https://github.com/TEAMMATES/teammates/pull/13267)         |

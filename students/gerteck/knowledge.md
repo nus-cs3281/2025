@@ -1,5 +1,3 @@
-### Tool/Technology
-
 List the aspects you learned, and the resources you used to learn them, and a brief summary of each resource.
 
 ## Internal Tools/Technology
@@ -227,9 +225,9 @@ JavaScript offers two script types: **module** and **non-module**.  (For web pag
 
 Use **modules** for modern, scalable apps and **non-modules** for legacy compatibility or simpler use cases. Transition to modules for better maintainability.
 
-#### TypeScript
+### TypeScript
 
-TypeScript has two main kinds of files. `.ts` files are implementation files that contain types and executable code. These are the files that produce `.js` outputs, and are where you’d normally write your code. .d.ts files are declaration files that contain only type information. These files don’t produce `.js` outputs; they are only used for typechecking.
+TypeScript has two main kinds of files. `.ts` files are implementation files that contain types and executable code. These are the files that produce `.js` outputs, and are where you normally write your code. `.d.ts` files are declaration files that contain only type information. These files don’t produce `.js` outputs; they are only used for typechecking.
 
 * DefinitelyTyped / `@types`: The DefinitelyTyped repository is a centralized repo storing declaration files for thousands of libraries. The vast majority of commonly-used libraries have declaration files available on DefinitelyTyped.
 
