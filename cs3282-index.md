@@ -22,8 +22,7 @@ pageNav: 2
     {name: 'TEAMMATES', students: [
         ['DOMINIC BERZIN CHUA WAY GIN', 'domoberzin', 'A1', 'B1', 'C1'],
         ['Qiu Jiasheng, Jason', 'jasonqiu212', 'A2', 'B2', 'C2'],
-        ['XENOS FIORENZO ANONG', 'xenosf', 'A1', 'B1', 'C1'],
-        ['ZHU YUANXI', 'yuanxi1', 'A1', 'B1', 'C1']
+        ['XENOS FIORENZO ANONG', 'xenosf', 'A1', 'B1', 'C1']
     ]}
 ] %}
 

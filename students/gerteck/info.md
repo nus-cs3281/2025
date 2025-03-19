@@ -3,4 +3,4 @@
 <span id="github">https://www.github.com/gerteck</span>
 
 <!-- [CS3281: Give your NUS-OSS project][CS3282: give your internal and external projects related to the module] -->
-<span id="projects">[MarkBind](https://github.com/MarkBind/markbind), [Project2]()</span>
+<span id="projects">[MarkBind](https://github.com/MarkBind/markbind)</span>
