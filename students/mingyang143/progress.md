@@ -25,3 +25,4 @@
 | 9    | Opened PR: [[#12048] Migrate tests for GetRegkeyValidityActionTest #13278](https://github.com/TEAMMATES/teammates/pull/13278)       |
 | 9    | Opened PR: [[[#12048] Migrate tests for ResetAccountActionTest #13279](https://github.com/TEAMMATES/teammates/pull/13279)           | 
 | 9    | Reviewed PR: [[#12048] Migrate tests for SendErrorReportActionTest #13280](https://github.com/TEAMMATES/teammates/pull/13280)       |
+| 9    | Reviewed PR: [[#12048] Migrate tests for SendLoginEmailActionTest #13276](https://github.com/TEAMMATES/teammates/pull/13276)        |
