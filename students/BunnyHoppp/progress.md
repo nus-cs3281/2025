@@ -13,3 +13,4 @@
 | 7    | Opened PR: [[#12048] Migrate tests for UpdateInstructorActionTest #13256](https://github.com/TEAMMATES/teammates/pull/13256)              |
 | 7    | Merged PR: [[#12048] Migrate tests for UpdateInstructorActionTest #13256](https://github.com/TEAMMATES/teammates/pull/13256)              |
 | 7    | Merged PR: [[#12048] Migrate tests for CreateInstructorActionTest #13255](https://github.com/TEAMMATES/teammates/pull/13255)              |
+| 8    | Opened PR: [[#12048] Migrate tests for GetAuthInfoActionTest #13273](https://github.com/TEAMMATES/teammates/pull/13273)                   |

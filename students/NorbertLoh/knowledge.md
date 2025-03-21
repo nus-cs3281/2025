@@ -24,3 +24,17 @@ While working on implementing the feature 'View on github' for WATcher where a u
 
 ### URL encoding
 While working with URL queries, I learnt that some characters are not allowed in URLs. Such characters are "!"$$()" etc. In order to use them, they must be encoded into UTF-8. More information can be found [here](https://www.w3schools.com/tags/ref_urlencode.ASP).
+
+### GraphQL
+While I was exploring a new feature, I realised that there is no dedicated sandbox for testing the API/Queries. This made it hard for me to understand how the queries work and what the queries response look like. It was very troublesome to have to look at the network tab and look at the response.
+
+I also learnt about the difference GraphQL features like schema and fragments which are important for creating reusable and easily maintable queries.
+
+I also learnt how WATcher uses pagination to perform queries to GitHub using cursor.
+
+### Postman
+Following the exploration of GraphQL, I found that some of my teammates were trying to implement new features that required data from GitHub. However, they were struggling with understanding the GraphQL queries due to the lack of visualization. This has prompted me to create a sandbox for testing the GraphQL queries.
+
+I discovered how to create reusable queries in Postman using collection variables such that anyone can fork the collection and start working on it without having to set up anything other than authorization.
+
+I also learnt how to create environments for workspaces such that sensitive data such as secret keys will not be shared to public.
