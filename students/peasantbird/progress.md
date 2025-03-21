@@ -8,3 +8,4 @@
 | 8    | Opened PR: [[#12048] Migrate tests for GetAccountRequestActionTest #13270](https://github.com/TEAMMATES/teammates/pull/13270)                            |
 | 8    | Opened PR: [[#12048] Migrate tests for ResetAccountRequestActionTest #13271](https://github.com/TEAMMATES/teammates/pull/13271)                          |
 | 8    | Opened PR: [[#12048] Migrate tests for SearchAccountRequestsActionTest #13272](https://github.com/TEAMMATES/teammates/pull/13272)                        |
+| 9    | Merged PR: [[#12048] Migrate tests for CreateAccountRequestActionTest #13253](https://github.com/TEAMMATES/teammates/pull/13253)                         |
