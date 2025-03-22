@@ -185,7 +185,8 @@
       "headings": {
         "project-freecodecamp": "Project: FreeCodeCamp",
         "my-contributions": "My Contributions",
-        "my-learning-record": "My Learning Record"
+        "my-learning-record": "My Learning Record",
+        "other-things-of-note-about-freecodecamp": "Other things of note about FreeCodeCamp"
       },
       "headingKeywords": {}
     },
@@ -822,6 +823,7 @@
         "project-freecodecamp": "Project: FreeCodeCamp",
         "my-contributions": "My Contributions",
         "my-learning-record": "My Learning Record",
+        "other-things-of-note-about-freecodecamp": "Other things of note about FreeCodeCamp",
         "li-zhaoqi": "Li Zhaoqi",
         "project-foo": "Project: Foo",
         "my-contributions-2": "My Contributions",
