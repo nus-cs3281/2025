@@ -191,7 +191,10 @@
     },
     {
       "src": "students/Arif-Khalid/progress.md",
-      "headings": {},
+      "headings": {
+        "catcher": "CATcher",
+        "watcher": "WATcher"
+      },
       "headingKeywords": {}
     },
     {
