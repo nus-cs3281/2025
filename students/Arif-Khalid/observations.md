@@ -41,3 +41,7 @@ I have focused my contributions to its curriculum and web application codebase w
 ### My Learning Record
 
 Give tools/technologies you learned here. Include resources you used, and a brief summary of the resource.
+1. Redux  
+Redux is a JS library for predictable and maintainable global state management. At the base level, redux makes managing global state easier with easy to understand api and a host of enhancements that work out of the box. I think of it as a wrapper around react context. While it is possible to implement everything redux does without it and using react context, redux exposes more concise api, reducing boilerplate code, as well as enhances its base functionality with features such as middleware to handle side effects of accessing the storage.
+Redux is heavily used in the codebase of FreeCodeCamp, centralising state management and the persistent storage solution. Redux actions are used to trigger state changes for almost all interactions in the app.
+Therefore, in order to contribute meaningfully to more than just UI updates like I have, Redux was one of the first things I had to learn.
