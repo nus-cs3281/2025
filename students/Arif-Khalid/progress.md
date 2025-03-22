@@ -21,6 +21,7 @@
 | 7 | Reviewed PR: [Update karma config](https://github.com/CATcher-org/CATcher/pull/1336) |
 | 8 | Reviewed PR: [Release for CATcher v3.6.0](https://github.com/CATcher-org/CATcher/pull/1339) |
 | 9 | Reviewed PR: [Upgrade Octokit authentication to fix deprecation warnings](https://github.com/CATcher-org/CATcher/pull/1344) |
+| 9 | Reviewed PR: [Downgrade Devcontainer to Debian Bullseye and Preinstall Playwright Dependencies](https://github.com/CATcher-org/CATcher/pull/1347) |
 
 
 ### WATcher
