@@ -25,6 +25,7 @@
 | 9    | Opened PR: [[#12048] Migrate tests for GetFeedbackResponsesActionTest #13268](https://github.com/TEAMMATES/teammates/pull/13268)      |
 | 9    | Opened PR: [[#12048] Migrate tests for GetSessionResponseStatsActionTest #13277](https://github.com/TEAMMATES/teammates/pull/13277)   |
 | 9    | Opened PR: [[#12048] Migrate tests for GetRegkeyValidityActionTest #13278](https://github.com/TEAMMATES/teammates/pull/13278)         |
-| 9    | Opened PR: [[[#12048] Migrate tests for ResetAccountActionTest #13279](https://github.com/TEAMMATES/teammates/pull/13279)             | 
+| 9    | Opened PR: [[#12048] Migrate tests for ResetAccountActionTest #13279](https://github.com/TEAMMATES/teammates/pull/13279)              | 
 | 9    | Reviewed PR: [[#12048] Migrate tests for SendErrorReportActionTest #13280](https://github.com/TEAMMATES/teammates/pull/13280)         |
 | 9    | Reviewed PR: [[#12048] Migrate tests for SendLoginEmailActionTest #13276](https://github.com/TEAMMATES/teammates/pull/13276)          |
+| 9    | Reviewed PR: [[#12048] Migrate tests for JsonResultTest #13274](https://github.com/TEAMMATES/teammates/pull/13274)                    |
