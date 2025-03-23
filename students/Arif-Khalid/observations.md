@@ -13,7 +13,7 @@ I have focused my contributions to its curriculum and web application codebase w
 | 2 | Pending follow-up | [fix(client): Fix Backend code source submission](https://github.com/freeCodeCamp/freeCodeCamp/pull/58832) |
 | 3 | Pending follow-up | [feat(client): Persist editor open tabs](https://github.com/freeCodeCamp/freeCodeCamp/pull/59103) |
 | 4 | Pending initial review | [feat(client): Editor file visual indication](https://github.com/freeCodeCamp/freeCodeCamp/pull/59186) |
-| 5 | Pending initial review | [fix(curriculum): Improve instruction clarity](https://github.com/freeCodeCamp/freeCodeCamp/pull/59353) |
+| 5 | Merged | [fix(curriculum): Improve instruction clarity](https://github.com/freeCodeCamp/freeCodeCamp/pull/59353) |
 
 1. Update instruction verbiage
    * A good first issue for me, requiring no implementation logic but a lot of effort understanding and finding the part of the large code base to change
