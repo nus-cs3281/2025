@@ -22,6 +22,7 @@
 | 8 | Reviewed PR: [Release for CATcher v3.6.0](https://github.com/CATcher-org/CATcher/pull/1339) |
 | 9 | Reviewed PR: [Upgrade Octokit authentication to fix deprecation warnings](https://github.com/CATcher-org/CATcher/pull/1344) |
 | 9 | Reviewed PR: [Downgrade Devcontainer to Debian Bullseye and Preinstall Playwright Dependencies](https://github.com/CATcher-org/CATcher/pull/1347) |
+| 10 | Reviewed PR: [Fix bug related to assignees dropdown showing old values](https://github.com/CATcher-org/CATcher/pull/1349) |
 
 
 ### WATcher
