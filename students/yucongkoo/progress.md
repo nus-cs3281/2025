@@ -24,3 +24,10 @@
 | 7    | Merged PR: [Update karma config #1336](https://github.com/CATcher-org/CATcher/pull/1336)                                                                                                                                                      |
 |7| Created Issue: [Deselect all selections for filters #423](https://github.com/CATcher-org/WATcher/issues/423)|
 |7| Merged PR: [Add side border to draft PR cards #426](https://github.com/CATcher-org/WATcher/pull/426)|
+|7| Participated in branching workflows discussion: [Use feature-branches instead of merging to main #427](https://github.com/CATcher-org/WATcher/issues/427#issuecomment-2705558358)|
+|8|Created Issue to standardize deployment workflow in CATcher and WATcher: [Update deployment workflow to allow manual deployments from tag #429](https://github.com/CATcher-org/WATcher/issues/429)|
+|8|Merged PR: [Upgrade Octokit authentication to fix deprecation warnings #1344](https://github.com/CATcher-org/CATcher/pull/1344)|
+|9| Deployed WATcher [V1.3.0](https://github.com/CATcher-org/WATcher/releases/tag/V1.3.0)|
+|9| Created Issue: [Update DG to include a common error faced during local set up #18](https://github.com/CATcher-org/WATcher-docs/issues/18)|
+|9| Merged PR: [Update docs to include workaround to common errors #22](https://github.com/CATcher-org/WATcher-docs/pull/22)|
+|9| Contributed to discussion of possible WATcher enhancements:<br> - [Give a more detailed tool tip for 'keep filter' button #440](https://github.com/CATcher-org/WATcher/issues/440#issuecomment-2738997268)<br>- [Visually differentiate issues and PRs more #441](https://github.com/CATcher-org/WATcher/issues/441#issuecomment-2739008201)<br>- [Show matching issues and PRs together #444](https://github.com/CATcher-org/WATcher/issues/444#issuecomment-2739088533)|

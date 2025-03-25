@@ -17,3 +17,5 @@
 | 8    | Merged PR: [[#12048] Migrate Tests for SearchInstructorsActionTest #13259](https://github.com/TEAMMATES/teammates/pull/13259)                          |
 | 8    | Merged PR: [[#12048] Migrate Tests for RegenerateStudentKeyActionTest #13258](https://github.com/TEAMMATES/teammates/pull/13258)                       |
 | 8    | Merged PR: [[#12048] Migrate Tests for RegenerateInstructorKeyActionTest #13226](https://github.com/TEAMMATES/teammates/pull/13226)                    |
+| 9    | Submitted Issue: [Incorrect time range for closing soon emails #13275](https://github.com/TEAMMATES/teammates/issues/13275)                            |
+| 9    | Reviewed PR: [[#12048] Migrate tests for GetStudentsActionTest #13243](https://github.com/TEAMMATES/teammates/pull/13243)                              |
