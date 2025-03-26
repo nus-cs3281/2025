@@ -478,9 +478,12 @@
     {
       "src": "students/domoberzin/observations.md",
       "headings": {
-        "project-foo": "Project: Foo",
-        "my-contributions": "My Contributions",
-        "my-learning-record": "My Learning Record"
+        "assimp": "Assimp",
+        "my-contributions": "My contributions",
+        "my-learning-record": "My Learning Record",
+        "tldr": "TLDR",
+        "my-contributions-2": "My Contributions",
+        "my-learning-record-2": "My Learning Record"
       },
       "headingKeywords": {}
     },
@@ -853,18 +856,21 @@
         "my-learning-record-7": "My Learning Record",
         "teammates": "TEAMMATES",
         "dominic-berzin-chua-way-gin": "DOMINIC BERZIN CHUA WAY GIN",
-        "project-foo-5": "Project: Foo",
-        "my-contributions-8": "My Contributions",
+        "assimp": "Assimp",
+        "my-contributions-8": "My contributions",
         "my-learning-record-8": "My Learning Record",
+        "tldr": "TLDR",
+        "my-contributions-9": "My Contributions",
+        "my-learning-record-9": "My Learning Record",
         "qiu-jiasheng-jason": "Qiu Jiasheng, Jason",
         "react-dev": "react.dev",
         "links": "Links",
         "contributions": "Contributions",
         "lessons-learned": "Lessons Learned",
         "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
-        "project-foo-6": "Project: Foo",
-        "my-contributions-9": "My Contributions",
-        "my-learning-record-9": "My Learning Record"
+        "project-foo-5": "Project: Foo",
+        "my-contributions-10": "My Contributions",
+        "my-learning-record-10": "My Learning Record"
       },
       "headingKeywords": {}
     },
