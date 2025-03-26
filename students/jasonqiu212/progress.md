@@ -96,8 +96,14 @@
 | 9    | Reviewed PR: [[#12048] Migrate tests for GetAccountRequestActionTest #13270](https://github.com/TEAMMATES/teammates/pull/13270)                       |
 | 9    | Reviewed PR: [[#12048] Migrate tests for CreateAccountRequestActionTest #13253](https://github.com/TEAMMATES/teammates/pull/13253)                    |
 | 9    | Reviewed PR: [[#12048] Migrate tests for UpdateFeedbackResponseCommentActionTest #13251](https://github.com/TEAMMATES/teammates/pull/13251)           |
-| 9    | Raised PR: [[#12048] Migrate tests for SendLoginEmailActionTest #13276](https://github.com/TEAMMATES/teammates/pull/13276)                            |
-| 9    | Raised PR: [[#12048] Migrate tests for SendErrorReportActionTest #13280](https://github.com/TEAMMATES/teammates/pull/13280)                           |
+| 9    | Merged PR: [[#12048] Migrate tests for SendLoginEmailActionTest #13276](https://github.com/TEAMMATES/teammates/pull/13276)                            |
+| 9    | Merged PR: [[#12048] Migrate tests for SendErrorReportActionTest #13280](https://github.com/TEAMMATES/teammates/pull/13280)                           |
+| 9    | Reviewed PR: [[#12048] Migrate tests for GetDeadlineExtensionActionTest #13266](https://github.com/TEAMMATES/teammates/pull/13266)                    |
+| 9    | Reviewed PR: [[#12048] Migrate tests for GetSessionResponseStatsActionTest #13277](https://github.com/TEAMMATES/teammates/pull/13277)                 |
+| 9    | Reviewed PR: [[#12048] Migrate tests for ResetAccountActionTest #13279](https://github.com/TEAMMATES/teammates/pull/13279)                            |
+| 9    | Reviewed PR: [[#12048] Migrate tests for GetInstructorsActionTest #13267](https://github.com/TEAMMATES/teammates/pull/13267)                          |
+| 9    | Reviewed PR: [[#12048] Migrate tests for GetRegkeyValidityActionTest #13278](https://github.com/TEAMMATES/teammates/pull/13278)                       |
+| 10   | Reviewed PR: [[#12547] Empty weights for MCQ #13282](https://github.com/TEAMMATES/teammates/pull/13282)                                               |
 
 ## External Project Work
 
