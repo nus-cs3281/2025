@@ -532,9 +532,10 @@
     {
       "src": "students/jasonqiu212/observations.md",
       "headings": {
-        "project-foo": "Project: Foo",
-        "my-contributions": "My Contributions",
-        "my-learning-record": "My Learning Record"
+        "react-dev": "react.dev",
+        "links": "Links",
+        "contributions": "Contributions",
+        "lessons-learned": "Lessons Learned"
       },
       "headingKeywords": {}
     },
@@ -856,13 +857,14 @@
         "my-contributions-8": "My Contributions",
         "my-learning-record-8": "My Learning Record",
         "qiu-jiasheng-jason": "Qiu Jiasheng, Jason",
+        "react-dev": "react.dev",
+        "links": "Links",
+        "contributions": "Contributions",
+        "lessons-learned": "Lessons Learned",
+        "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
         "project-foo-6": "Project: Foo",
         "my-contributions-9": "My Contributions",
-        "my-learning-record-9": "My Learning Record",
-        "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
-        "project-foo-7": "Project: Foo",
-        "my-contributions-10": "My Contributions",
-        "my-learning-record-10": "My Learning Record"
+        "my-learning-record-9": "My Learning Record"
       },
       "headingKeywords": {}
     },
