@@ -816,9 +816,10 @@
     {
       "src": "students/nknguyenhc/observations.md",
       "headings": {
-        "project-foo": "Project: Foo",
+        "project-vscode": "Project: VSCode",
         "my-contributions": "My Contributions",
-        "my-learning-record": "My Learning Record"
+        "my-learning-record": "My Learning Record",
+        "other-observations": "Other Observations"
       },
       "headingKeywords": {}
     },
@@ -842,9 +843,10 @@
         "my-contributions-2": "My Contributions",
         "my-learning-record-2": "My Learning Record",
         "nguyen-khoi-nguyen": "NGUYEN KHOI NGUYEN",
-        "project-foo-2": "Project: Foo",
+        "project-vscode": "Project: VSCode",
         "my-contributions-3": "My Contributions",
         "my-learning-record-3": "My Learning Record",
+        "other-observations": "Other Observations",
         "markbind": "MarkBind",
         "lee-hyung-woon": "Lee Hyung Woon",
         "project-source-academy": "Project: Source Academy",
@@ -852,7 +854,7 @@
         "my-learning-record-4": "My Learning Record",
         "reposense": "RepoSense",
         "chang-si-kai": "Chang Si Kai",
-        "project-foo-3": "Project: Foo",
+        "project-foo-2": "Project: Foo",
         "my-contributions-5": "My Contributions",
         "my-learning-record-5": "My Learning Record",
         "jonas-ong-si-wei": "JONAS ONG SI WEI",
@@ -881,7 +883,7 @@
         "lessons-learned": "Lessons Learned",
         "comparison-with-teammates": "Comparison with TEAMMATES",
         "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
-        "project-foo-4": "Project: Foo",
+        "project-foo-3": "Project: Foo",
         "my-contributions-11": "My Contributions",
         "my-learning-record-11": "My Learning Record"
       },
