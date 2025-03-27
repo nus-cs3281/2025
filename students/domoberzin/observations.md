@@ -4,7 +4,7 @@ Assimp stands for Asset Importer Library, which handles geometric scenes from va
 
 ### My contributions
 
-Through my FYP, which uses an AI Agent to automatically remediate security vulnerabilities, a PR for a vulnerability detected by OSS-Fuzz was [merged in][](https://github.com/assimp/assimp/pull/6055), the pre-print is in the PR description.
+Through my FYP, which uses an AI Agent to automatically remediate security vulnerabilities, a PR for a vulnerability detected by OSS-Fuzz was [merged in](https://github.com/assimp/assimp/pull/6055), the pre-print is in the PR description.
 
 ### My Learning Record
 - OSS-Fuzz is a large-scale infrastructure for fuzzing open-source projects. They also automatically publicly disclose discovered bugs beyond a certain grace period, for e.g. this was the [original issue](https://issues.oss-fuzz.com/issues/372765427)
