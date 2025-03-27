@@ -543,7 +543,8 @@
         "react-dev": "react.dev",
         "links": "Links",
         "contributions": "Contributions",
-        "lessons-learned": "Lessons Learned"
+        "lessons-learned": "Lessons Learned",
+        "comparison-with-teammates": "Comparison with TEAMMATES"
       },
       "headingKeywords": {}
     },
@@ -878,6 +879,7 @@
         "links": "Links",
         "contributions": "Contributions",
         "lessons-learned": "Lessons Learned",
+        "comparison-with-teammates": "Comparison with TEAMMATES",
         "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
         "project-foo-4": "Project: Foo",
         "my-contributions-11": "My Contributions",
