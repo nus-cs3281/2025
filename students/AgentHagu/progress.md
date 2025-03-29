@@ -36,3 +36,4 @@
 | 9 | Created Issue: [Discussion: CodeCov bot failing to report status for PRs #2658](https://github.com/MarkBind/markbind/issues/2658) |
 | 9 | Authored PR: [Update Dev Guide on PR review and Codecov #2659](https://github.com/MarkBind/markbind/pull/2659) |
 | 10 | Reviewed PR: [Add card stack component #2648](https://github.com/MarkBind/markbind/pull/2648) |
+| 10 | Merged PR: [Update Developer Guide on Codecov for PR Review #2659](https://github.com/MarkBind/markbind/pull/2659) |
