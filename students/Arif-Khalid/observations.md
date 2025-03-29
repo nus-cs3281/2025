@@ -10,7 +10,7 @@ I have focused my contributions to its curriculum and web application codebase w
 | ID | Status | Description |
 | -- | ------ | ----------- |
 | 1 | Merged | [fix(curriculum): Update Instruction Verbiage](https://github.com/freeCodeCamp/freeCodeCamp/pull/59101) |
-| 2 | Pending follow-up | [fix(client): Fix Backend code source submission](https://github.com/freeCodeCamp/freeCodeCamp/pull/58832) |
+| 2 | Merged | [fix(client): Fix Backend code source submission](https://github.com/freeCodeCamp/freeCodeCamp/pull/58832) |
 | 3 | Pending follow-up | [feat(client): Persist editor open tabs](https://github.com/freeCodeCamp/freeCodeCamp/pull/59103) |
 | 4 | Pending initial review | [feat(client): Editor file visual indication](https://github.com/freeCodeCamp/freeCodeCamp/pull/59186) |
 | 5 | Merged | [fix(curriculum): Improve instruction clarity](https://github.com/freeCodeCamp/freeCodeCamp/pull/59353) |
