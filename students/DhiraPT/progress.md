@@ -17,3 +17,12 @@
 | 8    | Merged PR: [[#12048] Migrate Tests for SearchInstructorsActionTest #13259](https://github.com/TEAMMATES/teammates/pull/13259)                          |
 | 8    | Merged PR: [[#12048] Migrate Tests for RegenerateStudentKeyActionTest #13258](https://github.com/TEAMMATES/teammates/pull/13258)                       |
 | 8    | Merged PR: [[#12048] Migrate Tests for RegenerateInstructorKeyActionTest #13226](https://github.com/TEAMMATES/teammates/pull/13226)                    |
+| 9    | Submitted Issue: [Potential incorrect sending of closing soon email #13275](https://github.com/TEAMMATES/teammates/issues/13275)                       |
+| 9    | Reviewed PR: [[#12048] Migrate tests for GetStudentsActionTest #13243](https://github.com/TEAMMATES/teammates/pull/13243)                              |
+| 10   | Merged PR: [[#12048] Migrate Tests for SearchStudentsActionTest #13269](https://github.com/TEAMMATES/teammates/pull/13269)                             |
+| 10   | Merged PR: [[#12048] Migrate Tests for FeedbackSessionClosingSoonRemindersActionTest #13211](https://github.com/TEAMMATES/teammates/pull/13211)        |
+| 10   | Merged PR: [[#12048] Migrate Tests for FeedbackSessionOpenedRemindersActionTest #13215](https://github.com/TEAMMATES/teammates/pull/13215)             |
+| 10   | Merged PR: [[#12048] Migrate Tests for FeedbackSessionOpeningSoonRemindersActionTest #13221](https://github.com/TEAMMATES/teammates/pull/13221)        |
+| 10   | Submitted Issue: [PostgreSQL port conflict when running dev server #13291](https://github.com/TEAMMATES/teammates/issues/13291)                        |
+| 10   | Submitted Issue: [Cookie stored on failed login attempt #13292](https://github.com/TEAMMATES/teammates/issues/13292)                                   |
+| 10   | Merged PR: [[#13275] Fix potential incorrect sending of closing soon email #13293](https://github.com/TEAMMATES/teammates/pull/13293)                  |
