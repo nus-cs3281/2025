@@ -110,6 +110,21 @@
 | 10   | Reviewed PR: [[#12048] Migrate Tests for FeedbackSessionOpenedRemindersActionTest #13215](https://github.com/TEAMMATES/teammates/pull/13215)          |
 | 10   | Reviewed PR: [[#12048] Migrate Tests for FeedbackSessionOpeningSoonRemindersActionTest #13221](https://github.com/TEAMMATES/teammates/pull/13221)     |
 | 10   | Reviewed PR: [[#12048] Migrate tests for ActionFactoryTest #13283](https://github.com/TEAMMATES/teammates/pull/13283)                                 |
+| 10   | Reviewed PR: [[#13287] Fix GetHasResponsesAction #13288](https://github.com/TEAMMATES/teammates/pull/13288)                                           |
+| 10   | Reviewed PR: [[#12048] Migrate tests for InstructorSearchIndexingWorkerActionTest #13286](https://github.com/TEAMMATES/teammates/pull/13286)          |
+| 10   | Reviewed PR: [[#12048] Migrate tests for BinFeedbackSessionActionTest #13284](https://github.com/TEAMMATES/teammates/pull/13284)                      |
+| 10   | Reviewed PR: [[#12048] Migrate tests for GetHasResponsesActionTest #13289](https://github.com/TEAMMATES/teammates/pull/13289)                         |
+| 10   | Reviewed PR: [[#12048] Migrate tests for GetFeedbackSessionSubmittedGiverSetActionTest #13294](https://github.com/TEAMMATES/teammates/pull/13294)     |
+| 10   | Reviewed PR: [[#12048] Migrate tests for GetActionClassesActionTest #13285](https://github.com/TEAMMATES/teammates/pull/13285)                        |
+| 10   | Reviewed PR: [[#12048] Migrate tests for GetFeedbackResponsesActionTest #13268](https://github.com/TEAMMATES/teammates/pull/13268)                    |
+| 10   | Reviewed PR: [[#12048] Migrate tests for GetStudentsActionTest #13243](https://github.com/TEAMMATES/teammates/pull/13243)                             |
+| 10   | Raised PR: [[#12048] Migrate tests for RestoreFeedbackSessionActionTest #13300](https://github.com/TEAMMATES/teammates/pull/13300)                    |
+| 10   | Reviewed PR: [[#12048] Migrate tests for SessionLinksRecoveryAction #13281](https://github.com/TEAMMATES/teammates/pull/13281)                        |
+| 10   | Reviewed PR: [[#12048] Migrate Student Search Indexing Worker Action Test #13295](https://github.com/TEAMMATES/teammates/pull/13295)                  |
+| 10   | Reviewed PR: [[#12048] Migrate GetCourseJoinStatusActionTest #13299](https://github.com/TEAMMATES/teammates/pull/13299)                               |
+| 10   | Closed issue: [Migration of ArchiveCourseAction #13290](https://github.com/TEAMMATES/teammates/issues/13290)                                          |
+| 11   | Reviewed PR: [[#12048] Migrate GetFeedbackQuestionRecipientsActionTest #13301](https://github.com/TEAMMATES/teammates/pull/13301)                     |
+| 11   | Reviewed PR: [[#12048] Migrate GetFeedbackResponseCommentActionTest #13302](https://github.com/TEAMMATES/teammates/pull/13302)                        |
 
 ## External Project Work
 
