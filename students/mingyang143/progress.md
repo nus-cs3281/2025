@@ -34,3 +34,9 @@
 | 10   | Reviewed PR: [[#12048] Migrate GetCourseJoinStatusActionTest #13299](https://github.com/TEAMMATES/teammates/pull/13299)                           |
 | 10   | Reviewed PR: [[#12048] Migrate tests for GetHasResponsesActionTest #13289](https://github.com/TEAMMATES/teammates/pull/13289)                     |
 | 10   | Reviewed PR: [[#12048] Migrate tests for GetActionClassesActionTest #13285](https://github.com/TEAMMATES/teammates/pull/13285)                    |
+| 10   | Merged PR: [[#12048] Migrate tests for GetFeedbackResponsesActionTest #13268](https://github.com/TEAMMATES/teammates/pull/13268)                  |
+| 10   | Merged PR: [[#12048] Migrate tests for GetStudentsActionTest #13243](https://github.com/TEAMMATES/teammates/pull/13243)                           |
+| 11   | Merged PR: [[#12048] Migrate tests for ResetAccountActionTest #13279](https://github.com/TEAMMATES/teammates/pull/13279)                          |
+| 11   | Merged PR: [[#12048] Migrate tests for GetRegkeyValidityActionTest #13278](https://github.com/TEAMMATES/teammates/pull/13278)                     |
+| 12   | Merged PR: [[#12048] Migrate tests for GetSessionResponseStatsActionTest #13277](https://github.com/TEAMMATES/teammates/pull/13277)               |
+
