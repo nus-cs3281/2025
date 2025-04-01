@@ -25,5 +25,6 @@
 | 10   | Merged PR: [[#12048] Migrate Tests for FeedbackSessionOpeningSoonRemindersActionTest #13221](https://github.com/TEAMMATES/teammates/pull/13221)                      |
 | 10   | Submitted Issue: [PostgreSQL port conflict when running dev server #13291](https://github.com/TEAMMATES/teammates/issues/13291)                                      |
 | 10   | Submitted Issue: [Same Google account silently auto-selected when logging in after failed login attempt #13292](https://github.com/TEAMMATES/teammates/issues/13292) |
+| 11   | Responded to contributor queries: [#13291](https://github.com/TEAMMATES/teammates/issues/13291#issuecomment-2769908793)                                              |
 | 11   | Merged PR: [[#13275] Fix potential incorrect sending of closing soon email #13293](https://github.com/TEAMMATES/teammates/pull/13293)                                |
 | 11   | Merged PR: [[#12048] Migrate Tests for UpdateStudentActionTest #13303](https://github.com/TEAMMATES/teammates/pull/13303)                                            |
