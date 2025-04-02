@@ -74,5 +74,4 @@ footer:
 {% set tm = projects[3] %}
 {% set sorted_projects = [projects[3], projects[0], projects[1], projects[2]] %}
 {{ print_feedback_table('C1', "100") }}
-{{ print_feedback_table('C2', "100") }}
 
