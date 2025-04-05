@@ -34,3 +34,9 @@
 | 8    | Merged PR: [[#12048] Migrate tests for QueryLogsActionTest #13234](https://github.com/TEAMMATES/teammates/pull/13234) |
 | 8    | Merged PR: [[#12048] Migrate tests for CreateFeedbackSessionLogActionTest #13239](https://github.com/TEAMMATES/teammates/pull/13239) |
 | 8    | Opened PR: [[#12048] Migrate tests for GetDeadlineExtensionActionTest #13266](https://github.com/TEAMMATES/teammates/pull/13266) |
+| 9    | Reviewed PR: [[#12048] Migrate Tests for SearchStudentsActionTest #13269](https://github.com/TEAMMATES/teammates/pull/13269) |
+| 9    | Reviewed PR: [[#12048] Migrate tests for SendErrorReportActionTest #13280](https://github.com/TEAMMATES/teammates/pull/13280) |
+| 9    | Merged PR: [[#12048] Migrate tests for GetDeadlineExtensionActionTest #13266](https://github.com/TEAMMATES/teammates/pull/13266) |
+| 9    | Opened PR: [[#12048] Migrate tests for JsonResultTest #13274](https://github.com/TEAMMATES/teammates/pull/13274) |
+| 9    | Merged PR: [[#12048] Migrate tests for JsonResultTest #13274](https://github.com/TEAMMATES/teammates/pull/13274) |
+| 11   | Submitted Issue: [Refactoring for Unit Test Access Controls #13304](https://github.com/TEAMMATES/teammates/pull/13304) |
