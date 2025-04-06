@@ -33,3 +33,9 @@
 | 9 | Authored PR: [Update Dev Guide on PR review and Codecov #2659](https://github.com/MarkBind/markbind/pull/2659) |
 | 10 | Reviewed PR: [Add card stack component #2648](https://github.com/MarkBind/markbind/pull/2648) |
 | 10 | Merged PR: [Update Developer Guide on Codecov for PR Review #2659](https://github.com/MarkBind/markbind/pull/2659) |
+| 11 | Created Issue: [KaTeX fonts not loading properly #2672](https://github.com/MarkBind/markbind/issues/2672) |
+| 11 | Created Issue: [UncaughtException when using build or deploy in non-MarkBind directories #2673](https://github.com/MarkBind/markbind/issues/2673) |
+| 11 | Authored PR: [Catch UncaughtException for build and deploy #2674](https://github.com/MarkBind/markbind/pull/2674) |
+| 11 | Merged PR: [Catch UncaughtException for build and deploy #2674](https://github.com/MarkBind/markbind/pull/2674) |
+| 11 | Authored PR: [Migrate CodeCov from v3 to v5 #2675](https://github.com/MarkBind/markbind/pull/2675) |
+| 11 | Merged PR: [Migrate CodeCov from v3 to v5 #2675](https://github.com/MarkBind/markbind/pull/2675) |
