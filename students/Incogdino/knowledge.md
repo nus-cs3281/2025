@@ -1,5 +1,4 @@
-### FrontEnd
-#### CSS
+## CSS
 CSS (Cascading Style Sheets) is a stylesheet language used to control the presentation of HTML documents.
 
 `word-break` property: The word break property provides opportunities for soft wrapping. 
@@ -7,6 +6,8 @@ CSS (Cascading Style Sheets) is a stylesheet language used to control the presen
 - Significance comes from deciding how to break up a word either by character or word. 
 - For instance, in some languages like Ethopic, it has two styles of line breaking, namely by word seperators or between letters within a word. 
 - Markbind is mainly catered to English content and thus specifies line breaks at spaces.
+
+
 
 ### Vue
 
@@ -76,14 +77,12 @@ According to my current understanding:
 - The generated HTML is then compared with the snapshot that is generated. 
 
 ### DevOps
-Markbind utilises several workflow files: 
-1. `pr-message-reminder.yml` - Extracts out the PR description and checks if a proposed commit message is included.
-2. TODO
-
 [Github Actions](https://docs.github.com/en/actions/writing-workflows) is used when writing workflows. 
 - Workflows are defined using YAML
-- They are trigered by events that is used to automate checks 
+- They are trigered by events that is used to automate checks. Some events include pushes, pull requests, issues, and more.
 - Workflows can make use of GitHub Actions context variables to gain information about the workflow runs, variables, runner environements, jobs and steps.
+
+**Context Variables:**
 
 `github` context is freuqently used for retrieving useful information of the current workflow run. Some examples used(but not limited to) include :
 - `github.actor` is used to detect the username of the user that triggered the workflow event. It can also be used to detect bots who trigger the events. 
@@ -103,3 +102,35 @@ Markbind allows users to specify the address of localhosts in the IPV4 format. I
 
 ### Bots
 Markbind uses the [all-contributor](https://allcontributors.org/) bot to add contributors to automate the process of adding contributors to the project 
+
+## CORS (Cross-Origin Resource Sharing)
+Cross origin resource sharing (CORS) is a mechanism that allows a web client to requests for resources over the internet. This can be things like third party APIs, videos, fonts, etc.
+
+<box type="info"> 
+
+`Cross-origin`: A resource URL that is not the same as the URL of the visited browser.
+</box>
+
+### Importance of CORS 
+The issue of cross site forgery issues: malicious attackers can trick users to execute unwanted actions on a web application while being autenthicated. For instance, if a user is logged into a banking application, the attacker can trick the user into loading an external website on a new tab. Then, using the cookie credentials of the user, the attacker can impersonate the user and access banking information of the user.
+
+One solution built around this issue is the [same origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy). This policy specifies that clients can only request for a resource with the same origin as the client's url.That is, the protocol, port and hostname of the client's URL should match with that of the server. Any cross origin requests are not allowed by the browser. This means that any website you visit on the browser cannot access any other resource such as your email invox or online banking application as they belong to a seperate origin.
+
+Same origin policy is like a ninja working in the shadows, preventing malicious users from trying to attack you. However, such tight restrictions means browsers are not able to access data across different origins. This may be necessary for applications that rely on external services such as calling third party APIs.  This is where CORS come into place - it extends SOP by relaxing SOP in a controlled mannner.
+
+### The workings of CORS
+CORS is primarily used when there is a need for a browser to pull or share data from an external resource. The request-resposne process is as follows (assume HTTP):
+1. Browser wants to access a cross origin resource, browsers adds origin header, protocol, host and port number to the HTTP request.
+2. Server receives the request, checks the origin header and responds with the requested resource alongside a `Access-Control-Allow-Origin` header.
+3. Browser receives the access control request header and returns the requested resource with the client application only if the `Access-Control-Allow-Origin` header matches the `Origin` value of the request header
+
+If a mismatch happens in step 3, then we get a CORS Missing Allow Origin error. 
+
+### CORS Preflight Request
+Preflight requests are usually used for more complex and riskier requests. It is used to ensure that the server knwows what complex methods and headers to expect. They are also automatically issued by the browser.
+
+CORS specification defines a [complex request](https://web.dev/articles/cross-origin-resource-sharing#preflight-requests) as follows:
+1. A request that uses methods other than GET, POST, or HEAD.
+2. A request that includes headers other than Accept, Accept-Language or Content-Language.
+3. A request that has a Content-Type header other than application/x-www-form-urlencoded, multipart/form-data, or text/plain.
+
