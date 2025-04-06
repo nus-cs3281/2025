@@ -369,6 +369,7 @@
       "src": "students/Incogdino/knowledge.md",
       "headings": {
         "css": "CSS",
+        "differences-in-render-environment": "Differences in render environment",
         "vue": "Vue",
         "devops": "DevOps",
         "bots": "Bots",
@@ -690,6 +691,7 @@
         "2-rendering-of-font-awesome-icons-using-css": "2. Rendering of font awesome icons using CSS",
         "javier-tan-meng-wee": "JAVIER TAN MENG WEE",
         "css": "CSS",
+        "differences-in-render-environment": "Differences in render environment",
         "vue-3": "Vue",
         "devops": "DevOps",
         "bots": "Bots",
