@@ -7,7 +7,10 @@ CSS (Cascading Style Sheets) is a stylesheet language used to control the presen
 - For instance, in some languages like Ethopic, it has two styles of line breaking, namely by word seperators or between letters within a word. 
 - Markbind is mainly catered to English content and thus specifies line breaks at spaces.
 
+### Differences in render environment
+Safari, Chrome and Firefox are commonly used web browsers. They all adhere to web standards, however they face differences in terms of how they handle the rendering of a web application. 
 
+The different rendering engine that each browser is built on can cause different rendering outcomes for different functions. Browsers can intepret the different CSS styles differently 
 
 ### Vue
 
