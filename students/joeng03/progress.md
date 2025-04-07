@@ -50,6 +50,8 @@
 | 12   | Merged PR: [[#2366] Support datetime for since and until CLI config](https://github.com/reposense/RepoSense/pull/2369)                             |
 | 12   | Reviewed PR: [[#2311] Add blurbs for Authors](https://github.com/reposense/RepoSense/pull/2339)                                                    |
 | 12   | Reviewed PR: [[#2308][#2311] Add author blurbs and repo blurbs to the frontend](https://github.com/reposense/RepoSense/pull/2319)                  |
+| 13   | Created Issue: [Support filtering commits by datetime](https://github.com/reposense/RepoSense/issues/2390)                                         |
 | 13   | Created PR: [[#2366] Support datetime since until](https://github.com/reposense/RepoSense/pull/2388)                                               |
 | 13   | Reviewed PR: [Revert "[#2366] Support datetime for since and until CLI config"](https://github.com/reposense/RepoSense/pull/2378)                  |
 | 13   | Reviewed PR: [Update about.md](https://github.com/reposense/RepoSense/pull/2377)                                                                   |
+| 13   | Merged PR: [[#2366] Support datetime since until](https://github.com/reposense/RepoSense/pull/2388)                                                |
