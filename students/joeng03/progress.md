@@ -28,3 +28,22 @@
 | 8    | Created PR: [[#2210] Add custom sort order for groups](https://github.com/reposense/RepoSense/pull/2331)                                           |
 | 9    | Created Issue: [Frontend Sort Function Enhancement](https://github.com/reposense/RepoSense/issues/2332)                                            |
 | 9    | Created Issue: [Add Renovate, an automated dependency update tool](https://github.com/reposense/RepoSense/issues/2333)                             |
+| 9    | Merged PR: [[#2327] Upgrade Vite version to 6.2.2](https://github.com/reposense/RepoSense/pull/2327)                                               |
+| 10   | Created Issue: [Renovate Automerge](https://github.com/reposense/RepoSense/issues/2367)                                                            |
+| 10   | Created Issue: [Use Text Input for Since and Until date only if Safari version < 14.1](https://github.com/reposense/RepoSense/issues/2368)         |
+| 10   | Created Issue: [Rename Gradle task frontendTest to testFrontend](https://github.com/reposense/RepoSense/issues/2371)                               |
+| 10   | Created Issue: [Add linter support for .css files](https://github.com/reposense/RepoSense/issues/2344)                                             |
+| 10   | Created PR: [[#2097] Add eslint-plugin-vue-pug](https://github.com/reposense/RepoSense/pull/2341)                                                  |
+| 10   | Created PR: [[#2033] Add TS Doc integration](https://github.com/reposense/RepoSense/pull/2342)                                                     |
+| 10   | Merged PR: [[#2333] Add Renovate](https://github.com/reposense/RepoSense/pull/2335)                                                                |
+| 11   | Created Issue: [Support datetime for since and until repo-config.csv](https://github.com/reposense/RepoSense/issues/2373)                          |
+| 11   | Created Issue: [Explore adding Copilot for automated code reviews](https://github.com/reposense/RepoSense/issues/2372)                             |
+| 11   | Merged PR: [[#2326] Optimize Vite Chunk Size](https://github.com/reposense/RepoSense/pull/2325)                                                    |
+| 11   | Merged PR: [[#2200] Refactor c-title to use c-markdown-chunk](https://github.com/reposense/RepoSense/pull/2329)                                    |
+| 11   | Merged PR: [[#2332] Frontend Sort Function Bugfix and Enhancement](https://github.com/reposense/RepoSense/pull/2337)                               |
+| 12   | Created Issue: [Resolve Ambiguity for ties in Sort by Groups](https://github.com/reposense/RepoSense/issues/2376)                                  |
+| 12   | Created Issue: [Support blank space as date and time separator in CLI input](https://github.com/reposense/RepoSense/issues/2375)                   |
+| 12   | Discussed Issue: [Support time specification for since/until ](https://github.com/reposense/RepoSense/issues/2366)                                 |
+| 12   | Merged PR: [[#2100] Add RepoSense attribution to widget](https://github.com/reposense/RepoSense/pull/2343)                                         |
+| 12   | Merged PR: [[#2366] Support datetime for since and until CLI config](https://github.com/reposense/RepoSense/pull/2369)                             |
+| 13   | Created PR: [[#2366] Support datetime since until](https://github.com/reposense/RepoSense/pull/2388)                                               |
