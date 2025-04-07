@@ -1,38 +1,3 @@
-### ESLint
-
-Learnt about how ESLint ensures a unified style of JS/TS code.
-Had the chance to go through the ESLint documentation for
-member-delimiter-style,
-https://eslint.style/rules/ts/member-delimiter-style,
-understand how it works, and make the modifications in the ESLint
-configurations and the codebase to ensure CI job for lintFrontend passes.
-
-### Vite
-
-Learnt about how Vite build identifies the base directory when
-serving static assets.
-
-### Vercel
-
-Learnt how to configure Vercel on a GitHub repository.
-
-### Immutability in Java
-
-Learnt about the various aspects to consider when designing
-and immutable class in Java, such as:
-
-- private and final variables
-- elimination of setter methods
-- returning copies for mutable variables
-- considerations for constructor design (method overloading vs Builder pattern)
-
-### Datetime in Java
-
-I learnt about how timezones are represented in Java LocalDatetime.
-I also learnt about the intricacies of timezone conversion, for example,
-for timezone 'Asia/Singapore', it is UTC+7.5 before 1982 and
-UTC+8 after 1982.
-
 ### Sorting
 
 Learnt about how sorting is done in more complex scenarios,
@@ -90,3 +55,46 @@ code reviewing, for example, using Copilot to do auto code reviews.
 I recognized the tradeoffs of these solutions, where they are very good
 at detecting smaller details that human reviewers might miss, but
 currently lack a good "sight" on the overall context of the changes.
+
+### Performance Benchmarking
+
+I learnt about performance benchmarking
+for changes related to performance, either in time (CPU)
+or space (RAM/disk). Multiple runs are neeeded and the average
+is computed. I also learnt about the tools needed to measure
+the consumption of various resources such as CPU time, RAM and disk.
+
+### ESLint
+
+Learnt about how ESLint ensures a unified style of JS/TS code.
+Had the chance to go through the ESLint documentation for
+member-delimiter-style,
+https://eslint.style/rules/ts/member-delimiter-style,
+understand how it works, and make the modifications in the ESLint
+configurations and the codebase to ensure CI job for lintFrontend passes.
+
+### Vite
+
+Learnt about how Vite build identifies the base directory when
+serving static assets. Learnt about how Vite manages its dependencies in chunks, and how chunk sizes should be minimized to optimize load perfomance. I also learnt more about how the package `highlight.js` supports code highlighting in multiple programming languages.
+
+### Vercel
+
+Learnt how to configure Vercel on a GitHub repository.
+
+### Immutability in Java
+
+Learnt about the various aspects to consider when designing
+and immutable class in Java, such as:
+
+- private and final variables
+- elimination of setter methods
+- returning copies for mutable variables
+- considerations for constructor design (method overloading vs Builder pattern)
+
+### Datetime in Java
+
+I learnt about how timezones are represented in Java LocalDatetime.
+I also learnt about the intricacies of timezone conversion, for example,
+for timezone 'Asia/Singapore', it is UTC+7.5 before 1982 and
+UTC+8 after 1982.
