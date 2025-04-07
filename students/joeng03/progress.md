@@ -16,7 +16,7 @@
 | 6    | Merged PR: [Remove extraneous folder](https://github.com/reposense/RepoSense/pull/2301)                                                            |
 | 6    | Reviewed PR: [[#1941] Remove test mode flag](https://github.com/reposense/RepoSense/pull/2314)                                                     |
 | 7    | Created PR: [docs: Remove Netlify for docs](https://github.com/reposense/RepoSense/pull/2321)                                                      |
-| 7    | Discussed Issue: [Find a Replacement for Surge.sh](https://github.com/reposense/RepoSense/issues/2276)                                             |
+| 7    | Investigated and Discussed Issue: [Find a Replacement for Surge.sh](https://github.com/reposense/RepoSense/issues/2276)                            |
 | 7    | Reviewed PR: [[#2205] Move title.md to config directory](https://github.com/reposense/RepoSense/pull/2315)                                         |
 | 7    | Reviewed PR and did performance benchmarking: [[#2201] Change Frontend Package Manager to pnpm] (https://github.com/reposense/RepoSense/pull/2313) |
 | 8    | Created Issue: [Vite Chunk Size Exceeds 500kB after Minification](https://github.com/reposense/RepoSense/issues/2326)                              |
