@@ -1,7 +1,7 @@
 ### Sorting
 
 Learnt about how sorting is done in more complex scenarios,
-for example when entities are groups using different attributes,
+for example when entities are grouped using different attributes,
 and when there are ties in the values to sort. Had the opportunity
 to further improve sorting efficiency for descending sorts by
 avoiding recomputations.
