@@ -585,7 +585,13 @@
         "eslint": "ESLint",
         "vite": "Vite",
         "vercel": "Vercel",
-        "immutability-in-java": "Immutability in Java"
+        "immutability-in-java": "Immutability in Java",
+        "datetime-in-java": "Datetime in Java",
+        "sorting": "Sorting",
+        "unit-tests": "Unit Tests",
+        "developer-productivity": "Developer Productivity",
+        "regression": "Regression",
+        "code-review": "Code Review"
       },
       "headingKeywords": {}
     },
@@ -728,6 +734,12 @@
         "vite": "Vite",
         "vercel": "Vercel",
         "immutability-in-java": "Immutability in Java",
+        "datetime-in-java": "Datetime in Java",
+        "sorting": "Sorting",
+        "unit-tests": "Unit Tests",
+        "developer-productivity": "Developer Productivity",
+        "regression": "Regression",
+        "code-review": "Code Review",
         "wong-li-yuan": "WONG LI YUAN",
         "the-distinctions-between-git-and-github-in-reposense": "The distinctions between Git and GitHub in RepoSense",
         "normalize-css": "Normalize.css",
