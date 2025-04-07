@@ -650,6 +650,7 @@
         "catcher-2": "CATcher",
         "github-workflows-actions": "Github Workflows/Actions",
         "github-apis": "Github APIs",
+        "project-management": "Project management",
         "loh-ze-qing-norbert": "LOH ZE QING, NORBERT",
         "ngx-markdown": "ngx-markdown",
         "marked": "Marked",
@@ -680,7 +681,7 @@
         "markbind-2": "MarkBind",
         "markbind-highlighter-component": "MarkBind Highlighter Component",
         "markbind-cli-commands": "MarkBind CLI commands",
-        "project-management": "Project Management",
+        "project-management-2": "Project Management",
         "chan-ger-teck": "CHAN GER TECK",
         "internal-tools-technology": "Internal Tools/Technology",
         "how-markbind-works-overview-of-everything": "How MarkBind Works (Overview of everything)",
@@ -1149,7 +1150,8 @@
         "angular": "Angular",
         "catcher": "CATcher",
         "github-workflows-actions": "Github Workflows/Actions",
-        "github-apis": "Github APIs"
+        "github-apis": "Github APIs",
+        "project-management": "Project management"
       },
       "headingKeywords": {}
     },
