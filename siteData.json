@@ -351,7 +351,11 @@
         "3-my-research-on-vue2-vs-vue3-over-the-recess-week": "3. My research on Vue2 vs Vue3 over the recess week",
         "html-and-amp-css": "HTML &amp;  CSS",
         "1-adding-hyperlinks-in-html-and-markdown": "1. Adding Hyperlinks in HTML and Markdown",
-        "2-rendering-of-font-awesome-icons-using-css": "2. Rendering of font awesome icons using CSS"
+        "2-rendering-of-font-awesome-icons-using-css": "2. Rendering of font awesome icons using CSS",
+        "cheerio": "Cheerio",
+        "1-what-is-cheerio": "1. What is Cheerio",
+        "2-usage-of-cheerio-in-markbind": "2. Usage of Cheerio in markbind",
+        "tooling-and-workflow": "Tooling and workflow"
       },
       "headingKeywords": {}
     },
@@ -689,6 +693,10 @@
         "html-and-amp-css": "HTML &amp;  CSS",
         "1-adding-hyperlinks-in-html-and-markdown": "1. Adding Hyperlinks in HTML and Markdown",
         "2-rendering-of-font-awesome-icons-using-css": "2. Rendering of font awesome icons using CSS",
+        "cheerio": "Cheerio",
+        "1-what-is-cheerio": "1. What is Cheerio",
+        "2-usage-of-cheerio-in-markbind": "2. Usage of Cheerio in markbind",
+        "tooling-and-workflow": "Tooling and workflow",
         "javier-tan-meng-wee": "JAVIER TAN MENG WEE",
         "css": "CSS",
         "differences-in-render-environment": "Differences in render environment",
