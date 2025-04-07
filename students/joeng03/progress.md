@@ -36,14 +36,20 @@
 | 10   | Created PR: [[#2097] Add eslint-plugin-vue-pug](https://github.com/reposense/RepoSense/pull/2341)                                                  |
 | 10   | Created PR: [[#2033] Add TS Doc integration](https://github.com/reposense/RepoSense/pull/2342)                                                     |
 | 10   | Merged PR: [[#2333] Add Renovate](https://github.com/reposense/RepoSense/pull/2335)                                                                |
+| 10   | Reviewed PR: [[#2106] Implement comparison of files across repos](https://github.com/reposense/RepoSense/pull/2322)                                |
 | 11   | Created Issue: [Support datetime for since and until repo-config.csv](https://github.com/reposense/RepoSense/issues/2373)                          |
 | 11   | Created Issue: [Explore adding Copilot for automated code reviews](https://github.com/reposense/RepoSense/issues/2372)                             |
 | 11   | Merged PR: [[#2326] Optimize Vite Chunk Size](https://github.com/reposense/RepoSense/pull/2325)                                                    |
 | 11   | Merged PR: [[#2200] Refactor c-title to use c-markdown-chunk](https://github.com/reposense/RepoSense/pull/2329)                                    |
 | 11   | Merged PR: [[#2332] Frontend Sort Function Bugfix and Enhancement](https://github.com/reposense/RepoSense/pull/2337)                               |
+| 11   | Reviewed PR: [[#2212] Refresh Only Text](https://github.com/reposense/RepoSense/pull/2338)                                                         |
 | 12   | Created Issue: [Resolve Ambiguity for ties in Sort by Groups](https://github.com/reposense/RepoSense/issues/2376)                                  |
 | 12   | Created Issue: [Support blank space as date and time separator in CLI input](https://github.com/reposense/RepoSense/issues/2375)                   |
 | 12   | Discussed Issue: [Support time specification for since/until ](https://github.com/reposense/RepoSense/issues/2366)                                 |
 | 12   | Merged PR: [[#2100] Add RepoSense attribution to widget](https://github.com/reposense/RepoSense/pull/2343)                                         |
 | 12   | Merged PR: [[#2366] Support datetime for since and until CLI config](https://github.com/reposense/RepoSense/pull/2369)                             |
+| 12   | Reviewed PR: [[#2311] Add blurbs for Authors](https://github.com/reposense/RepoSense/pull/2339)                                                    |
+| 12   | Reviewed PR: [[#2308][#2311] Add author blurbs and repo blurbs to the frontend](https://github.com/reposense/RepoSense/pull/2319)                  |
 | 13   | Created PR: [[#2366] Support datetime since until](https://github.com/reposense/RepoSense/pull/2388)                                               |
+| 13   | Reviewed PR: [Revert "[#2366] Support datetime for since and until CLI config"](https://github.com/reposense/RepoSense/pull/2378)                  |
+| 13   | Reviewed PR: [Update about.md](https://github.com/reposense/RepoSense/pull/2377)                                                                   |
