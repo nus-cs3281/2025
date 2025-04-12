@@ -40,3 +40,7 @@
 | 9    | Opened PR: [[#12048] Migrate tests for JsonResultTest #13274](https://github.com/TEAMMATES/teammates/pull/13274) |
 | 9    | Merged PR: [[#12048] Migrate tests for JsonResultTest #13274](https://github.com/TEAMMATES/teammates/pull/13274) |
 | 11   | Submitted Issue: [Refactoring for Unit Test Access Controls #13304](https://github.com/TEAMMATES/teammates/pull/13304) |
+| 12   | Reviewed PR: [[#12048] Migrate tests for PublishFeedbackSessionActionTest #13298](https://github.com/TEAMMATES/teammates/pull/13298) |
+| 12   | Reviewed PR: [[#12048] Migrate Tests for UpdateStudentActionTest #13303](https://github.com/TEAMMATES/teammates/pull/13303) |
+| 12   | Reviewed PR: [[#12048] Migrate tests for UnpublishFeedbackSessionActionTest #13296](https://github.com/TEAMMATES/teammates/pull/13296) |
+| 12   | Opened PR: [[#12048] Migrate InstructorCourseStudentDetailsPageE2ETest #13310](https://github.com/TEAMMATES/teammates/pull/13310) |
