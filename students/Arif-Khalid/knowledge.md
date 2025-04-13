@@ -41,4 +41,4 @@ Dev Containers is fully integrated into VSCode and thus can be hosted on cloud s
 I found dev containers especially attractive when reviewing PRs of relatively small changes. The ability to quickly spin up a cloud environment and view, even edit the code if necessary was so easy with dev containers. I could do it all from my web browser even on my phone.
 
 [DevContainers official docs](https://code.visualstudio.com/docs/devcontainers/containers)  
-[Lightning Talk on dev containers]()
+[Lightning Talk on dev containers](https://github.com/nus-cs3281/2025/issues/17)
