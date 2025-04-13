@@ -11,6 +11,8 @@ These are a few things I learned:
 * We should focus on and ship only what gets used, one way to find out is through A/B testing. Clients do not enjoy having multiple updates for no reason, or taking up space on their device.
 * It is important to make data-driven decisions even on deployments. One way is by deploying only to a subset of your users and with enough users you can determine if the change was a positive one.
 * The product must be protected from the developers. I.e, the user experience must come first regardless of a developer's urgency to release a feature, it must be isolated from other components, separation of concerns, rigorous testing, etc. This is especially important to enforce in regular and quick release cycles as they could be easily overlooked
+
+
 [Software Engineering at Google](https://abseil.io/resources/swe-book)
 
 ### TMUX
@@ -19,13 +21,14 @@ TMUX was something I heard a lot about in the developer resource I consumed and 
 TMUX allows you to encapsulate multiple programs into a session and switch between them, helping multitask across different projects
 TMUX lets you seamlessly navigate without leaving the workspace
 TMUX has a host of customization options and developer resources
-Most importantly, TMUX looks cool to people watching!
+Most importantly, TMUX looks cool to people watching!  
 
 Apart from the resources below, I spent hours putting into practice tmux in my own projects, including CATcher and WATcher!
-Overall I found it to be a great addition to my toolset and helped increase my productivity.
-[TMUX official docs](https://github.com/tmux/tmux/wiki)
-[Complete TMUX tutorial](https://www.youtube.com/watch?v=Yl7NFenTgIo)
-[Tmux has forever changed the way I write code.](https://www.youtube.com/watch?v=DzNmUNvnB04)
+Overall I found it to be a great addition to my toolset and helped increase my productivity.  
+
+[TMUX official docs](https://github.com/tmux/tmux/wiki)  
+[Complete TMUX tutorial](https://www.youtube.com/watch?v=Yl7NFenTgIo)  
+[Tmux has forever changed the way I write code.](https://www.youtube.com/watch?v=DzNmUNvnB04)  
 [Tmux in 100 seconds](https://www.youtube.com/watch?v=vtB1J_zCv8I)
 
 ### DevContainers
@@ -37,5 +40,5 @@ Dev Containers is fully integrated into VSCode and thus can be hosted on cloud s
 
 I found dev containers especially attractive when reviewing PRs of relatively small changes. The ability to quickly spin up a cloud environment and view, even edit the code if necessary was so easy with dev containers. I could do it all from my web browser even on my phone.
 
-[DevContainers official docs](https://code.visualstudio.com/docs/devcontainers/containers)
+[DevContainers official docs](https://code.visualstudio.com/docs/devcontainers/containers)  
 [Lightning Talk on dev containers]()
