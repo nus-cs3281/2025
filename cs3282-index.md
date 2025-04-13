@@ -8,20 +8,20 @@ pageNav: 2
 {% set projects = [
     {name: 'CATcher', students: [
         ['ARIF KHALID', 'Arif-Khalid', 'A1', 'B1', 'C1'],
-        ['Li Zhaoqi', 'Eclipse-Dominator', 'A2', 'B2', 'C2'],
-        ['NGUYEN KHOI NGUYEN', 'nknguyenhc', 'A2', 'B2', 'C2']
+        ['Li Zhaoqi', 'Eclipse-Dominator', 'A2', 'B2', 'C1'],
+        ['NGUYEN KHOI NGUYEN', 'nknguyenhc', 'A2', 'B2', 'C1']
     ]},
     {name: 'MarkBind', students: [
-        ['Lee Hyung Woon', 'lhw-1', 'A2', 'B2', 'C2']
+        ['Lee Hyung Woon', 'lhw-1', 'A2', 'B2', 'C1']
     ]},
     {name: 'RepoSense', students: [
         ['Chang Si Kai', 'sikai00', 'A1', 'B1', 'C1'],
-        ['JONAS ONG SI WEI', 'jonasongg', 'A2', 'B2', 'C2'],
-        ['POON YIP HANG, RYAN', 'sopa301', 'A2', 'B2', 'C2']
+        ['JONAS ONG SI WEI', 'jonasongg', 'A2', 'B2', 'C1'],
+        ['POON YIP HANG, RYAN', 'sopa301', 'A2', 'B2', 'C1']
     ]},
     {name: 'TEAMMATES', students: [
         ['DOMINIC BERZIN CHUA WAY GIN', 'domoberzin', 'A1', 'B1', 'C1'],
-        ['Qiu Jiasheng, Jason', 'jasonqiu212', 'A2', 'B2', 'C2'],
+        ['Qiu Jiasheng, Jason', 'jasonqiu212', 'A2', 'B2', 'C1'],
         ['XENOS FIORENZO ANONG', 'xenosf', 'A1', 'B1', 'C1']
     ]}
 ] %}
