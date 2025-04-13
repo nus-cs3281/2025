@@ -24,9 +24,15 @@
 | 8 | Created Issue: [Include documentation for the use of Postman to test GraphQL queries #433](https://github.com/CATcher-org/WATcher/issues/433) |
 | 8 | Created Issue: [Add a feature view comments and reviews #434](https://github.com/CATcher-org/WATcher/issues/434) |
 | 9 | Contributed to Feature Discussion: [Remodel the design of the Filter bar #363](https://github.com/CATcher-org/WATcher/issues/363#issuecomment-2728153931) |
+| 9 | Reviewed PR: [Update version number to 1.3.0 #435](https://github.com/CATcher-org/WATcher/pull/435) |
 | 9 | Created Issue: [Update DG to include API testing using Postman #19](https://github.com/CATcher-org/WATcher-docs/issues/19) |
 | 9 | Created PR: [Add API testing section to include Postman documentation #20](https://github.com/CATcher-org/WATcher-docs/pull/20) |
 | 9 | Created Issue: [Box tooltip shows up above side menu when window is collapsed #2655](https://github.com/MarkBind/markbind/issues/2655) |
 | 9 | Created Issue: [Box tooltip shows up above side menu when window is collapsed #21](https://github.com/CATcher-org/WATcher-docs/issues/21) |
 | 9 | Created Issue: [Box tooltip shows up above side menu when window is collapsed #44](https://github.com/CATcher-org/catcher-org.github.io/issues/44) |
+| 9 | Participated In Issue Discussion: [Create new overview dashboard for PR Review Comments Contribution per developer #447](https://github.com/CATcher-org/WATcher/issues/447) |
 | 9 | Created Postman Workspace for WATcher: [WATcher Postman Collection](https://www.postman.com/orange-station-77364/watcher/overview) |
+| 11 | Participated In Issue Discussion: [Create Dashboard with PR-Level Review & Comment Tracking, Filtering, and Metrics #455](https://github.com/CATcher-org/WATcher/issues/455) |
+| 11 | Reviewed PR: [Create new base view for reviews dashboard #461](https://github.com/CATcher-org/WATcher/pull/461) |
+| 11 | Reviewed PR: [Change keep filters to use slider button #458](https://github.com/CATcher-org/WATcher/pull/458) |
+| 12 | Reviewed PR: [Fix navigability issue caused by shared table name #1352](https://github.com/CATcher-org/CATcher/pull/1352) |
