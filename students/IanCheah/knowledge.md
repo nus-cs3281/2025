@@ -16,8 +16,56 @@ When doing experimental changes, I thought of letting users specify things like 
 - In a basic Vue component, we can define a computed property by plaing it in the `computed` option. These
 properties are automatically updates when the underlying data changes.
 
-### 3. My research on Vue2 vs Vue3 over the recess week
+### 3. Using Computed Properties vs Lifecycle Hooks
+While working on [PR](https://github.com/MarkBind/markbind/pull/2678), I learned about different approaches to access DOM elements.
+In the `TabGroups.Vue` file, the original approach is to do
+```
+computed: {
+    headerRendered() {
+        return this.$refs.header.textContent.trim();
+    }
+}
+```
+By having the `headerRendered()` under `computed:`, the benefit is that this is reactive by nature, it automatically updates when dependencies change. However, it can cause errors if accessed before DOM is ready.
 
+To solve the issue of Tabs not showing correctly, this is the approach we adopted:
+```
+mounted() {
+    this.headerRendered = this.$refs.header.textContent.trim();
+}
+```
+In this new approach, it guarantees DOM availability, which is better for one-time calulations. However, there are cons as well. This is not reactive, it requires manual upates if content changes.
+
+I would summarize my learning in the following 3 points:
+1. Computed properties are best for reactive data that needs to stay synchronized
+2. Lifecycle hooks like `mounted` are safer for DOM-dependent operations
+3. $refs are only populated after the component is mounted
+
+Here are the resources that I referenced while working on the issue
+- [Vue.js Lifecycle Diagram](https://vuejs.org/guide/essentials/template-refs.html)
+- [Vue.js Refs Documentation](https://vuejs.org/guide/essentials/lifecycle.html#lifecycle-diagram)
+
+### 4. My Vue2 vs Vue3 research over the recess week
+Since [gerteck](https://github.com/gerteck) was working on Vue2 to Vue3 migration, I explored some differences between the 2 over the recess weeks and here are my gained knowledge.
+1. Reactivity System
+- Vue2: uses `Object.defineProperty` for reactivity
+- Uses ES6 `Proxy`, enabling reactivity for dynamically added properties
+
+2. Composition aPI
+- Vue2: Options API only (`data`, `methods`, `computed`)
+- Vue3: Introduces **Composition API** (`setup()`), allowing better logic reuse
+
+3. Performance
+- Vue2: Slower cirtual DOM diffing.
+- Vue3: Faster due to optimized virtual DOM and tree-shaking support
+
+4. Fragments
+- Vue2: Requires a single root element in templates
+- Vue3: Supports multiple root nodes (fragments).
+
+Here are some documentations I referenced 
+- [Vue 3 migration Guide](https://v3-migration.vuejs.org/)
+- [Vue 3 vs Vue 2: What's New?](https://vuejs.org/guide/introduction.html#what-is-vue)
 
 # HTML &  CSS
 ### 1. Adding Hyperlinks in HTML and Markdown
