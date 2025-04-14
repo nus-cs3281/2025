@@ -28,8 +28,8 @@ This would have taken an hour to write if I manually referred to the documentati
 and I didn&#39;t even know whether it was possible to write such a test. With the help of an
 LLM, I was able to do it in minutes. I learnt to recognize situations where LLM would
 magnify productivity in scenarios like this one (imperative code) and actually decrease
-productivity in other scenarios (changes requiring an overall understanding of the codebase,
-spanning multiple files).</p> <h3 id="regression">Regression<a class="fa fa-anchor" href="#regression" onclick="event.stopPropagation()"></a></h3> <p>When merging a PR to enable datetime for since and until dates,
+productivity in other scenarios (changes requiring an overall understanding of specific
+nuances in the codebase, spanning multiple files).</p> <h3 id="regression">Regression<a class="fa fa-anchor" href="#regression" onclick="event.stopPropagation()"></a></h3> <p>When merging a PR to enable datetime for since and until dates,
 I had an undetected regression in which ramps are not displaying
 due to relying on dates to determine the ramp color. This bug
 was not detected in any unit tests or system test. I learnt to
@@ -50,21 +50,21 @@ more tests or documentation if applicable. I also explored LLM-powered
 code reviewing, for example, using Copilot to do auto code reviews.
 I recognized the tradeoffs of these solutions, where they are very good
 at detecting smaller details that human reviewers might miss, but
-currently lack a good &quot;sight&quot; on the overall context of the changes.</p> <h3 id="performance-benchmarking">Performance Benchmarking<a class="fa fa-anchor" href="#performance-benchmarking" onclick="event.stopPropagation()"></a></h3> <p>I learnt about performance benchmarking
-for changes related to performance, either in time (CPU)
+currently lack a good &quot;sight&quot; on the overall context of the changes.</p> <h3 id="performance-benchmarking">Performance Benchmarking<a class="fa fa-anchor" href="#performance-benchmarking" onclick="event.stopPropagation()"></a></h3> <p>When benchmarking a migration from npm to pnpm,
+I learnt about performance benchmarking, either in time (CPU)
 or space (RAM/disk). Multiple runs are neeeded and the average
 is computed. I also learnt about the tools needed to measure
-the consumption of various resources such as CPU time, RAM and disk.</p> <h3 id="eslint">ESLint<a class="fa fa-anchor" href="#eslint" onclick="event.stopPropagation()"></a></h3> <p>Learnt about how ESLint ensures a unified style of JS/TS code.
+the consumption of various resources such as CPU time, RAM and disk.</p> <h3 id="vite">Vite<a class="fa fa-anchor" href="#vite" onclick="event.stopPropagation()"></a></h3> <p>Learnt about how Vite build identifies the base directory when
+serving static assets. Learnt about how Vite manages its dependencies in chunks, and how chunk sizes should be minimized to optimize load perfomance. I also learnt more about how the package <code class="hljs inline no-lang">highlight.js</code> supports code highlighting in multiple programming languages.</p> <h3 id="eslint">ESLint<a class="fa fa-anchor" href="#eslint" onclick="event.stopPropagation()"></a></h3> <p>Learnt about how ESLint ensures a unified style of JS/TS code.
 Had the chance to go through the ESLint documentation for
 member-delimiter-style,
 <a href="https://eslint.style/rules/ts/member-delimiter-style">https://eslint.style/rules/ts/member-delimiter-style</a>,
 understand how it works, and make the modifications in the ESLint
-configurations and the codebase to ensure CI job for lintFrontend passes.</p> <h3 id="vite">Vite<a class="fa fa-anchor" href="#vite" onclick="event.stopPropagation()"></a></h3> <p>Learnt about how Vite build identifies the base directory when
-serving static assets. Learnt about how Vite manages its dependencies in chunks, and how chunk sizes should be minimized to optimize load perfomance. I also learnt more about how the package <code class="hljs inline no-lang">highlight.js</code> supports code highlighting in multiple programming languages.</p> <h3 id="vercel">Vercel<a class="fa fa-anchor" href="#vercel" onclick="event.stopPropagation()"></a></h3> <p>Learnt how to configure Vercel on a GitHub repository.</p> <h3 id="immutability-in-java">Immutability in Java<a class="fa fa-anchor" href="#immutability-in-java" onclick="event.stopPropagation()"></a></h3> <p>Learnt about the various aspects to consider when designing
+configurations and the codebase to ensure CI job for lintFrontend passes.</p> <h3 id="vercel">Vercel<a class="fa fa-anchor" href="#vercel" onclick="event.stopPropagation()"></a></h3> <p>Learnt how to configure Vercel on a GitHub repository.</p> <h3 id="immutability-in-java">Immutability in Java<a class="fa fa-anchor" href="#immutability-in-java" onclick="event.stopPropagation()"></a></h3> <p>Learnt about the various aspects to consider when designing
 and immutable class in Java, such as:</p> <ul><li>private and final variables</li> <li>elimination of setter methods</li> <li>returning copies for mutable variables</li> <li>considerations for constructor design (method overloading vs Builder pattern)</li></ul> <h3 id="datetime-in-java">Datetime in Java<a class="fa fa-anchor" href="#datetime-in-java" onclick="event.stopPropagation()"></a></h3> <p>I learnt about how timezones are represented in Java LocalDatetime.
 I also learnt about the intricacies of timezone conversion, for example,
 for timezone &#39;Asia/Singapore&#39;, it is UTC+7.5 before 1982 and
-UTC+8 after 1982.</p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 6.0.0</a></strong> on Sun, 13 Apr 2025, 19:26:02 UTC]<br> <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span></p></div></footer><!--]--></div>
+UTC+8 after 1982.</p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 6.0.0</a></strong> on Mon, 14 Apr 2025, 6:13:03 UTC]<br> <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span></p></div></footer><!--]--></div>
 </body><script src="/2025/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/2025/markbind/js/polyfill.min.js"></script>
 <script src="/2025/markbind/js/vue.global.prod.min.js"></script>
