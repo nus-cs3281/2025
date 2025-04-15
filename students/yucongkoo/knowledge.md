@@ -54,7 +54,17 @@ As a developer coming from React, here are some clear differences I have observe
 - Instead of defining the layout of componenet and logic in the same file, Angular split them into 2 seperate files (i.e. the html and typescript file), personally I felt that this split helps enforce the MVC architecture more strictly, but also imposes more restrictions when it comes to components that have tightly coupled logic
 
 **Reference:**
-https://v17.angular.io/guide/component-overview
+[Angular Component Overview](https://v17.angular.io/guide/component-overview)
+
+#### Component Lifecycle
+
+Angular components has a lifecycle that goes from **Initialization** --> **Change detection** --> **Destruction**.
+Our application can use lifecycle hooks methods to tap in on the key events of the lifecycle of a component, this is crucial for the fact that we do not have states like we do in React, and we would often want to perform certain operations during key changes to the component.
+
+This knowledge was crucial to understanding and fixing an existing CATcher bug ([PR](https://github.com/CATcher-org/CATcher/pull/1349)), where the bug could be fixed by tapping on key changes to the issue model used in the component.
+
+**Reference:**
+[Angular Component Lifecycle](https://v17.angular.io/guide/lifecycle-hooks)
 
 -------------------------------------------------------------------------------------
 
@@ -131,3 +141,34 @@ As both CATcher and WATcher involves heavy interaction with the GitHub API(i.e. 
 - [REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28)
 - [GraphQL API](https://docs.github.com/en/graphql)
 - [ChatGPT's explanation](https://chatgpt.com/share/67dc3c80-ba2c-800a-a4ec-d80fe9c5bfcf)
+
+-------------------------------------------------------------------------------------
+
+### Project management
+
+#### Branch management strategies
+
+**Issue faced:**
+
+While working on WATcher features, there were team members working on bug fixes that are supposed to be deployed
+in the next version, as well as team members working on new features that are supposed to be deployed in future versions. The work being done for future versions could not be merged to `main` branch as they are not supposed 
+to be deployed in the next version.
+
+**Knowledge gained:**
+
+We explored multiple possible strategies (discussed in [this](https://github.com/CATcher-org/WATcher/issues/427#issuecomment-2705558358) issue thread)
+- We agreed that such scenarios where different team members are working on different future versions are very unlikely, and it wouldn't really make sense to have a branching workflow specifically for such scenarios
+- Hence, we are proceeding with the original workflow, where each new feature will have a feature branch and will be merged to the `main` branch once completed
+
+#### Release management strategies
+
+**Issue faced:**
+
+We noticed that CATcher and WATcher were using different release management/deployment strategies, the differences are stated in [this](https://github.com/CATcher-org/WATcher/issues/429) issue.
+
+**Knowledge gained:**
+
+We explored multiple possible release management and deployment strategies, and concluded that the automated workflow used in WATcher is not necessary more streamlined, as it would require additional PR to a `deploy` branch in order to trigger the deployment. In cases where we need to have hotfixes / cherry-pick certain releases, it would be even more troublesome, as we would need to create a seperate branch to include the hotfixes, then PR that branch to the `deploy` branch to trigger the deployment.
+
+Hence, we standardized the deployment workflow to be manually triggered from github actions, and it would target a specific branch to be deployed. This strategy is more convenient as we would be able to directly deploy from `main` when we decide to create a new release, and when there are further changes/hotfixes required, we could simply branch out from that specific commit that were deployed (we use tagging so that these commits can be easily found) and apply the hotfixes, then deploying from that branch directly. Notice that this strategy is actually similar to the release branching workflow, but in the sense where we don't create a branch for the first release (we simply tag the commit on `main`), but if hotfixes are needed, we would then be in the same workflow as release branching
+

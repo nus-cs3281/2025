@@ -24,8 +24,8 @@ This would have taken an hour to write if I manually referred to the documentati
 and I didn't even know whether it was possible to write such a test. With the help of an
 LLM, I was able to do it in minutes. I learnt to recognize situations where LLM would
 magnify productivity in scenarios like this one (imperative code) and actually decrease
-productivity in other scenarios (changes requiring an overall understanding of the codebase,
-spanning multiple files).
+productivity in other scenarios (changes requiring an overall understanding of specific
+nuances in the codebase, spanning multiple files).
 
 ### Regression
 
@@ -58,11 +58,16 @@ currently lack a good "sight" on the overall context of the changes.
 
 ### Performance Benchmarking
 
-I learnt about performance benchmarking
-for changes related to performance, either in time (CPU)
+When benchmarking a migration from npm to pnpm,
+I learnt about performance benchmarking, either in time (CPU)
 or space (RAM/disk). Multiple runs are neeeded and the average
 is computed. I also learnt about the tools needed to measure
 the consumption of various resources such as CPU time, RAM and disk.
+
+### Vite
+
+Learnt about how Vite build identifies the base directory when
+serving static assets. Learnt about how Vite manages its dependencies in chunks, and how chunk sizes should be minimized to optimize load perfomance. I also learnt more about how the package `highlight.js` supports code highlighting in multiple programming languages.
 
 ### ESLint
 
@@ -72,11 +77,6 @@ member-delimiter-style,
 https://eslint.style/rules/ts/member-delimiter-style,
 understand how it works, and make the modifications in the ESLint
 configurations and the codebase to ensure CI job for lintFrontend passes.
-
-### Vite
-
-Learnt about how Vite build identifies the base directory when
-serving static assets. Learnt about how Vite manages its dependencies in chunks, and how chunk sizes should be minimized to optimize load perfomance. I also learnt more about how the package `highlight.js` supports code highlighting in multiple programming languages.
 
 ### Vercel
 

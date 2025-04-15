@@ -39,3 +39,5 @@
 | 11 | Merged PR: [Catch UncaughtException for build and deploy #2674](https://github.com/MarkBind/markbind/pull/2674) |
 | 11 | Authored PR: [Migrate CodeCov from v3 to v5 #2675](https://github.com/MarkBind/markbind/pull/2675) |
 | 11 | Merged PR: [Migrate CodeCov from v3 to v5 #2675](https://github.com/MarkBind/markbind/pull/2675) |
+| 12 | Discussed Issue: [#2670](https://github.com/MarkBind/markbind/issues/2670) |
+| 12 | Approved PR: [#2678](https://github.com/MarkBind/markbind/pull/2678) |

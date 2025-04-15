@@ -31,3 +31,10 @@
 |9| Created Issue: [Update DG to include a common error faced during local set up #18](https://github.com/CATcher-org/WATcher-docs/issues/18)|
 |9| Merged PR: [Update docs to include workaround to common errors #22](https://github.com/CATcher-org/WATcher-docs/pull/22)|
 |9| Contributed to discussion of possible WATcher enhancements:<br> - [Give a more detailed tool tip for 'keep filter' button #440](https://github.com/CATcher-org/WATcher/issues/440#issuecomment-2738997268)<br>- [Visually differentiate issues and PRs more #441](https://github.com/CATcher-org/WATcher/issues/441#issuecomment-2739008201)<br>- [Show matching issues and PRs together #444](https://github.com/CATcher-org/WATcher/issues/444#issuecomment-2739088533)|
+|10| Investigated CATcher bug reported by users: [Issue with reassigning assignees after unchecking issue as duplicate #1348](https://github.com/CATcher-org/CATcher/issues/1348#issuecomment-2745252534)|
+|10| Merged PR: [Fix bug related to assignees dropdown showing old values #1349](https://github.com/CATcher-org/CATcher/pull/1349)|
+|11| Merged PR: [Change keep filters to use slider button #458](https://github.com/CATcher-org/WATcher/pull/458)|
+|12| Reviewed PR: [Change logo to WATcher #23](https://github.com/CATcher-org/WATcher-docs/pull/23)|
+|12| Reviewed PR: [Fix navigability issue caused by shared table name #1352](https://github.com/CATcher-org/CATcher/pull/1352#pullrequestreview-2745470774)|
+|12| Cherry-picked and deployed [hotfix](https://github.com/CATcher-org/CATcher/commit/b1340c94f82bc1b0bbeb3cb00b8e62183995eebe) for CATcher V3.6.1 |
+|12| Published CATcher release [V3.6.1](https://github.com/CATcher-org/CATcher/releases/tag/V3.6.1)|
