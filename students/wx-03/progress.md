@@ -19,7 +19,7 @@
 | 10   | Submitted issue: [Create unit tests for issue model #453](https://github.com/CATcher-org/WATcher/issues/453)                                           |
 | 12   | Merged PR: [Show review decision and reviewers in PR card #449](https://github.com/CATcher-org/WATcher/pull/449)                                       |
 | 12   | Merged PR: [Fix navigability issue caused by shared table name #1352](https://github.com/CATcher-org/CATcher/pull/1352)                                |
-| 13   | Reviewed PR: [Move the filter bar to the left #454](https://github.com/CATcher-org/WATcher/pull/454#pullrequestreview-2763082185)                                                   |
+| 12   | Reviewed PR: [Move the filter bar to the left #454](https://github.com/CATcher-org/WATcher/pull/454#pullrequestreview-2752024059)                                                   |
 | 13   | Reviewed PR: [Move parent class instead of select panel class #463](https://github.com/CATcher-org/WATcher/pull/463#pullrequestreview-2763145346)                                   |
 | 13   | Reviewed PR: [Update version to 1.4 #466](https://github.com/CATcher-org/WATcher/pull/466#pullrequestreview-2763195109)                                                             |
 | 13   | Reviewed PR: [Target only filter-bar-panel to move to right #468](https://github.com/CATcher-org/WATcher/pull/468#pullrequestreview-2764717147)                                     |
