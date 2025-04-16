@@ -1,16 +1,39 @@
-| Week | Achievements                                                                                                                              |
-|------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| 4    | Opened PR: [[#12048] Migrate tests for DeleteFeedbackQuestionActionTest #13218](https://github.com/TEAMMATES/teammates/pull/13218)        |
-| 5    | Opened PR: [[#12048] Migrate tests for UpdateFeedbackQuestionActionTest #13231](https://github.com/TEAMMATES/teammates/pull/13231)        |
-| 5    | Merged PR: [[#12048] Migrate tests for DeleteFeedbackQuestionActionTest #13218](https://github.com/TEAMMATES/teammates/pull/13218)        |
-| 6    | Opened PR: [[#12048] Migrate tests for CreateFeedbackQuestionActionTest #13240](https://github.com/TEAMMATES/teammates/pull/13240)        |
-| 6    | Opened PR: [[#12048] Refactor tests for DeleteFeedbackQuestionActionTest #13246](https://github.com/TEAMMATES/teammates/pull/13246)       |
-| 6    | Merged PR: [[#12048] Refactor tests for DeleteFeedbackQuestionActionTest #13246](https://github.com/TEAMMATES/teammates/pull/13246)       |
-| 6    | Opened PR: [[#12048] Migrate tests for CreateFeedbackResponseCommentActionTest #13248](https://github.com/TEAMMATES/teammates/pull/13248) |
-| 6    | Opened PR: [[#12048] Migrate tests for DeleteFeedbackResponseCommentActionTest #13249](https://github.com/TEAMMATES/teammates/pull/13249) |
-| 6    | Opened PR: [[#12048] Migrate tests for UpdateFeedbackResponseCommentActionTest #13251](https://github.com/TEAMMATES/teammates/pull/13251) |
-| 7    | Opened PR: [[#12048] Migrate tests for CreateInstructorActionTest #13255](https://github.com/TEAMMATES/teammates/pull/13255)              |
-| 7    | Opened PR: [[#12048] Migrate tests for UpdateInstructorActionTest #13256](https://github.com/TEAMMATES/teammates/pull/13256)              |
-| 7    | Merged PR: [[#12048] Migrate tests for UpdateInstructorActionTest #13256](https://github.com/TEAMMATES/teammates/pull/13256)              |
-| 7    | Merged PR: [[#12048] Migrate tests for CreateInstructorActionTest #13255](https://github.com/TEAMMATES/teammates/pull/13255)              |
-| 8    | Opened PR: [[#12048] Migrate tests for GetAuthInfoActionTest #13273](https://github.com/TEAMMATES/teammates/pull/13273)                   |
+| Week | Achievements                                                                                                                                      |
+|------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| 4    | Opened PR: [[#12048] Migrate tests for DeleteFeedbackQuestionActionTest #13218](https://github.com/TEAMMATES/teammates/pull/13218)                |
+| 5    | Opened PR: [[#12048] Migrate tests for UpdateFeedbackQuestionActionTest #13231](https://github.com/TEAMMATES/teammates/pull/13231)                |
+| 5    | Merged PR: [[#12048] Migrate tests for DeleteFeedbackQuestionActionTest #13218](https://github.com/TEAMMATES/teammates/pull/13218)                |
+| 6    | Opened PR: [[#12048] Migrate tests for CreateFeedbackQuestionActionTest #13240](https://github.com/TEAMMATES/teammates/pull/13240)                |
+| 6    | Opened PR: [[#12048] Refactor tests for DeleteFeedbackQuestionActionTest #13246](https://github.com/TEAMMATES/teammates/pull/13246)               |
+| 6    | Merged PR: [[#12048] Refactor tests for DeleteFeedbackQuestionActionTest #13246](https://github.com/TEAMMATES/teammates/pull/13246)               |
+| 6    | Opened PR: [[#12048] Migrate tests for CreateFeedbackResponseCommentActionTest #13248](https://github.com/TEAMMATES/teammates/pull/13248)         |
+| 6    | Opened PR: [[#12048] Migrate tests for DeleteFeedbackResponseCommentActionTest #13249](https://github.com/TEAMMATES/teammates/pull/13249)         |
+| 6    | Opened PR: [[#12048] Migrate tests for UpdateFeedbackResponseCommentActionTest #13251](https://github.com/TEAMMATES/teammates/pull/13251)         |
+| 6    | Reviewed PR: [[#13227] Improve testing docs #13242](https://github.com/TEAMMATES/teammates/pull/13242)                                            |
+| 7    | Opened PR: [[#12048] Migrate tests for CreateInstructorActionTest #13255](https://github.com/TEAMMATES/teammates/pull/13255)                      |
+| 7    | Opened PR: [[#12048] Migrate tests for UpdateInstructorActionTest #13256](https://github.com/TEAMMATES/teammates/pull/13256)                      |
+| 7    | Merged PR: [[#12048] Migrate tests for UpdateInstructorActionTest #13256](https://github.com/TEAMMATES/teammates/pull/13256)                      |
+| 7    | Merged PR: [[#12048] Migrate tests for CreateInstructorActionTest #13255](https://github.com/TEAMMATES/teammates/pull/13255)                      |
+| 7    | Merged PR: [[#12048] Migrate tests for UpdateFeedbackQuestionActionTest #13231](https://github.com/TEAMMATES/teammates/pull/13231)                |
+| 7    | Merged PR: [[#12048] Migrate tests for CreateFeedbackQuestionActionTest #13240](https://github.com/TEAMMATES/teammates/pull/13240)                |                                                                                                                        |
+| 8    | Opened PR: [[#12048] Migrate tests for GetAuthInfoActionTest #13273](https://github.com/TEAMMATES/teammates/pull/13273)                           |
+| 8    | Reviewed PR: [[#13261] Implement Email Sending Failure Behavior in MockEmailSender #13262](https://github.com/TEAMMATES/teammates/pull/13262)     |
+| 9    | Merged PR: [[#12048] Migrate tests for GetAuthInfoActionTest #13273](https://github.com/TEAMMATES/teammates/pull/13273)                           |                                                                                                                               |
+| 10   | Opened PR: [[#12048] Migrate tests for ActionFactoryTest #13283](https://github.com/TEAMMATES/teammates/pull/13283)                               |
+| 10   | Opened PR: [[#12048] Migrate tests for BinFeedbackSessionActionTest #13284](https://github.com/TEAMMATES/teammates/pull/13284)                    |
+| 10   | Opened PR: [[#12048] Migrate tests for GetActionClassesActionTest #13285](https://github.com/TEAMMATES/teammates/pull/13285)                      |
+| 10   | Opened PR: [[#12048] Migrate tests for InstructorSearchIndexingWorkerActionTest #13286](https://github.com/TEAMMATES/teammates/pull/13286)        |
+| 10   | Opened Issue: [[#13287] Incorrect path for migrated courses in GetHasResponsesAction #13287](https://github.com/TEAMMATES/teammates/issues/13287) |
+| 10   | Opened PR: [[#13287] Fix GetHasResponsesAction #13288](https://github.com/TEAMMATES/teammates/pull/13288)                                         |
+| 10   | Closed PR: [[#13287] Fix GetHasResponsesAction #13288](https://github.com/TEAMMATES/teammates/pull/13288)                                         |                                                                                              |
+| 10   | Closed Issue: [[#13287] Incorrect path for migrated courses in GetHasResponsesAction #13287](https://github.com/TEAMMATES/teammates/issues/13287) |                                                                                                                             |
+| 10   | Opened PR: [[#12048] Migrate tests for GetHasResponsesActionTest #13289](https://github.com/TEAMMATES/teammates/pull/13289)                       |
+| 10   | Merged PR: [[#12048] Migrate tests for GetHasResponsesActionTest #13289](https://github.com/TEAMMATES/teammates/pull/13289)                       |                                                                                                                                       |
+| 10   | Merged PR: [[#12048] Migrate tests for ActionFactoryTest #13283](https://github.com/TEAMMATES/teammates/pull/13283)                               |                                                                                                                               |
+| 10   | Merged PR: [[#12048] Migrate tests for BinFeedbackSessionActionTest #13284](https://github.com/TEAMMATES/teammates/pull/13284)                    |                                                                                                                               |
+| 10   | Merged PR: [[#12048] Migrate tests for GetActionClassesActionTest #13285](https://github.com/TEAMMATES/teammates/pull/13285)                      |                                                                                                                               |
+| 10   | Merged PR: [[#12048] Migrate tests for InstructorSearchIndexingWorkerActionTest #13286](https://github.com/TEAMMATES/teammates/pull/13286)        |                                                                                                                                |
+| 10   | Merged PR: [[#12048] Migrate tests for CreateFeedbackResponseCommentActionTest #13248](https://github.com/TEAMMATES/teammates/pull/13248)         |                                                                                                                               |
+| 10   | Merged PR: [[#12048] Migrate tests for DeleteFeedbackResponseCommentActionTest #13249](https://github.com/TEAMMATES/teammates/pull/13249)         |                                                                                                                               |
+| 10   | Merged PR: [[#12048] Migrate tests for UpdateFeedbackResponseCommentActionTest #13251](https://github.com/TEAMMATES/teammates/pull/13251)         |                                                                                                                               |
+| 10   | Reviewed PR: [[#12048] Migrate GetCourseJoinStatusActionTest #13299](https://github.com/TEAMMATES/teammates/pull/13299)                           |

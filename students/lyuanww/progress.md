@@ -8,3 +8,8 @@
 | 4    | Continued Work on Issue: [One-Stop Config File for Code Portfolio #2161] (https://github.com/reposense/RepoSense/issues/2161)
 | 5    | Submitted Issue: [Local generation of reports using index.html doesn't work #2289] (https://github.com/reposense/RepoSense/issues/2289)
 | 6    | Submitted PR: [One-Stop Config File for Code Portfolio #2299] (https://github.com/reposense/RepoSense/pull/2299)
+| 7    | Submitted PR: [Remove test mode flag #2314] (https://github.com/reposense/RepoSense/pull/2314)
+| 7    | Submitted Issue: [Add File Pinning/Starring Feature to Highlight Key Files #2317] (https://github.com/reposense/RepoSense/issues/2317)
+| 7    | Submitted Issue: [Ambiguity between title.md and the title field in config file. #2318] (https://github.com/reposense/RepoSense/issues/2318)
+| 8    | Reviewed PR: [Move title.md to config directory #2315] (https://github.com/reposense/RepoSense/pull/2315)
+| 9    | Submitted PR: [Refresh Only Text #2338] (https://github.com/reposense/RepoSense/pull/2338)

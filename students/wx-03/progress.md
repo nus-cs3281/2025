@@ -11,5 +11,15 @@
 | 6    | Submitted issue: [Move issue, issues-deleted, and issues-posted components to shared module #1326](https://github.com/CATcher-org/CATcher/issues/1326) |
 | 6    | Merged PR: [Handle templates using BehaviorSubject and async pipe #407](https://github.com/CATcher-org/WATcher/pull/407)                               |
 | 6    | Submitted issue: [Display information regarding PR reviews and merging statuses #408](https://github.com/CATcher-org/WATcher/issues/408)               |
-| 6    | Reviewed PR: [Merge Feature bug trimming branch to main #1331](https://github.com/CATcher-org/CATcher/pull/1331)                                       |
+| 6    | Reviewed PR: [Merge Feature bug trimming branch to main #1331](https://github.com/CATcher-org/CATcher/pull/1331#pullrequestreview-2634688713)                                       |
 | 7    | Merged PR: [Remove gap between bottom of window and horizontal sidebar using flexbox #420](https://github.com/CATcher-org/WATcher/pull/420)            |
+| 8    | Reviewed PR: [Update release workflow in dg #17](https://github.com/CATcher-org/WATcher-docs/pull/17#pullrequestreview-2687475921)                                                  |
+| 8    | Reviewed PR: [Implement Presets for Filters #411](https://github.com/CATcher-org/WATcher/pull/411#pullrequestreview-2687536703)                                                     |
+| 10   | Submitted issue: [Label overflows issue-pr-card if the label is too long #451](https://github.com/CATcher-org/WATcher/issues/451)                      |
+| 10   | Submitted issue: [Create unit tests for issue model #453](https://github.com/CATcher-org/WATcher/issues/453)                                           |
+| 12   | Merged PR: [Show review decision and reviewers in PR card #449](https://github.com/CATcher-org/WATcher/pull/449)                                       |
+| 12   | Merged PR: [Fix navigability issue caused by shared table name #1352](https://github.com/CATcher-org/CATcher/pull/1352)                                |
+| 12   | Reviewed PR: [Move the filter bar to the left #454](https://github.com/CATcher-org/WATcher/pull/454#pullrequestreview-2752024059)                                                   |
+| 13   | Reviewed PR: [Move parent class instead of select panel class #463](https://github.com/CATcher-org/WATcher/pull/463#pullrequestreview-2763145346)                                   |
+| 13   | Reviewed PR: [Update version to 1.4 #466](https://github.com/CATcher-org/WATcher/pull/466#pullrequestreview-2763195109)                                                             |
+| 13   | Reviewed PR: [Target only filter-bar-panel to move to right #468](https://github.com/CATcher-org/WATcher/pull/468#pullrequestreview-2764717147)                                     |
