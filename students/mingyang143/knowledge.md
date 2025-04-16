@@ -76,13 +76,15 @@ Looking ahead, I aim to sharpen my Mockito skills by exploring advanced features
 
 Mockito has already helped me write more effective and maintainable unit tests, and I’m excited to continue improving my testing skills with its advanced features!
 
-### Tool/Technology 3: **E2E testing with Seleinum**
+### Tool/Technology 3: **E2E testing with Selenium**
 
 #### Aspects Learned
 
 1. **Simulating User Workflows with Selenium**  
    While writing E2E tests for `InstructorFeedbackEditPageE2ETest`, I got hands-on experience with simulating real user actions using **Selenium**—like clicking buttons, selecting dropdowns, and filling text fields.
    - It gave me a better understanding of how an app is used from a user’s point of view, and how to verify behavior **from the outside in**, rather than relying on internal implementation.
+   - I also learned how Selenium interacts with the browser via dedicated **WebDriver binaries** (e.g., `chromedriver`, `geckodriver`) that serve as a bridge between the test script and the actual browser. This enables automated control over the DOM, allowing scripts to locate, manipulate, and verify UI elements dynamically.
+   - It was insightful to see how tests can launch and control real browsers programmatically, enabling full-stack validation of user flows across the frontend and backend.
 
 2. **Using the Page Object Pattern for Maintainability**  
    One of the standout aspects of TEAMMATES’ E2E testing architecture is its use of the **Page Object Pattern**.
@@ -96,17 +98,20 @@ Mockito has already helped me write more effective and maintainable unit tests, 
 
 #### Resources Used and Summary
 
-1. **TEAMMATES Developer Guide - E2E Testing Section**
+1. **[TEAMMATES Developer Guide - E2E Testing Section](https://teammates.github.io/teammates/e2e-testing.html)**
    - This was my main reference to understand how TEAMMATES structures E2E tests, and how Selenium interacts with page objects.
 
-2. **Selenium Official Documentation**
+2. **[Selenium Official Documentation](https://www.selenium.dev/documentation/)**
    - Helped me learn proper techniques to interact with web elements and handle dynamic UI changes using `waits`, `findElement`, and `actions`.
 
-3. **InstructorFeedbackEditPage and Existing Tests in TEAMMATES Codebase**
+3. **InstructorFeedbackEditPage and Existing E2E Tests in TEAMMATES Codebase**
    - Studying similar E2E test files gave me reusable patterns for structuring assertions, handling browser context switching, and organizing test logic.
 
 ### Final Thoughts
 
-Working on this E2E test taught me how to **write robust, user-centered tests** that are maintainable and comprehensive. I no longer see E2E testing as just UI clicking automation — it's about capturing workflows, ensuring frontend-backend consistency, and protecting critical paths of the app from regression.
+Working on `InstructorFeedbackEditPageE2ETest` taught me how to **write robust, user-centered tests** that are maintainable and comprehensive. I no longer see E2E testing as just UI clicking automation — it's about capturing workflows, ensuring frontend-backend consistency, and protecting critical paths of the app from regression.
 
-Going forward, I’m keen to improve by writing utility methods for repetitive test actions and exploring more advanced Selenium features like headless browser testing and parallel test execution. TEAMMATES' architecture gave me a solid foundation to grow as a test writer and as a software engineer overall.
+Looking ahead, I want to deepen my understanding of TEAMMATES' E2E infrastructure—particularly why **parallel test execution** tends to be flaky on GitHub Actions. I’m also interested in contributing to making E2E tests more stable and predictable in CI environments, possibly by reviewing test data setup and teardown practices. 
+
+Overall, this experience has made me more confident in both automated testing and system-level thinking as a developer.
+
