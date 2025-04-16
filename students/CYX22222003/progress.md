@@ -1,3 +1,20 @@
+## Summary
+Backend:
+- Fixed data handling error (#2270)
+- Implemented new features to enable configuration of time periods for different repos (#2280, #2384)
+- Remove redundant asset flags (#2315)
+
+Frontend:
+- Implemented comparison of filtered files (#2322)
+- Implemented author blurbs UI (#2319, #2339)
+- Implemented chart blurbs UI (#2319, #2339)
+
+DevOps:
+- Investigated and fixed minor CI/CD bugs (#2278, #2271, #2293)
+- Explored and updated dashboard deployments on Netlify (#2294, publish-Reposense #15)
+- Engaged in bug fixing of CI/CD workflow (publish-Reposense #23)
+- Explored ways to test publish-Reposense preview (#2295)
+
 | Week | Achievements                                             |
 |------|----------------------------------------------------------|
 | 2    | Submitted issue: [Hints containing outdated classes in the developer guide](https://github.com/reposense/RepoSense/issues/2267)|
@@ -21,8 +38,18 @@
 | 6    | Submitted issue: [Add blurbs for individual charts](https://github.com/reposense/RepoSense/issues/2308) |
 | 6    | Authored and merged PR: [[#2292] Fix surge.sh preview failure on PR](https://github.com/reposense/RepoSense/pull/2293) |
 | 7    | Review PR: [[#2283] Display time periods for each repository](https://github.com/reposense/RepoSense/pull/2303) |
-| 7    | Authored PR: [[#2205] Move title.md to config directory](https://github.com/reposense/RepoSense/pull/2315) |
+| 7    | Authored and merged PR: [[#2205] Move title.md to config directory](https://github.com/reposense/RepoSense/pull/2315) |
 | 7    | Responded to contributor queries: [Move title.md default location to configs folder #2205](https://github.com/reposense/RepoSense/issues/2205) |
+| 7    | Reviewd PR and engage in discussion: [[#2316] Update CI/CD Trigger to Allow Automatic Execution for All Relevant Events](https://github.com/reposense/publish-RepoSense/pull/23) |
 | 8    | Authored PR: [[#2308][#2311] Add author blurbs and repo blurbs to the frontend #2319](https://github.com/reposense/RepoSense/pull/2319) | 
-| 8    | Authored PR: [[#2106] Implement comparison of files across repos #2322](https://github.com/reposense/RepoSense/pull/2322) |
-| 9    | Submitted issue: [Remove support of customized since date and until date in normal mode #2334](https://github.com/reposense/RepoSense/issues/2334) |
+| 9    | Authored and merged PR: [[#2106] Implement comparison of files across repos #2322](https://github.com/reposense/RepoSense/pull/2322) |
+| 9    | Submitted issue: [Resolve conflict between CLI and CSV dates for report customization](https://github.com/reposense/RepoSense/issues/2334) |
+| 10   | Reviewed PR: [[#2212] Refresh Only Text](https://github.com/reposense/RepoSense/pull/2338) |
+| 10   | Reviewed PR: [[#2305] FE: Support optimized portfolio mode](https://github.com/reposense/RepoSense/pull/2320) |
+| 10   | Reviewed PR: [[#2210] Add default sort order for groups](https://github.com/reposense/RepoSense/pull/2331) |
+| 10   | Submitter issue: [Testing publish-Reposense on every push/PR on the main repo.](https://github.com/reposense/RepoSense/issues/2384) |
+| 11   | Authorerd PR: [[#2334] Resolve conflict between CLI and CSV dates](https://github.com/reposense/RepoSense/pull/2340) |
+| 11   | Submitted issue: [[#2386] Enable stacking multiple code panels in the tabs pane](https://github.com/reposense/RepoSense/issues/2386) |
+| 12   | Reviewed PR: [[#2311] Add blurbs for Authors](https://github.com/reposense/RepoSense/pull/2339) |
+| 12   | Co-authored and merged PR: [[#2311] Add blurbs for Authors](https://github.com/reposense/RepoSense/pull/2339) |
+| 13   | Submitted issue: [Set up CI/CD pipeline to sync changes between publish-Reposense and code-portfolio](https://github.com/reposense/RepoSense/issues/2417) |
