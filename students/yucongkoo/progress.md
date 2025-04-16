@@ -7,7 +7,7 @@
 | 4    | Reported and Researched Bug: [Problematic RestGithubIssueState value #1310](https://github.com/CATcher-org/CATcher/issues/1310)                                                                                                               |
 | 4    | Merged PR: [Fix RestGithubIssueState value for closed states #1311](https://github.com/CATcher-org/CATcher/pull/1311)                                                                                                                         |
 | 4    | Initiated and participated in discussion of UI and user workflow for new bug-trimming phase: [Create new UI for bug reporting phase that allows deleting and un-deleting of issues #1309](https://github.com/CATcher-org/CATcher/issues/1309) |
-| 4    | Raised possible enhancements: [Refactor IssueTablesComponent #1315](https://github.com/CATcher-org/CATcher/issues/1315)                                                                                                                       |
+| 4    | Created good first issue: [Refactor IssueTablesComponent #1315](https://github.com/CATcher-org/CATcher/issues/1315)                                                                                                                       |
 | 5    | Merged PR: [Implement new UI and logic for deleting and restoring issues #1312](https://github.com/CATcher-org/CATcher/pull/1312)                                                                                                             |
 | 5    | Created Issue: [Setup Builds and Tests not running for feature-bug-trimming branch #1320](https://github.com/CATcher-org/CATcher/issues/1320)                                                                                                 |
 | 5    | Created Issue: [Remove Setup Builds and Test workflow from feature branch #1323](https://github.com/CATcher-org/CATcher/issues/1323)                                                                                                          |
@@ -38,3 +38,8 @@
 |12| Reviewed PR: [Fix navigability issue caused by shared table name #1352](https://github.com/CATcher-org/CATcher/pull/1352#pullrequestreview-2745470774)|
 |12| Cherry-picked and deployed [hotfix](https://github.com/CATcher-org/CATcher/commit/b1340c94f82bc1b0bbeb3cb00b8e62183995eebe) for CATcher V3.6.1 |
 |12| Published CATcher release [V3.6.1](https://github.com/CATcher-org/CATcher/releases/tag/V3.6.1)|
+|13| Created Issue: [Give a more detailed tool tip for 'keep filter' button #440](https://github.com/CATcher-org/WATcher/issues/440)|
+|13| Merged PR: [Change keep filters to use slider button #458](https://github.com/CATcher-org/WATcher/pull/458)|
+|13| Reviewed PR: [Add a badge to indicate whether the PR follows the forking workflow #456](https://github.com/CATcher-org/WATcher/pull/456#pullrequestreview-2763147315)|
+|13| Created Issue: [Bug of all select panels getting transformed to the right #467](https://github.com/CATcher-org/WATcher/issues/467)|
+|13| Merged PR: [Target only filter-bar-panel to move to right #468](https://github.com/CATcher-org/WATcher/pull/468)|
