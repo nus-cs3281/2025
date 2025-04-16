@@ -761,6 +761,8 @@
         "final-thoughts": "Final Thoughts",
         "tool-technology-2-mockito-and-advanced-unit-testing": "Tool/Technology 2: Mockito and advanced unit testing",
         "final-thoughts-2": "Final Thoughts",
+        "tool-technology-3-e2e-testing-with-seleinum": "Tool/Technology 3: E2E testing with Seleinum",
+        "final-thoughts-3": "Final Thoughts",
         "poh-jun-kang": "POH JUN KANG",
         "angular-and-frontend": "Angular and Frontend",
         "aspects-learnt": "Aspects Learnt",
@@ -841,7 +843,9 @@
         "tool-technology-1-angular-and-dark-mode-implementation-for-the-frontend": "Tool/Technology 1: Angular and Dark Mode Implementation for the frontend",
         "final-thoughts": "Final Thoughts",
         "tool-technology-2-mockito-and-advanced-unit-testing": "Tool/Technology 2: Mockito and advanced unit testing",
-        "final-thoughts-2": "Final Thoughts"
+        "final-thoughts-2": "Final Thoughts",
+        "tool-technology-3-e2e-testing-with-seleinum": "Tool/Technology 3: E2E testing with Seleinum",
+        "final-thoughts-3": "Final Thoughts"
       },
       "headingKeywords": {}
     },
