@@ -99,7 +99,7 @@ Mockito has already helped me write more effective and maintainable unit tests, 
 #### Resources Used and Summary
 
 1. **[TEAMMATES Developer Guide - E2E Testing Section](https://teammates.github.io/teammates/e2e-testing.html)**
-   - This was my main reference to understand how TEAMMATES structures E2E tests, and how Selenium interacts with page objects.
+   - This was my main reference to understand how TEAMMATES structures E2E tests.
 
 2. **[Selenium Official Documentation](https://www.selenium.dev/documentation/)**
    - Helped me learn proper techniques to interact with web elements and handle dynamic UI changes using `waits`, `findElement`, and `actions`.
@@ -107,6 +107,9 @@ Mockito has already helped me write more effective and maintainable unit tests, 
 3. **InstructorFeedbackEditPage and Existing E2E Tests in TEAMMATES Codebase**
    - Studying similar E2E test files gave me reusable patterns for structuring assertions, handling browser context switching, and organizing test logic.
 
+4. **[Page Object Pattern](https://martinfowler.com/bliki/PageObject.html)**
+   - I learned more about the Page Object Pattern from this website.
+   
 ### Final Thoughts
 
 Working on `InstructorFeedbackEditPageE2ETest` taught me how to **write robust, user-centered tests** that are maintainable and comprehensive. I no longer see E2E testing as just UI clicking automation — it's about capturing workflows, ensuring frontend-backend consistency, and protecting critical paths of the app from regression.
