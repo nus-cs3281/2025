@@ -241,7 +241,9 @@
     },
     {
       "src": "students/CYX22222003/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary"
+      },
       "headingKeywords": {}
     },
     {
