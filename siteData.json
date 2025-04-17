@@ -143,7 +143,9 @@
         "regex": "RegEx",
         "markbind": "MarkBind",
         "markbind-highlighter-component": "MarkBind Highlighter Component",
-        "markbind-cli-commands": "MarkBind CLI commands"
+        "markbind-cli-commands": "MarkBind CLI commands",
+        "project-management": "Project Management",
+        "managing-prs": "Managing PRs"
       },
       "headingKeywords": {}
     },
@@ -684,6 +686,8 @@
         "markbind-2": "MarkBind",
         "markbind-highlighter-component": "MarkBind Highlighter Component",
         "markbind-cli-commands": "MarkBind CLI commands",
+        "project-management-2": "Project Management",
+        "managing-prs": "Managing PRs",
         "chan-ger-teck": "CHAN GER TECK",
         "internal-tools-technology": "Internal Tools/Technology",
         "how-markbind-works-overview-of-everything": "How MarkBind Works (Overview of everything)",
