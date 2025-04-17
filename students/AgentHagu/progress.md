@@ -59,3 +59,7 @@ During this semester, I contributed to the development and maintenance of the Ma
 | 13 | Created Issue: [Include and Popover cyclic reference not properly replacing div with error #2695](https://github.com/MarkBind/markbind/issues/2695) |
 | 13 | Created Issue: [`<a-point>` displays "undefined" for bottom legend #2698](https://github.com/MarkBind/markbind/issues/2698) |
 | 13 | Created Issue: [Add a "back" link for footnotes #2699](https://github.com/MarkBind/markbind/issues/2699) |
+| 13 | Approved PR: [Fix bottom legend for annotate point #2700](https://github.com/MarkBind/markbind/pull/2700) |
+| 13 | Authored PR: [Add info messages for expected errors in test runs #2702](https://github.com/MarkBind/markbind/pull/2702) |
+| 13 | Authored PR: [Improve error messages for `includePanelProcessor.ts` #2703](https://github.com/MarkBind/markbind/pull/2703) |
+| 13 | Authored PR: [Add more tests for includePanelProcessor.ts #2704](https://github.com/MarkBind/markbind/pull/2704) |
