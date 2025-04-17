@@ -879,7 +879,10 @@
     },
     {
       "src": "students/nknguyenhc/progress.md",
-      "headings": {},
+      "headings": {
+        "catcher": "CATcher",
+        "watcher": "WATcher"
+      },
       "headingKeywords": {}
     },
     {
