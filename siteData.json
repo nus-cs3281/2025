@@ -318,7 +318,10 @@
     },
     {
       "src": "students/Eclipse-Dominator/progress.md",
-      "headings": {},
+      "headings": {
+        "catcher": "CATcher",
+        "watcher": "WATcher"
+      },
       "headingKeywords": {}
     },
     {
