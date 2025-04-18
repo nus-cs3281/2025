@@ -1,5 +1,19 @@
 ### MarkBind
 
+#### Summary
+During this semester, I contributed to the development and maintenance of the MarkBind project, focusing on improving the functionality and user-experience of the CLI commands. I also helped out in other areas, like the highlight feature and devOps. My key contributions include:
+
+- **CLI Improvements**
+    - Added custom host validation for the `serve` command to notify users of invalid hosts
+    - Improved reliability of the `serve` command by handling UncaughtExceptions in non-MarkBind directories, as well as for `build` and `deploy` commands
+    - Fixed issues with MarkBind's patch of `live-server`, which includes mismatches in the openURL and serveURL and issues with IPv6 addresses
+- **Highlight Component**
+    - Added the ability for authors to highlight based on absolute positions rather than positions relative to indentation level
+    - Fixed an issue where tabs '\t' are considered as 8 spaces wide rather than 4 spaces
+- **Improved DevOps**
+    - Adjusted tsconfig files to prevent the duplication of TypeScript tests, as well as migrating a legacy JavaScript test file to TypeScript
+    - Investigated and fixed an issue with unreliable CodeCov generation by migrating to CodeCov v5
+
 | Week | Achievements |
 | ---- | ------------ |
 | 1 | Authored PR: [Add optional absolute char indexing for highlighting #2584](https://github.com/MarkBind/markbind/pull/2584) |
@@ -39,3 +53,13 @@
 | 11 | Merged PR: [Catch UncaughtException for build and deploy #2674](https://github.com/MarkBind/markbind/pull/2674) |
 | 11 | Authored PR: [Migrate CodeCov from v3 to v5 #2675](https://github.com/MarkBind/markbind/pull/2675) |
 | 11 | Merged PR: [Migrate CodeCov from v3 to v5 #2675](https://github.com/MarkBind/markbind/pull/2675) |
+| 12 | Discussed Issue: [#2670](https://github.com/MarkBind/markbind/issues/2670) |
+| 12 | Approved PR: [#2678](https://github.com/MarkBind/markbind/pull/2678) |
+| 13 | Created Issue: [Inconsistencies with popover error message location #2688](https://github.com/MarkBind/markbind/issues/2688) |
+| 13 | Created Issue: [Include and Popover cyclic reference not properly replacing div with error #2695](https://github.com/MarkBind/markbind/issues/2695) |
+| 13 | Created Issue: [`<a-point>` displays "undefined" for bottom legend #2698](https://github.com/MarkBind/markbind/issues/2698) |
+| 13 | Created Issue: [Add a "back" link for footnotes #2699](https://github.com/MarkBind/markbind/issues/2699) |
+| 13 | Approved PR: [Fix bottom legend for annotate point #2700](https://github.com/MarkBind/markbind/pull/2700) |
+| 13 | Authored PR: [Add info messages for expected errors in test runs #2702](https://github.com/MarkBind/markbind/pull/2702) |
+| 13 | Authored PR: [Improve error messages for `includePanelProcessor.ts` #2703](https://github.com/MarkBind/markbind/pull/2703) |
+| 13 | Authored PR: [Add more tests for includePanelProcessor.ts #2704](https://github.com/MarkBind/markbind/pull/2704) |

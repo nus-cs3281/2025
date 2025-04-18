@@ -11,7 +11,8 @@ I focused mainly on the functionality side of VSCode. I started out with fixing 
 | ID | Status | Description |
 | --- | --- | --- |
 | #240134 | Merged | [Extension detail content escapes container](https://github.com/microsoft/vscode/pull/240134) |
-| #244074 | Pending | [Goto definition for built-in symbols in HTML script](https://github.com/microsoft/vscode/pull/244074) |
+| #244074 | Mreged | [Goto definition for built-in symbols in HTML script](https://github.com/microsoft/vscode/pull/244074) |
+| #245034 | Pending | [Git merge squash](https://github.com/microsoft/vscode/pull/245034) |
 
 ### My Learning Record
 
