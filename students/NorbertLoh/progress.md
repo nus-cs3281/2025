@@ -32,7 +32,13 @@
 | 9 | Created Issue: [Box tooltip shows up above side menu when window is collapsed #44](https://github.com/CATcher-org/catcher-org.github.io/issues/44) |
 | 9 | Participated In Issue Discussion: [Create new overview dashboard for PR Review Comments Contribution per developer #447](https://github.com/CATcher-org/WATcher/issues/447) |
 | 9 | Created Postman Workspace for WATcher: [WATcher Postman Collection](https://www.postman.com/orange-station-77364/watcher/overview) |
+| 9 | Participated in deployment of WATcher V1.3.0 |
 | 11 | Participated In Issue Discussion: [Create Dashboard with PR-Level Review & Comment Tracking, Filtering, and Metrics #455](https://github.com/CATcher-org/WATcher/issues/455) |
 | 11 | Reviewed PR: [Create new base view for reviews dashboard #461](https://github.com/CATcher-org/WATcher/pull/461) |
 | 11 | Reviewed PR: [Change keep filters to use slider button #458](https://github.com/CATcher-org/WATcher/pull/458) |
 | 12 | Reviewed PR: [Fix navigability issue caused by shared table name #1352](https://github.com/CATcher-org/CATcher/pull/1352) |
+| 12 | Participated in release of CATcher V3.6.1 |
+| 13 | Reviewed PR: [Fix bug of all select panels opening to the right #473](https://github.com/CATcher-org/WATcher/pull/473) |
+| 13 | Reviewed PR: [Add "deselect all" and "select all" options to Assignee filter #474](https://github.com/CATcher-org/WATcher/pull/474) |
+| 13 | Created PR: [Show PR and issue count separately #471](https://github.com/CATcher-org/WATcher/pull/471) |
+| 13 | Created Issue: [Drop down does not align with icon #472](https://github.com/CATcher-org/WATcher/issues/472) |
