@@ -1171,7 +1171,9 @@
     },
     {
       "src": "students/yucongkoo/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary"
+      },
       "headingKeywords": {}
     },
     {
