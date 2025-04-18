@@ -486,7 +486,10 @@
     },
     {
       "src": "students/NorbertLoh/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary",
+        "key-contributions": "🔧 Key Contributions"
+      },
       "headingKeywords": {}
     },
     {
