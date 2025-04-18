@@ -47,3 +47,4 @@
 | 13   | Merged PR: [[#12048] Migrate InstructorCourseStudentDetailsPageE2ETest #13310](https://github.com/TEAMMATES/teammates/pull/13310) |
 | 13   | Reviewed PR: [[#12048] Migrate FeedbackResultsPageE2ETest #13308](https://github.com/TEAMMATES/teammates/pull/13308) |
 | 13   | Reviewed PR: [[#12048] Migrate InstructorFeedbackEditPageE2ETest #13314](https://github.com/TEAMMATES/teammates/pull/13314) |
+| 13   | Reviewed PR: [[#12048] Migrate InstructorCourseEnrollPageE2ETest #13311](https://github.com/TEAMMATES/teammates/pull/13311) |
