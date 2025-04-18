@@ -1,3 +1,31 @@
+# Summary
+Over the semester, I have been actively contributing to both **CATcher** and **WATcher**. While I spent time fixing bugs in CATcher, my main focus was on identifying and resolving issues that enhance both the user and developer experience in WATcher.
+
+### 🔧 Key Contributions
+
+#### CATcher – Bug Trimming Phase
+- Participated in the planning and discussions to implement a new bug-trimming phase [#1301](https://github.com/CATcher-org/CATcher/issues/1301)
+- Kickstarted development by setting up the new phase page, including model updates, user and auth permissions [#1308](https://github.com/CATcher-org/CATcher/pull/1308)
+
+#### WATcher – API Testing Improvements
+- Identified the lack of documentation and backend testing, which made contributing new features difficult [#433](https://github.com/CATcher-org/WATcher/issues/433)
+- Implemented a GraphQL and API testing sandbox to streamline query testing and development, making it easier for contributors to add new features rather than relying on existing queries [#20](https://github.com/CATcher-org/WATcher-docs/pull/20)
+
+#### WATcher – Dashboard Development
+- Initiated planning and discussions for a new **analytics dashboard** to provide a more insightful overview of data [#434](https://github.com/CATcher-org/WATcher/issues/434), [#447](https://github.com/CATcher-org/WATcher/issues/447), [#455](https://github.com/CATcher-org/WATcher/issues/455)
+
+#### 🧠 Project Management and Collaboration
+- Identified improvements in PRs, leading to improvements in code quality and UI/UX across both projects  
+  - CATcher: [#1342](https://github.com/CATcher-org/CATcher/pull/1342)  
+  - WATcher: [#461](https://github.com/CATcher-org/WATcher/pull/461), [#458](https://github.com/CATcher-org/WATcher/pull/458)
+- Contributed to the release and testing process of:
+  - **WATcher v1.3.0**
+  - **CATcher v3.6.1**
+
+#### Others
+- Identified issues in other projects
+  - Markbind: [Medium Urgent Issue #2655](https://github.com/MarkBind/markbind/issues/2655)
+
 | Week | PR |
 |----|---|
 | 1 | Merged PR: [Add white-space style to markdown code block css #1295](https://github.com/CATcher-org/CATcher/pull/1295) |
