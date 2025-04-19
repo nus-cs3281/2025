@@ -508,7 +508,7 @@
     {
       "src": "students/domoberzin/observations.md",
       "headings": {
-        "assimp": "Assimp",
+        "oss-fuzz-integrated-projects-matio-libraw-libarchive-assimp-etc": "OSS-Fuzz Integrated Projects (matio, libraw, libarchive, assimp etc.)",
         "my-contributions": "My contributions",
         "my-learning-record": "My Learning Record",
         "tldr": "TLDR",
@@ -943,7 +943,7 @@
         "my-learning-record-8": "My Learning Record",
         "teammates": "TEAMMATES",
         "dominic-berzin-chua-way-gin": "DOMINIC BERZIN CHUA WAY GIN",
-        "assimp": "Assimp",
+        "oss-fuzz-integrated-projects-matio-libraw-libarchive-assimp-etc": "OSS-Fuzz Integrated Projects (matio, libraw, libarchive, assimp etc.)",
         "my-contributions-9": "My contributions",
         "my-learning-record-9": "My Learning Record",
         "tldr": "TLDR",
