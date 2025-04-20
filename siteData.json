@@ -164,7 +164,12 @@
     {
       "src": "students/Airiinnn/knowledge.md",
       "headings": {
+        "defining-requirements": "Defining requirements",
+        "code-reviews": "Code Reviews",
+        "mutability-vs-immutability": "Mutability vs Immutability",
+        "vue": "Vue",
         "cypress": "Cypress",
+        "vite": "Vite",
         "gradle": "Gradle",
         "github-actions": "GitHub Actions"
       },
@@ -172,7 +177,9 @@
     },
     {
       "src": "students/Airiinnn/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary"
+      },
       "headingKeywords": {}
     },
     {
@@ -735,7 +742,12 @@
         "markbind-processing-flow": "MarkBind Processing Flow",
         "reposense": "RepoSense",
         "alexander-liswandy": "ALEXANDER LISWANDY",
+        "defining-requirements": "Defining requirements",
+        "code-reviews": "Code Reviews",
+        "mutability-vs-immutability": "Mutability vs Immutability",
+        "vue-4": "Vue",
         "cypress": "Cypress",
+        "vite": "Vite",
         "gradle": "Gradle",
         "github-actions-2": "GitHub Actions",
         "chen-yixun": "CHEN YIXUN",
@@ -754,7 +766,7 @@
         "regression": "Regression",
         "code-review": "Code Review",
         "performance-benchmarking": "Performance Benchmarking",
-        "vite": "Vite",
+        "vite-2": "Vite",
         "eslint-2": "ESLint",
         "vercel": "Vercel",
         "immutability-in-java": "Immutability in Java",
