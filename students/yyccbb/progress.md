@@ -26,6 +26,7 @@
 | 13   | Authored issues #2706, #2708, #2709, #2710
 | 13   | Opened and Merged PR #2707
 | 13   | Opened PR #2711
+
 Remarks:
 
 | Week | Remarks
