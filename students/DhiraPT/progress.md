@@ -28,3 +28,5 @@
 | 11   | Responded to contributor queries: [#13291](https://github.com/TEAMMATES/teammates/issues/13291#issuecomment-2769908793)                                              |
 | 11   | Merged PR: [[#13275] Fix potential incorrect sending of closing soon email #13293](https://github.com/TEAMMATES/teammates/pull/13293)                                |
 | 12   | Merged PR: [[#12048] Migrate Tests for UpdateStudentActionTest #13303](https://github.com/TEAMMATES/teammates/pull/13303)                                            |
+| 13   | Reviewed PR: [[#12048] Migrate FeedbackConstSumOptionQuestionE2E #13315](https://github.com/TEAMMATES/teammates/pull/13315)                                          |
+| 13   | Merged PR: [[#12048] Migrate Tests for FeedbackConstSumRecipientQuestionE2ETest #13318](https://github.com/TEAMMATES/teammates/pull/13318)                           |
