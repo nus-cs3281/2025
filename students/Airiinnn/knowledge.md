@@ -1,8 +1,23 @@
+### Defining requirements
+TODO
+
+### Code Reviews
+TODO
+
+### Mutability vs Immutability
+TODO
+
+### Vue
+TODO
+
 ### Cypress
-TODO: Update
+TODO
+
+### Vite
+TODO
 
 ### Gradle
-TODO: Update
+TODO
 
 References:
 * [Gradle tasks](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html)
