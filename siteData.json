@@ -656,6 +656,8 @@
       "src": "students/knowledge.md",
       "title": "CS3281 - Knowledge gained from Projects",
       "headings": {
+        "markbind-processing-flow": "MarkBind Processing Flow",
+        "bootstrap-css-and-bootswatch": "Bootstrap CSS and Bootswatch",
         "knowledge-gained-from-projects": "Knowledge gained from Projects",
         "catcher": "CATcher",
         "isaac-ng-jun-jie": "ISAAC NG JUN JIE",
@@ -739,7 +741,6 @@
         "the-workings-of-cors": "The workings of CORS",
         "cors-preflight-request": "CORS Preflight Request",
         "yu-chenbo": "YU CHENBO",
-        "markbind-processing-flow": "MarkBind Processing Flow",
         "reposense": "RepoSense",
         "alexander-liswandy": "ALEXANDER LISWANDY",
         "defining-requirements": "Defining requirements",
@@ -1224,7 +1225,8 @@
     {
       "src": "students/yyccbb/knowledge.md",
       "headings": {
-        "markbind-processing-flow": "MarkBind Processing Flow"
+        "markbind-processing-flow": "MarkBind Processing Flow",
+        "bootstrap-css-and-bootswatch": "Bootstrap CSS and Bootswatch"
       },
       "headingKeywords": {}
     },
