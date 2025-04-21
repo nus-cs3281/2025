@@ -658,6 +658,8 @@
       "headings": {
         "markbind-processing-flow": "MarkBind Processing Flow",
         "bootstrap-css-and-bootswatch": "Bootstrap CSS and Bootswatch",
+        "vue-js": "Vue.js",
+        "puppeteer": "Puppeteer",
         "knowledge-gained-from-projects": "Knowledge gained from Projects",
         "catcher": "CATcher",
         "isaac-ng-jun-jie": "ISAAC NG JUN JIE",
@@ -1226,7 +1228,9 @@
       "src": "students/yyccbb/knowledge.md",
       "headings": {
         "markbind-processing-flow": "MarkBind Processing Flow",
-        "bootstrap-css-and-bootswatch": "Bootstrap CSS and Bootswatch"
+        "bootstrap-css-and-bootswatch": "Bootstrap CSS and Bootswatch",
+        "vue-js": "Vue.js",
+        "puppeteer": "Puppeteer"
       },
       "headingKeywords": {}
     },
