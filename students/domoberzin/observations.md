@@ -1,16 +1,17 @@
-### Assimp
+### OSS-Fuzz Integrated Projects (matio, libraw, libarchive, assimp etc.)
 
-Assimp stands for Asset Importer Library, which handles geometric scenes from various 3D-data formats, for example animations or texture data, and also supports CAD/3D printing formats.
+As part of my FYP, which involves automated program repair using [AutoCodeRover](http://autocoderover.dev/), we also strived to obtain developer feedback on the LLM-generated fixes. This involved submitting fixes to the [OSS-Fuzz issue tracker](https://issues.oss-fuzz.com/issues?q=coderover).
 
 ### My contributions
 
-Through my FYP, which uses an AI Agent to automatically remediate security vulnerabilities, a PR for a vulnerability detected by OSS-Fuzz was [merged in](https://github.com/assimp/assimp/pull/6055), the pre-print is in the PR description.
+Other than contributing to the system used to generate the fixes, there was also a manually review of any of the potential fixes before submission, and understanding whether or not they truly address the vulnerabilities, as well as whether or not they fit into the program semantics. Thus, all the submissions to the issue tracker were manually vetted.
+
+So far, one PR for a vulnerability detected by OSS-Fuzz was [merged in](https://github.com/assimp/assimp/pull/6055).
 
 ### My Learning Record
 - OSS-Fuzz is a large-scale infrastructure for fuzzing open-source projects. They also automatically publicly disclose discovered bugs beyond a certain grace period, for e.g. this was the [original issue](https://issues.oss-fuzz.com/issues/372765427)
 - Assimp, in particular, also has a [fuzzing workflow](https://github.com/assimp/assimp/blob/master/.github/workflows/cifuzz.yml) to run fuzzing for 300 seconds, as part of their CI/Quality gates.
-- This project also has [SonarQubeCloud](https://github.com/apps/sonarqubecloud) integrated, which runs static analysis to serve as a quality gate.
-
+- Assimp project also has [SonarQubeCloud](https://github.com/apps/sonarqubecloud) integrated, which runs static analysis to serve as a quality gate.
 
 ### TLDR
 

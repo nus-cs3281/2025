@@ -39,4 +39,6 @@
 | 11   | Merged PR: [[#12048] Migrate tests for ResetAccountActionTest #13279](https://github.com/TEAMMATES/teammates/pull/13279)                          |
 | 11   | Merged PR: [[#12048] Migrate tests for GetRegkeyValidityActionTest #13278](https://github.com/TEAMMATES/teammates/pull/13278)                     |
 | 12   | Merged PR: [[#12048] Migrate tests for GetSessionResponseStatsActionTest #13277](https://github.com/TEAMMATES/teammates/pull/13277)               |
+| 13   | Opened PR: [[#12048] Migrate InstructorFeedbackEditPageE2ETest #13314](https://github.com/TEAMMATES/teammates/pull/13314)                         |
+| 13   | Reviewed PR: [[#12048] Migrate tests for UnpublishFeedbackSessionActionTest #13296](https://github.com/TEAMMATES/teammates/pull/13296)            |
 

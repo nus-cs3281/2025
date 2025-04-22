@@ -1,10 +1,10 @@
 ### Summary
 
-Over the semester, I will be working on MarkBind. The work will build on previous work done, recorded [here](https://docs.google.com/document/d/1PjA6jfa7G_ZNjc8zSWi1hVSMmhbrGUY95k0ytyDCo-Y/edit?usp=sharing).
+Over the semester, I have been working on MarkBind. The work will build on previous work done, recorded [here](https://docs.google.com/document/d/1PjA6jfa7G_ZNjc8zSWi1hVSMmhbrGUY95k0ytyDCo-Y/edit?usp=sharing).
 
 I also add add comments and discussions on other issues and PRs (including PR reviews) where I think it would be helpful. (not included in following list). To view, filter by adding `commenter:username` to see in respective GitHub [PR](https://github.com/MarkBind/markbind/pulls) or [Issues](https://github.com/MarkBind/markbind/issues) list.  
 
-I successfully migrated Markbind from Vue 2 to Vue 3, continuing on efforts by a previous senior developer 2 years ago.
+I migrated Markbind from Vue 2 to Vue 3, continuing on efforts by a previous senior developer 2 years ago. Additionally, I supported the project through various other bug fixes and optimizations that I noticed through the process of migration.
 
 | Week | Achievements |
 | ---- | ------------ |
@@ -41,7 +41,10 @@ I successfully migrated Markbind from Vue 2 to Vue 3, continuing on efforts by a
 | 11 | Opened Issue: [Mermaid CORS #2667](https://github.com/MarkBind/markbind/issues/2667) |
 | 11 | Opened Issue: [Renable Qn Animation #2668](https://github.com/MarkBind/markbind/issues/2668) |
 | 11 | Opened Issue: [Refactor Styling site-nav #2669](https://github.com/MarkBind/markbind/issues/2669) |
-
+| 12 | Opened Issue: [Outdated Vue testing API #2680](https://github.com/MarkBind/markbind/issues/2680) |
+| 12 | Authored (merged) PR: [Update Vue Testing API #2682](https://github.com/MarkBind/markbind/pull/2682) |
+| 13 | Opened Issue: [Content cut off after code block in panel using includes #2684](https://github.com/MarkBind/markbind/issues/2684) |
+| 13 | Opened Issue: [Vue warning when building CS2103 website #2687](https://github.com/MarkBind/markbind/issues/2687) |
 
 Additional Work done while undertaking Vue 2 to Vue 3 migration of MarkBind (each classifiable as a separate PR, but is part of PR#2622):
 * Built the CS2103 website on gh-pages (serves updated version)
