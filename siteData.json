@@ -468,7 +468,10 @@
     },
     {
       "src": "students/JoanneHing/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary",
+        "progress": "Progress"
+      },
       "headingKeywords": {}
     },
     {
