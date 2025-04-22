@@ -1139,7 +1139,10 @@
     },
     {
       "src": "students/wx-03/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary",
+        "details": "Details"
+      },
       "headingKeywords": {}
     },
     {
