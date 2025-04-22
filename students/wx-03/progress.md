@@ -1,3 +1,18 @@
+### Summary
+- CATcher:
+  - Contributed to the implementation of the new bug-trimming phase
+    - [Create issue component for bug trimming phase #1319](https://github.com/CATcher-org/CATcher/pull/1319)
+  - Fixed time-sensitive bug reported before PE
+    - [Fix navigability issue caused by shared table name #1352](https://github.com/CATcher-org/CATcher/pull/1352) 
+- WATcher:
+  - Took part in issue tracking, feature development, and team discussions throughout the project.
+  - Implemented new PR reviewer tracking feature to display approval statuses and reviewers, enabling users to quickly identify pending reviews.
+    - [Show review decision and reviewers in PR card #449](https://github.com/CATcher-org/WATcher/pull/449)
+  - Fixed some critical GUI bugs to prepare for release of WATcher to target users
+    - [Remove gap between bottom of window and horizontal sidebar using flexbox #420](https://github.com/CATcher-org/WATcher/pull/420) 
+    - [Prevent label overflow in card with ellipsis and tooltip #475](https://github.com/CATcher-org/WATcher/pull/475)
+
+### Details
 | Week | Achievements                                                                                                                                                                                         |
 |------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2    | Submitted issue: ['View current page on GitHub' button uses an invalid filter #395](https://github.com/CATcher-org/WATcher/issues/395)                                                               |
@@ -24,5 +39,5 @@
 | 13   | Reviewed PR: [Update version to 1.4 #466](https://github.com/CATcher-org/WATcher/pull/466#pullrequestreview-2763195109)                                                                              |
 | 13   | Reviewed PR: [Target only filter-bar-panel to move to right #468](https://github.com/CATcher-org/WATcher/pull/468#pullrequestreview-2764717147)                                                      |
 | 13   | Submitted issue: [Pressing escape when a dropdown is open in the filter menu causes the filter bar to close while the dropdown remains open #469](https://github.com/CATcher-org/WATcher/issues/469) |
-| 13   | Submitted issue: [Tooltips do not show for some labels #477](https://github.com/CATcher-org/WATcher/issues/477)                                                                                      |
 | 13   | Merged PR: [Prevent label overflow in card with ellipsis and tooltip #475](https://github.com/CATcher-org/WATcher/pull/475)                                                                          |
+| 13   | Submitted issue: [Tooltips do not show for some labels #477](https://github.com/CATcher-org/WATcher/issues/477)                                                                                      |
