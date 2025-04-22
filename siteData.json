@@ -630,8 +630,8 @@
     {
       "src": "students/jonasongg/knowledge.md",
       "headings": {
-        "tool-technology-1": "Tool/Technology 1",
-        "tool-technology-2": "Tool/Technology 2"
+        "reposense-backend": "RepoSense Backend",
+        "code-reviewing": "Code Reviewing"
       },
       "headingKeywords": {}
     },
@@ -649,7 +649,9 @@
     },
     {
       "src": "students/jonasongg/progress.md",
-      "headings": {},
+      "headings": {
+        "progress": "Progress"
+      },
       "headingKeywords": {}
     },
     {
