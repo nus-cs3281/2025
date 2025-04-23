@@ -1,3 +1,21 @@
+### Summary
+Throughout the semester, I contributed to improving RepoSense's infrastructure, continuous integration (CI/CD) pipelines, and extending its frontend and backend features. My contributions focus on debugging CI issues, upgrading workflows, feature development, and maintaining overall project. Key contributions include:
+
+- **Infrastructure and CI/CD**
+  - Upgraded GitHub Actions runners to newer versions for macOS and added support for Ubuntu 24.04 ([PR #2260](https://github.com/reposense/RepoSense/pull/2260), [PR #2261](https://github.com/reposense/RepoSense/pull/2261)).
+  - Implemented CI checks on PRs and restricted deployment to the master branch in publish-RepoSense ([PR #20](https://github.com/reposense/publish-RepoSense/pull/20), [PR #23](https://github.com/reposense/publish-RepoSense/pull/23#commits-pushed-590fdfd)).
+  - Discovered issue for surge.sh preview failures ([Issue #2292](https://github.com/reposense/RepoSense/issues/2292)).
+- **Feature Development and Enhancement**
+  - Extended the blurb feature that originally supporting only repository descriptions to also support author and chart blurbs, focusing mainly on backend implementation ([PR #2239](https://github.com/reposense/RepoSense/pull/2239), [PR #2350](https://github.com/reposense/RepoSense/pull/2350)).
+  - Created related issues ([PR #2311](https://github.com/reposense/RepoSense/pull/2311)) and cleaned up associated code and documentation ([PR #2394](https://github.com/reposense/RepoSense/pull/2394)).
+- **Codebase Maintenance**
+  - Modernized Vue templates by using directive shorthand syntax ([PR #2290](https://github.com/reposense/RepoSense/pull/2290)).
+  - Updated workflows to avoid GitHub Actions deprecation warnings ([PR #2298](https://github.com/reposense/RepoSense/pull/2298)).
+- **Testing and Review**
+  - Reviewed multiple PRs and provided feedback on improvements for code quality and functionality.
+  - Discussed with teammates to understand the codebase, bug fixes, feature implementations, and work distribution.
+
+### Progress 
 | Week | Achievements                                                                                                                                                                       |
 |------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1    | Discovered with the team regarding the issue of failing of the application due to incompaible Java version (Java17)                                                                |
@@ -41,3 +59,5 @@
 | 12   | Merged PR: [[#2391][#2992] Update User Guide and Clean Up Code #2394](https://github.com/reposense/RepoSense/pull/2394)                                                            |
 | 13   | Created issue: [Adding test cases for blurb front end #2432](https://github.com/reposense/RepoSense/issues/2432)                                                                   |
 | 13   | Created issue: [Investigate why the order for parsing for blurb is inconsistent #2433](https://github.com/reposense/RepoSense/issues/2433)                                         |
+| 13   | Reviewed PR: [[#2424] Fix missing dates in portfolio mode #2431](https://github.com/reposense/RepoSense/pull/2431)                                                                 |
+| 13   | Reviewed PR: [[#2419] Group Renovate Minor and Patch Updates #2434](https://github.com/reposense/RepoSense/pull/2434)                                                              |
