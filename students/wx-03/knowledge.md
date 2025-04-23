@@ -40,4 +40,4 @@ GraphQL API is resolved into its schema and resolvers:
 
 GraphQL allows users to manually choose which fields they want to fetch from the API
 
-<!-- Give sample code from CATcher -->
+In the case of WATcher, using GraphQL meant that additional fields can be fetched easily simply by adding new fields to the query and changing the Angular model for the issue / PR. For instance, when working on displaying reviewers in the PR cards in WATcher, I only had to add to the `FetchPullRequests` query and edit the respective Angular models to include the newly fetched data.

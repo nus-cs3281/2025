@@ -6,7 +6,7 @@
     - [Fix navigability issue caused by shared table name #1352](https://github.com/CATcher-org/CATcher/pull/1352) 
 - WATcher:
   - Took part in issue tracking, feature development, and team discussions throughout the project.
-  - Implemented new PR reviewer tracking feature to display approval statuses and reviewers, enabling users to quickly identify pending reviews.
+  - Implemented new PR reviewer tracking feature to display approval statuses and reviewers, enabling users to quickly identify issues that require reviews.
     - [Show review decision and reviewers in PR card #449](https://github.com/CATcher-org/WATcher/pull/449)
   - Fixed some critical GUI bugs to prepare for release of WATcher to target users
     - [Remove gap between bottom of window and horizontal sidebar using flexbox #420](https://github.com/CATcher-org/WATcher/pull/420) 
@@ -28,8 +28,10 @@
 | 6    | Submitted issue: [Display information regarding PR reviews and merging statuses #408](https://github.com/CATcher-org/WATcher/issues/408)                                                             |
 | 6    | Reviewed PR: [Merge Feature bug trimming branch to main #1331](https://github.com/CATcher-org/CATcher/pull/1331#pullrequestreview-2634688713)                                                        |
 | 7    | Merged PR: [Remove gap between bottom of window and horizontal sidebar using flexbox #420](https://github.com/CATcher-org/WATcher/pull/420)                                                          |
+| 7    | Participated in issue discussion: [Use feature-branches instead of merging to main #427](https://github.com/CATcher-org/WATcher/issues/427#issuecomment-2705963655)                                  |
 | 8    | Reviewed PR: [Update release workflow in dg #17](https://github.com/CATcher-org/WATcher-docs/pull/17#pullrequestreview-2687475921)                                                                   |
 | 8    | Reviewed PR: [Implement Presets for Filters #411](https://github.com/CATcher-org/WATcher/pull/411#pullrequestreview-2687536703)                                                                      |
+| 9    | Particpated in issue discussion: [Show PR and issue count separately #442](https://github.com/CATcher-org/WATcher/issues/442#issuecomment-2740018685)                                                |
 | 10   | Submitted issue: [Label overflows issue-pr-card if the label is too long #451](https://github.com/CATcher-org/WATcher/issues/451)                                                                    |
 | 10   | Submitted issue: [Create unit tests for issue model #453](https://github.com/CATcher-org/WATcher/issues/453)                                                                                         |
 | 12   | Merged PR: [Show review decision and reviewers in PR card #449](https://github.com/CATcher-org/WATcher/pull/449)                                                                                     |
