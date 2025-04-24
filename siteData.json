@@ -395,14 +395,20 @@
         "cors-cross-origin-resource-sharing": "CORS (Cross-Origin Resource Sharing)",
         "importance-of-cors": "Importance of CORS",
         "the-workings-of-cors": "The workings of CORS",
-        "cors-preflight-request": "CORS Preflight Request"
+        "cors-preflight-request": "CORS Preflight Request",
+        "cdn-content-delivery-network": "CDN (Content Delivery Network)",
+        "javascript-moduling-systems-cjs-vs-esm": "JavaScript Moduling Systems (CJS VS ESM)",
+        "cjs-commonjs": "CJS (CommonJS)",
+        "esm-ecmascript-modules": "ESM (ECMAScript Modules)",
+        "what-to-use": "What to use"
       },
       "headingKeywords": {}
     },
     {
       "src": "students/Incogdino/progress.md",
       "headings": {
-        "markbind": "MarkBind"
+        "markbind": "MarkBind",
+        "summary": "Summary"
       },
       "headingKeywords": {}
     },
@@ -755,6 +761,11 @@
         "importance-of-cors": "Importance of CORS",
         "the-workings-of-cors": "The workings of CORS",
         "cors-preflight-request": "CORS Preflight Request",
+        "cdn-content-delivery-network": "CDN (Content Delivery Network)",
+        "javascript-moduling-systems-cjs-vs-esm": "JavaScript Moduling Systems (CJS VS ESM)",
+        "cjs-commonjs": "CJS (CommonJS)",
+        "esm-ecmascript-modules": "ESM (ECMAScript Modules)",
+        "what-to-use": "What to use",
         "yu-chenbo": "YU CHENBO",
         "reposense": "RepoSense",
         "alexander-liswandy": "ALEXANDER LISWANDY",
