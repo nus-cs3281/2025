@@ -13,7 +13,8 @@ DevOps:
 - Investigated and fixed minor CI/CD bugs (#2278, #2271, #2293)
 - Explored and updated dashboard deployments on Netlify (#2294, publish-Reposense #15)
 - Engaged in bug fixing of CI/CD workflow (publish-Reposense #23)
-- Explored ways to test publish-Reposense preview (#2295)
+- Explored ways to test publish-Reposense preview and various way to trigger Github Workflow actions (#2295)
+- Set up and experiment template repository for deploying portfolio dashboard (https://github.com/reposense/code-portfolio)
 
 | Week | Achievements                                             |
 |------|----------------------------------------------------------|
@@ -48,8 +49,13 @@ DevOps:
 | 10   | Reviewed PR: [[#2305] FE: Support optimized portfolio mode](https://github.com/reposense/RepoSense/pull/2320) |
 | 10   | Reviewed PR: [[#2210] Add default sort order for groups](https://github.com/reposense/RepoSense/pull/2331) |
 | 10   | Submitter issue: [Testing publish-Reposense on every push/PR on the main repo.](https://github.com/reposense/RepoSense/issues/2384) |
-| 11   | Authorerd PR: [[#2334] Resolve conflict between CLI and CSV dates](https://github.com/reposense/RepoSense/pull/2340) |
+| 11   | Authorerd and merged PR: [[#2334] Resolve conflict between CLI and CSV dates](https://github.com/reposense/RepoSense/pull/2340) |
 | 11   | Submitted issue: [[#2386] Enable stacking multiple code panels in the tabs pane](https://github.com/reposense/RepoSense/issues/2386) |
 | 12   | Reviewed PR: [[#2311] Add blurbs for Authors](https://github.com/reposense/RepoSense/pull/2339) |
 | 12   | Co-authored and merged PR: [[#2311] Add blurbs for Authors](https://github.com/reposense/RepoSense/pull/2339) |
 | 13   | Submitted issue: [Set up CI/CD pipeline to sync changes between publish-Reposense and code-portfolio](https://github.com/reposense/RepoSense/issues/2417) |
+| Reading week | Authored and merged PR: [[#2425] Fix bugs in UG for blurbs (#2428)](https://github.com/reposense/RepoSense/pull/2428) | 
+| Reading week | Reviewed PR: [[#2308] Add blurbs for charts (#2350)](https://github.com/reposense/RepoSense/pull/2350) | 
+| Reading week | Submitted issue: [--since flag in the CLI description is outdated](https://github.com/reposense/RepoSense/issues/2427) |
+| Reading week | Submitted issue: [Enhance Netlify Deployment Guide Flexibility](https://github.com/reposense/RepoSense/issues/2421) |
+| Reading week | Submitted issue: [Bugs in embedded appendices for author blurbs and repo blurbs in UG](https://github.com/reposense/RepoSense/issues/2426) | 
