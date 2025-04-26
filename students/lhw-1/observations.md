@@ -1,11 +1,36 @@
-### Project: Foo
+### Project: Source Academy
 
-Give an intro to the project here ...
+Source Academy is an open source, web-based learning environment for programming developed at NUS. The platform is mainly used to teach CS1101S: Programming Methodology I within NUS, but is also used by overseas universities, such as MIT and Uppsala University.
+
+I have been part of the Source Academy development team for some time; I started as a contributor in terms of the game design and story in AY20/21 Sem 2, and implemented non-trivial features for the game engine directly in AY21/22 Sem 2. However, since then, I have not been able to take a closer look again at the game engine -related codes. 
+
+As part of CS3282, over AY23/24 Sem 2 (and the summer break), I have decided to tackle the code quality and issues surrounding the frontend-facing portion of the game engine: the game simulator.
 
 ### My Contributions
 
-Give a description of your contributions, including links to relevant PRs
+The contribution I have made are as follows:
+
+| ID    | Status | Pull Request                                                                                                                                                                        |
+| ----- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| #2805 | Merged | [Game: Rename Story Simulator references to Game Simulator (#2805)](https://github.com/source-academy/frontend/pull/2805)                                                           |
+| #2810 | Merged | [Game: Remove Object Placement feature from Game Simulator (#2810)](https://github.com/source-academy/frontend/pull/2810)                                                           |
+| #2836 | Merged | [Game: Refactor Game Simulator (#2836)](https://github.com/source-academy/frontend/pull/2836)                                                                                       |
+| #3013 | Merged | [Game: Save game state for staff and admin (#3013)](https://github.com/source-academy/frontend/pull/3013)                                                                           |
+| #3018 | Merged | [Game: Fix a bug with displaying published chapter data (#3018)](https://github.com/source-academy/frontend/pull/3018)                                                              |
+
+1. [Game: Rename Story Simulator references to Game Simulator (#2805)](https://github.com/source-academy/frontend/pull/2805): This was the first issue I tackled - it had been nearly 2 years since I took a last look at the codebase, and frankly, it took me quite a while to understand the flow of the codebase once again. This was a low hanging fruit -type issue, and it gave me the chance to warm up to the codebase once again.
+
+2. [Game: Remove Object Placement feature from Game Simulator (#2810)](https://github.com/source-academy/frontend/pull/2810): This was the first non-trivial PR. After the first PR [#2805](https://github.com/source-academy/frontend/pull/2805) was merged, I opened the issue "[Game: Refactor and Updates to the Game Simulator (#2806)](https://github.com/source-academy/frontend/issues/2806)". This served as the ongoing tracker issue on how we can refactor and polish the game simulator, filled with problems found in the current game simulator code that I noticed while working on PR [#2805](https://github.com/source-academy/frontend/pull/2805). In order to remove the Object Placement feature, which had not been used by the game storywriting team for years (a fact I knew, as the sole member of the game storywriting team for years), I had to do a deeper dive into the current architecture of the game simulator. I was able to refactor and remove the portions of code that were necessary for doing this, and this led me to also do a deeper dive on how Phaser 3 engine worked - but I also managed to find even more problems while working on this PR, and that formed the bulk of the problems tackled for the next PR.
+
+3. [Game: Refactor Game Simulator (#2836)](https://github.com/source-academy/frontend/pull/2836): This was the major PR I worked on; following [#2805](https://github.com/source-academy/frontend/pull/2805) and [#2810](https://github.com/source-academy/frontend/pull/2810), I decided to refactor the entire game simulator. This not only included dependency updates and rewording of text, but also re-organizing the code to make it more modular. This was also in part influenced by the earlier work in PR [#2810](https://github.com/source-academy/frontend/pull/2810); with this PR [#2836](https://github.com/source-academy/frontend/pull/2836), removing or adding a module to the game simulator should now be much easier. The UI of the game simulator was also changed to (1) remove issues with browser window sizing, and (2) use more modern UI components.
+
+4. [Game: Save game state for staff and admin (#3013)](https://github.com/source-academy/frontend/pull/3013): After [#2836](https://github.com/source-academy/frontend/pull/2836), I took a bit of a break from the coding work to instead focus on planning for a major overwrite of the game engine itself with the rest of the game team. As we did not manage to complete the planning in time for the next semester, I decided to end off the summer break with a trivial feature that was in demand for some time, in time for the upcoming semester. That was this PR.
+
+5. [Game: Fix a bug with displaying published chapter data (#3018)](https://github.com/source-academy/frontend/pull/3018): This was another PR to fix a bug right before the start of the upcoming semester.
+
+As mentioned, between the gap from [#2836](https://github.com/source-academy/frontend/pull/2836) and [#3013](https://github.com/source-academy/frontend/pull/3013), we had been planning for a massive game engine overwrite that aims to remove poor coding standards / practices that accumulated over the years, and instead incorporate interesting approaches to game development by making use of functional programming to declare scenes in phaser. However, we did not manage to complete the planning in time for the next semester, and are instead aiming to complete this work after AY24/25 Sem 2 (i.e. after graduation).
 
 ### My Learning Record
 
-Give tools/technologies you learned here. Include resources you used, and a brief summary of the resource.
+1. **Phaser**: Phaser is a game development framework for JavaScript that is commonly used for web-based games, and forms a core part of the Source Academy game engine. In the past, I did not have to touch much of Phaser, as my other groupmates focused on handling the Phaser portion (while I was mostly in charge of text parsing). Now, with the work on game simulator, I had to become much more familiar with Phaser; using the [Phaser Documentation](https://docs.phaser.io/phaser/getting-started/what-is-phaser), I was able to get up to speed on the different components. I did find Phaser documentation and online resources somewhat lacking, which did take some time to figure out - I recall that I even had to go into the source code for Phaser to figure out an input-related issue (either keyboard or mouse, one of the two).
+2. **Blueprint**: Blueprint JS is a UI toolkit for React-based web applications, and is the main UI toolkit used for Source Academy. As someone who was much more familiar with Material UI, Blueprint was an interesting tool to learn about - the approaches to UI development was quite different from that of Material UI or React-bootstrap (which were the UI libraries I was most familiat with).

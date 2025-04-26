@@ -1,11 +1,3 @@
-<!-- ### Tool/Technology 1
-
-List the aspects you learned, and the resources you used to learn them, and a brief summary of each resource.
-
-### Tool/Technology 2
-
-... -->
-
 ### Angular
 CATcher and WATcher are both built using the Angular framework, which is a single-page web appliation framework. Angular comes with a CLI tool to accelerate development.
 
@@ -20,6 +12,11 @@ CATcher and WATcher are both built using the Angular framework, which is a singl
     - Data binding
     - Pipes
     - Directives
+
+#### Services
+Dependency injection (DI) is a design pattern for creating and delivering some parts of an application to other parts of an application that requires them. In the DI system, there are two main roles: dependency consumer and dependency provider. 
+
+In Angular, dependencies are typically services. When a service is provided at the root level, it becomes a singleton and and all classes will share the same instance of the service. This allows different classes (components, services, etc.) to inject the service and share information through it.
 
 ### GraphQL
 - CATcher and WATcher use GraphQL to fetch and update issues, PRs, and comments from GitHub.
@@ -40,4 +37,14 @@ GraphQL API is resolved into its schema and resolvers:
 
 GraphQL allows users to manually choose which fields they want to fetch from the API
 
-<!-- Give sample code from CATcher -->
+In the case of WATcher, using GraphQL means that additional fields can be fetched easily simply by adding new fields to the query and changing the Angular model for the issue / PR. For instance, when working on displaying reviewers in the PR cards in WATcher, I only had to add to the `FetchPullRequests` query and edit the respective Angular models to include the newly fetched data.
+
+#### Rate limits
+GitHub's GraphQL API has limitations in place to protect against excessive or abusive calls to GitHub's servers. 
+While working on WATcher, we noticed that opening a large repository such as NUSMods will cause the rate limit to be exceeded very quickly, and this could be a potential problem for users who want to use WATcher for large repositories. 
+
+##### Primary rate limit
+Users have a limit of 5000 points per hour per user, where the point value of a query can be calculated as specified in their [docs](https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#predicting-the-point-value-of-a-query).
+
+##### Secondary rate limit
+GitHub also enforces secondary rate limits to prevent abuse of the API. GitHub does not allow too many concurrent requests, and no more than 2,000 points per minute are allowed for the GraphQL API endpoint.
