@@ -243,8 +243,7 @@
         "github-actions": "Github Actions",
         "docker": "Docker",
         "lighthouse-ci": "Lighthouse CI",
-        "vue-framework": "Vue framework",
-        "java-gson-library": "Java Gson library"
+        "vue-framework": "Vue framework"
       },
       "headingKeywords": {}
     },
@@ -783,7 +782,6 @@
         "docker": "Docker",
         "lighthouse-ci": "Lighthouse CI",
         "vue-framework": "Vue framework",
-        "java-gson-library": "Java Gson library",
         "hing-yen-xing": "HING YEN XING",
         "github-actions-and-amp-ci-cd-workflows": "GitHub Actions &amp; CI/CD Workflows",
         "github-action-runners": "GitHub Action Runners",
