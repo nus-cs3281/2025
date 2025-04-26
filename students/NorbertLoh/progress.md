@@ -17,10 +17,12 @@ Over the semester, I have been actively contributing to both **CATcher** and **W
 #### 🧠 Project Management and Collaboration
 - Identified improvements in PRs, leading to improvements in code quality and UI/UX across both projects  
   - CATcher: [#1342](https://github.com/CATcher-org/CATcher/pull/1342)  
-  - WATcher: [#461](https://github.com/CATcher-org/WATcher/pull/461), [#458](https://github.com/CATcher-org/WATcher/pull/458)
+  - WATcher: [#461](https://github.com/CATcher-org/WATcher/pull/461), [#458](https://github.com/CATcher-org/WATcher/pull/458), [#475](https://github.com/CATcher-org/WATcher/pull/475)
 - Contributed to the release and testing process of:
   - **WATcher v1.3.0**
   - **CATcher v3.6.1**
+- Released **WATcher v1.4.1**
+- Good first issues [#480](https://github.com/CATcher-org/WATcher/issues/480), [#481](https://github.com/CATcher-org/WATcher/issues/481)
 
 #### Others
 - Identified issues in other projects
@@ -70,3 +72,8 @@ Over the semester, I have been actively contributing to both **CATcher** and **W
 | 13 | Reviewed PR: [Add "deselect all" and "select all" options to Assignee filter #474](https://github.com/CATcher-org/WATcher/pull/474) |
 | 13 | Created PR: [Show PR and issue count separately #471](https://github.com/CATcher-org/WATcher/pull/471) |
 | 13 | Created Issue: [Drop down does not align with icon #472](https://github.com/CATcher-org/WATcher/issues/472) |
+| 13 | Reviewed PR: [Prevent label overflow in card with ellipsis and tooltip #475](https://github.com/CATcher-org/WATcher/pull/475) |
+| 13 | Created PR: [Release minor improvements in V1.4.1 #476](https://github.com/CATcher-org/WATcher/pull/476) |
+| 13 | Released WATcher V1.4.1: [Release V1.4.1](https://github.com/CATcher-org/WATcher/releases/tag/V1.4.1) |
+| 13 | Created Issue: [Different coloured cards for PR and issues #480 Open](https://github.com/CATcher-org/WATcher/issues/480) |
+| 13 | Created Issue: [Truncated Name in big repos #481](https://github.com/CATcher-org/WATcher/issues/481) |
