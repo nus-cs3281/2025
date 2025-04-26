@@ -21,6 +21,8 @@ But, it's important to not design the code in such a way that it causes a circul
 preset service relied on the filter service but the filter service also relied on the preset service. To fix it, we can redesign the code such that it doesn't
 have this circular dependency or we can extract out the parts into a 3rd service that is then injected into both.
 
+Models in Angular can be used to enforce the type of data. This can also make it easier to separate and isolate related methods, such as putting `preset`-related functions in the Preset model.
+
 
 ### Tool/Technology 2
 RxJS
@@ -40,6 +42,9 @@ Material Angular is the design library used by CATcher and WATcher. Unfortunatel
 most of the API is similar. 
 
 Material Angular allows us to use pre-made components that follow the Material design style, allowing us to have a consistent and coherent UI experience. 
+
+Material Angular provides advanced customization through the `::ng-deep` CSS selector. Normally, any CSS written in the .css file will not apply to the generated Angular Material HTML components, however, by using `::ng-deep`, it can be. 
+However, it's important to note that this is a deprecated in future versions.
 
 
 ...
