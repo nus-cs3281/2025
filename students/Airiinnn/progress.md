@@ -1,6 +1,20 @@
 ### Summary
 
-TODO
+* **Feature development**:
+  * Implemented portfolio mode for the report
+    * New mode targeted for users to create a personal code portfolio page to showcase their coding work, with a more optimized view and individual repository date ranges.
+    * Implemented a portfolio flag in the backend as a toggle for this new mode.
+    * Implemented the new portfolio view in the frontend.
+    * Coordinated with team member's backend implementation to support individual repository date ranges in this new mode in the frontend.
+  * Support individual repository date ranges in the default mode in the frontend.
+* **Testing and bug fixes**
+  * Enhanced cypress tests to support running on multiple reports (default mode and portfolio mode).
+  * Fix various frontend bugs and added more thorough testing.
+  * Fix inconsistent timezones in Cypress tests.
+* **Code maintenance**
+  * Refactor frontend components for simplicity and to ensure consistent behavior.
+  * Upgrade deprecated actions that caused checks to fail.
+  * Bump up node to v20.
 
 | Week | Achievements                                                                                                                                                                                                                         |
 |------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -35,5 +49,7 @@ TODO
 | 13   | Created issue: [Incorrect widgets when used in portfolio mode #2425](https://github.com/reposense/RepoSense/issues/2425)                                                                                                             |
 | 13   | Created PR: [[#2359] Refactor summary components #2414](https://github.com/reposense/RepoSense/pull/2414)                                                                                                                            |
 | 13   | Created PR: [[#2424] Fix missing dates in portfolio mode #2431](https://github.com/reposense/RepoSense/pull/2431)                                                                                                                    |
-| 14   | Pending review: [[#2359] Refactor summary components #2414](https://github.com/reposense/RepoSense/pull/2414)                                                                                                                        |
-| 14   | Pending review: [[#2424] Fix missing dates in portfolio mode #2431](https://github.com/reposense/RepoSense/pull/2431)                                                                                                                |
+| 14   | Created PR: [[#2425] Fix incorrect widgets in portfolio mode #2435 ](https://github.com/reposense/RepoSense/pull/2435)                                                                                                               |
+| 14   | Merged PR: [[#2359] Refactor summary components #2414](https://github.com/reposense/RepoSense/pull/2414)                                                                                                                             |
+| 14   | Merged PR: [[#2424] Fix missing dates in portfolio mode #2431](https://github.com/reposense/RepoSense/pull/2431)                                                                                                                     |
+| 14   | Merged PR: [[#2425] Fix incorrect widgets in portfolio mode #2435 ](https://github.com/reposense/RepoSense/pull/2435)                                                                                                                |
