@@ -1,3 +1,31 @@
+## Summary
+
+In this project, I contributed to test migration, bug fixes, and code quality improvements. My key contributions include:
+
+- **Test Migration**:
+
+  - Migrated multiple unit tests to use SQL-based logic instead of the previous Datastore model (e.g., [DeleteStudentActionTest #13204](https://github.com/TEAMMATES/teammates/pull/13204), [UpdateStudentActionTest #13303](https://github.com/TEAMMATES/teammates/pull/13303), while ensuring near 100% coverage.
+
+  - Modified `MockEmailSender` to simulate email sending failures for testing ([#13262](https://github.com/TEAMMATES/teammates/pull/13262)).
+
+- **Code Quality & Standardization**:
+
+  - Standardized naming conventions for FeedbackSession Actions ([#13229](https://github.com/TEAMMATES/teammates/pull/13229)).
+
+- **Bug Fixes**:
+
+  - Fixed a `NullPointerException` in the `Student` class by adding null checks ([#13264](https://github.com/TEAMMATES/teammates/pull/13264))—this issue was observed in other classes as well (more to be fixed).
+
+  - Resolved a bug where incorrect closing soon reminders could be sent ([#13293](https://github.com/TEAMMATES/teammates/pull/13293)).
+
+- Issue Reporting & Community Support:
+
+  - Reported issues like PostgreSQL port conflicts ([#13291](https://github.com/TEAMMATES/teammates/issues/13291)).
+
+  - Reviewed pull requests and assisted with contributor queries.
+
+Lastly, I am currently working on the E2E migration, which will require improvements to the test architecture first.
+
 | Week | Achievements                                                                                                                                                         |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2    | Submitted Issue: [Duplicate Feedback Sessions Appear on Student Page #13199](https://github.com/TEAMMATES/teammates/issues/13199)                                    |
