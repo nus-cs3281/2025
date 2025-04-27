@@ -29,4 +29,6 @@
 | 11   | Merged PR: [[#13275] Fix potential incorrect sending of closing soon email #13293](https://github.com/TEAMMATES/teammates/pull/13293)                                |
 | 12   | Merged PR: [[#12048] Migrate Tests for UpdateStudentActionTest #13303](https://github.com/TEAMMATES/teammates/pull/13303)                                            |
 | 13   | Reviewed PR: [[#12048] Migrate FeedbackConstSumOptionQuestionE2E #13315](https://github.com/TEAMMATES/teammates/pull/13315)                                          |
-| 13   | Merged PR: [[#12048] Migrate Tests for FeedbackConstSumRecipientQuestionE2ETest #13318](https://github.com/TEAMMATES/teammates/pull/13318)                           |
+| 13   | Submitted Issue: [Entities created during E2E tests persist in the database #13323](https://github.com/TEAMMATES/teammates/issues/13323)                             |
+| 13   | Submitted Issue: [Data Migration: pageobjects migration to SQL-based models #13324](https://github.com/TEAMMATES/teammates/issues/13324)                             |
+| 13   | Opened PR: [[#12048] Migrate Tests for FeedbackConstSumRecipientQuestionE2ETest #13318](https://github.com/TEAMMATES/teammates/pull/13318)                           |
