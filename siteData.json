@@ -460,7 +460,11 @@
     },
     {
       "src": "students/Izn432/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary",
+        "catcher": "CATcher",
+        "watcher": "WATcher"
+      },
       "headingKeywords": {}
     },
     {
