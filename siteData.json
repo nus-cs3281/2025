@@ -270,7 +270,9 @@
     },
     {
       "src": "students/DhiraPT/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary"
+      },
       "headingKeywords": {}
     },
     {
