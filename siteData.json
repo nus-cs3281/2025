@@ -264,7 +264,7 @@
       "headings": {
         "tool-technology-1-mockito": "Tool/Technology 1: Mockito",
         "tool-technology-2-objectify-and-jakarta-persistence-jpa": "Tool/Technology 2: Objectify and Jakarta Persistence (JPA)",
-        "tool-technology-3": "Tool/Technology 3"
+        "tool-technology-3-selenium-with-java": "Tool/Technology 3: Selenium with Java"
       },
       "headingKeywords": {}
     },
@@ -830,7 +830,7 @@
         "dhiraputta-pathama-tengara": "DHIRAPUTTA PATHAMA TENGARA",
         "tool-technology-1-mockito": "Tool/Technology 1: Mockito",
         "tool-technology-2-objectify-and-jakarta-persistence-jpa": "Tool/Technology 2: Objectify and Jakarta Persistence (JPA)",
-        "tool-technology-3-3": "Tool/Technology 3",
+        "tool-technology-3-selenium-with-java": "Tool/Technology 3: Selenium with Java",
         "li-mingyang": "LI MINGYANG",
         "tool-technology-1-angular-and-dark-mode-implementation-for-the-frontend": "Tool/Technology 1: Angular and Dark Mode Implementation for the frontend",
         "final-thoughts": "Final Thoughts",
