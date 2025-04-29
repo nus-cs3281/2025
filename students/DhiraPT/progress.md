@@ -6,11 +6,11 @@ In this project, I contributed to test migration, bug fixes, and code quality im
 
   - Migrated multiple unit tests to use SQL-based logic instead of the previous Datastore model (e.g., [DeleteStudentActionTest #13204](https://github.com/TEAMMATES/teammates/pull/13204), [UpdateStudentActionTest #13303](https://github.com/TEAMMATES/teammates/pull/13303), while ensuring near 100% coverage.
 
-  - Modified `MockEmailSender` to simulate email sending failures for testing ([#13262](https://github.com/TEAMMATES/teammates/pull/13262)).
+  - Modified `MockEmailSender` to simulate email sending failures for testing ([#13262](https://github.com/TEAMMATES/teammates/pull/13262)). Previously, it was not possible to test the behavior of the system when email sending fails.
 
 - **Code Quality & Standardization**:
 
-  - Standardized naming conventions for FeedbackSession Actions ([#13229](https://github.com/TEAMMATES/teammates/pull/13229)).
+  - Standardized naming conventions for FeedbackSession Actions ([#13229](https://github.com/TEAMMATES/teammates/pull/13229)). The previous names were inconsistent, which could cause confusion about whether variables were associated with the correct action class.
 
 - **Bug Fixes**:
 
@@ -18,13 +18,13 @@ In this project, I contributed to test migration, bug fixes, and code quality im
 
   - Resolved a bug where incorrect closing soon reminders could be sent ([#13293](https://github.com/TEAMMATES/teammates/pull/13293)).
 
-- Issue Reporting & Community Support:
+- **Issue Reporting & Community Support**:
 
   - Reported issues like PostgreSQL port conflicts ([#13291](https://github.com/TEAMMATES/teammates/issues/13291)).
 
   - Reviewed pull requests and assisted with contributor queries.
 
-Lastly, I am currently working on the E2E migration, which will require improvements to the test architecture first.
+Lastly, I am currently working on the E2E migration, which will require improvements to the test architecture first ([#13324](https://github.com/TEAMMATES/teammates/issues/13324)).
 
 | Week | Achievements                                                                                                                                                         |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -58,5 +58,6 @@ Lastly, I am currently working on the E2E migration, which will require improvem
 | 12   | Merged PR: [[#12048] Migrate Tests for UpdateStudentActionTest #13303](https://github.com/TEAMMATES/teammates/pull/13303)                                            |
 | 13   | Reviewed PR: [[#12048] Migrate FeedbackConstSumOptionQuestionE2E #13315](https://github.com/TEAMMATES/teammates/pull/13315)                                          |
 | 13   | Submitted Issue: [Entities created during E2E tests persist in the database #13323](https://github.com/TEAMMATES/teammates/issues/13323)                             |
-| 13   | Submitted Issue: [Data Migration: pageobjects migration to SQL-based models #13324](https://github.com/TEAMMATES/teammates/issues/13324)                             |
+| 13   | Submitted Issue: [Data Migration: pageobjects migration to SQL-based versions #13324](https://github.com/TEAMMATES/teammates/issues/13324)                           |
+| 13   | Merged PR: [[#13324] Migrate to InstructorFeedbackEditPageSql #13325](https://github.com/TEAMMATES/teammates/pull/13325)                                             |
 | 13   | Opened PR: [[#12048] Migrate Tests for FeedbackConstSumRecipientQuestionE2ETest #13318](https://github.com/TEAMMATES/teammates/pull/13318)                           |
