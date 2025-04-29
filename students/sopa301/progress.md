@@ -1,6 +1,6 @@
 # Progress
 ## Summary
-N/A
+Migrated the project to Vite, improved CI workflows, upgraded dependencies, and resolved deployment issues, while also submitting issues to modernise infrastructure and fix documentation.
 
 
 | Week | Merged PRs |

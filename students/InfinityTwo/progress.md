@@ -48,3 +48,4 @@
 | 13   | Reviewed PR: [[#12048] Migrate FeedbackResultsPageE2ETest #13308](https://github.com/TEAMMATES/teammates/pull/13308) |
 | 13   | Reviewed PR: [[#12048] Migrate InstructorFeedbackEditPageE2ETest #13314](https://github.com/TEAMMATES/teammates/pull/13314) |
 | 13   | Reviewed PR: [[#12048] Migrate InstructorCourseEnrollPageE2ETest #13311](https://github.com/TEAMMATES/teammates/pull/13311) |
+| Exam Week| Merged PR: [[#12048] Abstract Access Controls to BaseActionTest #13254](https://github.com/TEAMMATES/teammates/pull/13254) |
