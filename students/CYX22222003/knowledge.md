@@ -114,7 +114,7 @@ During the developmemt, I experienced with how to use Lighthouse CI to integrate
 Vue.js is a progressive, component-based JavaScript framework for building user interfaces and single-page applications. It emphasizes an approachable API layered atop standard HTML, CSS, and JavaScript.
 
 Some technical details:
-- Component System: Single-file components (.vue files) with <template>, <script>, and <style scoped>.
+- Component System: Single-file components (.vue files) with `template`, `script`, and `style scoped`.
 - Declarative rendering with `createApp` and `data`
 - Attribute binding with `v-bind` or `:`
 - Event listener `v-on` and function declaration using `methods` option
