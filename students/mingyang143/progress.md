@@ -51,5 +51,6 @@
 | 12   | Merged PR: [[#12048] Migrate tests for GetSessionResponseStatsActionTest #13277](https://github.com/TEAMMATES/teammates/pull/13277)                                         |
 | 13   | Opened PR: [[#12048] Migrate InstructorFeedbackEditPageE2ETest #13314](https://github.com/TEAMMATES/teammates/pull/13314)                                                   |
 | 13   | Reviewed PR: [[#12048] Migrate tests for UnpublishFeedbackSessionActionTest #13296](https://github.com/TEAMMATES/teammates/pull/13296)                                      |
+| 13   | Merged PR: [[#12048] Migrate InstructorFeedbackEditPageE2ETest #13314](https://github.com/TEAMMATES/teammates/pull/13314)                                                   |
 | 13   | Submitted Issue: [Poor cleanup of data after the SQL E2E tests lead to unexpected error when doing E2E testing #13326](https://github.com/TEAMMATES/teammates/issues/13326) |
 
