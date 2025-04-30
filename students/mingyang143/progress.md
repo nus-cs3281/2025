@@ -5,7 +5,7 @@
 - Migrated E2E tests to use SQL entities; automated critical user flows with Selenium WebDriver and adopted the Page Object Model for maintainability and scalability – e.g., [[#13314]: Migrate InstructorFeedbackEditPageE2ETest](https://github.com/TEAMMATES/teammates/pull/13314)
 
 **Issue Report & Community Support**
-- Reported an E2E instability issue when calling `feedbackEditPage.deleteSession()` [Poor cleanup of data after the SQL E2E tests lead to unexpected error when doing E2E testing #13326](https://github.com/TEAMMATES/teammates/issues/13326)
+- Reported an unexpected E2E testing issue when calling `feedbackEditPage.deleteSession()`. The issue: [Poor cleanup of data after the SQL E2E tests lead to unexpected error when doing E2E testing #13326](https://github.com/TEAMMATES/teammates/issues/13326)
 - Reviewed pull requests and helped with contributor queries regarding testing docs - e.g., [[#13227] Improve testing docs #13242](https://github.com/TEAMMATES/teammates/pull/13242)
 
 | Week | PR                                                                                                                                                                          |
