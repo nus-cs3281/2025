@@ -600,8 +600,13 @@
     {
       "src": "students/jasonqiu212/knowledge.md",
       "headings": {
-        "tool-technology-1": "Tool/Technology 1",
-        "tool-technology-2": "Tool/Technology 2"
+        "mocktio": "Mocktio",
+        "resources": "Resources",
+        "documentation": "Documentation",
+        "context": "Context",
+        "learnings": "Learnings",
+        "resources-2": "Resources",
+        "miscellaneous": "Miscellaneous"
       },
       "headingKeywords": {}
     },
