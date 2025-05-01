@@ -686,7 +686,8 @@
     {
       "src": "students/jonasongg/progress.md",
       "headings": {
-        "progress": "Progress"
+        "progress": "Progress",
+        "summary": "Summary"
       },
       "headingKeywords": {}
     },
