@@ -537,8 +537,9 @@
     {
       "src": "students/domoberzin/knowledge.md",
       "headings": {
-        "tool-technology-1": "Tool/Technology 1",
-        "tool-technology-2": "Tool/Technology 2"
+        "slidev": "Slidev",
+        "tmux": "TMUX",
+        "pnpm": "pnpm"
       },
       "headingKeywords": {}
     },
