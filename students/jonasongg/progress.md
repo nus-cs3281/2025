@@ -1,5 +1,8 @@
 # Progress
 
+## Summary 
+Focused on reviewing code improvements and changes for RepoSense's frontend, including testing. Also was engaged in discussions with fellow mentors and mentees for specifications of features added such as since/until date for individual repos.
+
 | Week | PRs Reviewed |
 | --- | --- |
 | 2 |  [#2176] Move from Vue CLI to Vite #2257 
