@@ -1,5 +1,11 @@
 ## Summary
 
+- Guided new contributors during the summer through a variety of frontend/backend issues
+- Reviewed PRs and guided mentees through the migration of tests (E2E tests, Integration tests) as part of the SQL migration
+- Assisted with Artifact Registry Migration
+- Migrated several E2E and integration tests to speed up the migration process as well
+- Touched a large variety of external projects through my FYP
+
 ## Pre-CS3282 Work
 
 | Date        | Achievements                                                                                                                                                                                                   |
@@ -88,15 +94,15 @@
 | 11 | Merged PR: [[#12048] Migrate GetCourseJoinStatusActionTest #13299](https://github.com/TEAMMATES/teammates/pull/13299) |
 | 11 | Reviewed PR: [[#12048] Migrate GetInstructorPrivilegeActionTest #13297](https://github.com/TEAMMATES/teammates/pull/13297) |
 | 11 | Merged PR: [[#12048] Migrate GetFeedbackQuestionRecipientsActionTest #13301](https://github.com/TEAMMATES/teammates/pull/13301) |
-| 12 | Opened PR: [[#12048] Migrate FeedbackResultsPageE2ETest #13308](https://github.com/TEAMMATES/teammates/pull/13308) |
+| 12 | Merged PR: [[#12048] Migrate FeedbackResultsPageE2ETest #13308](https://github.com/TEAMMATES/teammates/pull/13308) |
 | 12 | Reviewed PR: [[#12048] Migrate tests for PublishFeedbackSessionActionTest #13298](https://github.com/TEAMMATES/teammates/pull/13298) |
 | 13 | Reviewed PR: [[#12048] Migrate tests for UnpublishFeedbackSessionActionTest #13296](https://github.com/TEAMMATES/teammates/pull/13296) |
 | 13 | Reviewed PR: [[#13305] Add new committers #13306](https://github.com/TEAMMATES/teammates/pull/13306) |
 | 13 | Reviewed PR: [[#12048] Migrate InstructorCourseStudentDetailsPageE2ETest #13310](https://github.com/TEAMMATES/teammates/pull/13310) |
 | 13 | Reviewed PR: [[#12048] Migrate InstructorFeedbackEditPageE2ETest #13314](https://github.com/TEAMMATES/teammates/pull/13314) |
-| 13 | Opened PR: [[#12048] Migrate InstructorCourseEnrollPageE2ETest #13311](https://github.com/TEAMMATES/teammates/pull/13311) |
+| 13 | Merged PR: [[#12048] Migrate InstructorCourseEnrollPageE2ETest #13311](https://github.com/TEAMMATES/teammates/pull/13311) |
 | 13 | Drafted PR: [[#12048] Migrate InstructorCoursesPageE2ETest #13312](https://github.com/TEAMMATES/teammates/pull/13312) |
-| 13 | Opened PR: [[#12048] Migrate FeedbackConstSumOptionQuestionE2E #13315](https://github.com/TEAMMATES/teammates/pull/13315) |
+| 13 | Merged PR: [[#12048] Migrate FeedbackConstSumOptionQuestionE2E #13315](https://github.com/TEAMMATES/teammates/pull/13315) |
 
 ## External Project Work
 
