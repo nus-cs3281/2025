@@ -90,6 +90,37 @@ WOFF2 is a webfont file format, and it is a more compressed version of WOFF and 
 
 This page [page](https://stackoverflow.com/questions/15503139/icon-fonts-how-do-they-get-rendered-by-web-pages)  is pretty useful
 
+# Web Architecture Concepts
+### 1. Server-side Rendering(SSR) vs Client-side Rendering(CSR)
+While investigating how components behave in Vue, I came across 2 interesting concepts - Server-Side Rendering (SSR) and Client-Side Rendering(CSR), especially in the context of statc site generation with Markbind. (interestingly, I got asked this alot during interviews when explaining Markbind)
+
+**SSR** refers to HTML content on the server and sending the fully rendered page to the browser. This leads to faster initial page loads and better search-engine optimization (SEO), since search engines can search for contents drectly. Markbind takes a similar apporach - content is pre-rendered during build time, allowing static HTML to be servd efficiently without requiring JS to render everything on the client
+
+**CSR**, on the other hand, renders the content in the browser using JS after the initial page load. This allows for highly dynamic, interactive applications but can result in slower time-to-content and challenges with SEO unless additional tools like prerendering are used.
+
+By comparing these approached, it gave me a better understanding on why MarkBind's static generation strategy works well for documentation websites. These are cases where the content is relatively stable and fast load times are prioritized.
+
+Here are some resoruces I referenced:
+- [Next.js Rendering Strategies](https://nextjs.org/learn/seo/rendering-strategies)
+
+# npm
+In the beginning of the project, I ran npm commands by following instructions on the developer guide, without deep understanding of what each of them does. Here are what I learnt about npm and the different commands I frequently used.
+
+#### 1. What is npm
+npm (Node Package Manager) is a command-line tool and online registry that allows developers to install, manage, and share packages for their Node.js applications. It simplifies the management of dependencies and project automation through scripts, helping to ensure consistent evnvironments and automate repetitive tasks like testing, building and deployment.
+
+### 2. npm link
+**What it does**:
+- `npm link` is udes to symlink a local package for development purposes. It creates a global symlink to a local package and links it into another project, allowing us to test changes to a package without needing to reinstall it.
+**How I used it**
+- One example would be when I am testing the version of markbind. I used `npm link` to connect my local development version of MarkBind, to the CS2103T website. This allows me to serve the CS2103T website locally, to check for any regression issues.
+
+### 3. npm run build:backend
+**What it does**:
+- `npm run build:backend` is a custom npm script defined in MarkBind. This command is used to compile server-side code, to help build static files
+**How I used it**:
+- When I make changes to any `.ts` file, the changes will not be reflected after saving those cahnges and serving the test site. Instead, `npm run build:backend` needs to be run before the new changes can be reflected
+
 # Cheerio
 ### 1. What is Cheerio
 Cheerio is a fast, lightweight library for parsing and manipulating HTML and XML on the server side, using a jQuery-like syntax. It is built for Node.js and is ideal for use cases like:
@@ -112,6 +143,7 @@ For **partial text highlight**, Cheerio is used to dynamically parse and manipul
 - This manipulation is done server-side before the final HTML is served
 
 # Tooling and workflow
+### 1. Lerna 
 While working with PR #2647 [Remove parallel flag from test scripts](https://github.com/MarkBind/markbind/pull/2647/files), I experimented with Lerna's `--parallel flag` which runs tasks across packages concurrently. Here's what I learnt while playing around with it
 - The `--parallel` flag speed up execution but can cause interleaved logs, making test failures harder to trace
 Through my own research, I believe Lerna achieves this concurrency with the help of Node.js's single-threaded event loop architecture.
@@ -119,3 +151,39 @@ Through my own research, I believe Lerna achieves this concurrency with the help
 Here are the docs I referenced:
 - [https://www.linkedin.com/pulse/oncurrency-node-js-khaleel-inchikkalayil?utm_source=chatgpt.com](https://www.linkedin.com/pulse/oncurrency-node-js-khaleel-inchikkalayil?utm_source=chatgpt.com)
 - [https://levelup.gitconnected.com/exploring-parallelism-and-concurrency-in-node-js-4b84c2f397b](https://levelup.gitconnected.com/exploring-parallelism-and-concurrency-in-node-js-4b84c2f397b)
+
+### 2. CJS vs ESM: Differences and Implications
+In JavaScript, there are 2 major module systems for managing dependencies and code: **CommonJS(CJS)** and **ECMAScript Modules(ESM)**
+1. **CJS**
+This is the traditional module system used in Node.js. It uses `require()` to load modules and `module.exports` to eport functionality. Example:
+
+```
+const fs = require('fs');
+const myFunction = require('./myModule');
+
+module.exports = { myFunction };
+```
+Key features include:
+- `require()` loads modules synchronously, blocking execution until the module is fully loaded.
+- `require()` can be called anywhere in the code
+- It is the default module system in Node.hs until ESM became more widely supported
+
+CJS is ideal for traditional Node.js environments, especially when working on backend systems where synchronous loading is acceptable
+
+2. **ESM**
+ESM is the official JS module introduced in the ES6 specification and is now the standard for JS modules. The usage of ES6 differs from CJS. Using the same example as above, we got:
+```
+import fs from 'fs';
+import { myFunction } from './myModule.js';
+
+export { myFunction }
+```
+Key features include:
+- Modules are loaded asynchronously using the `import` statements
+- `supported natively by modern browsers and increasingly in Node.js as of version 12 and beyond
+
+ESM is the preferred choice of JS applications, especially in frontend development and for projects that need to take advantage of tree shaking (the process of elimination dead code from the final JS bundle) and performance optimization
+
+Here are some resrouces I referenced:
+- [Tree shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking)
+- [Some random blog](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/)
