@@ -25,5 +25,3 @@ The fact is, the above security risks mentioned are known to the public - and he
 Drama aside, it was cool to learn about security risks and vulnerabilities in `npm`, and how to manage it - it would be great to help reinforce this within MarkBind as well, since we have been neglecting that aspect for some time. Now that I know how some of these attacks work, I can see that it is indeed very possible for MarkBind to be used as an entryway for some of these attacks; just because MarkBind is a static site generator, does not mean that it cannot contain similar malicious code.
 
 MarkBind Issue [#2607](https://github.com/MarkBind/markbind/issues/2607) and PR [#2608](https://github.com/MarkBind/markbind/pull/2608), both opened by me, represent an effort towards this direction. At least now, with [#2608](https://github.com/MarkBind/markbind/pull/2608) merged in, we don't have a critical vulnerability to deal with :)
-
-(Possibly more to be added in as I explore `npm` and security risks)

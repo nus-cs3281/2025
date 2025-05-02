@@ -106,9 +106,35 @@ docker networking: https://www.geeksforgeeks.org/basics-of-docker-networking/
 docker storage: https://www.geeksforgeeks.org/data-storage-in-docker/
 
 ### Lighthouse CI
+Lighthouse CI is an open-source suite that brings Google’s Lighthouse audits into your continuous integration pipeline, automating performance, accessibility, SEO, and best-practice checks on every commit. It provides a CLI to run Lighthouse runs, assert thresholds, and upload reports, and can be paired with a dedicated Lighthouse Server for historical dashboards and CI-based pull-request annotations.
+
+During the developmemt, I experienced with how to use Lighthouse CI to integrate it with current CI/CD workflow and use it to catch regressions related to github actions routing issue early.
 
 ### Vue framework
+Vue.js is a progressive, component-based JavaScript framework for building user interfaces and single-page applications. It emphasizes an approachable API layered atop standard HTML, CSS, and JavaScript.
+
+Some technical details:
+- Component System: Single-file components (.vue files) with `template`, `script`, and `style scoped`.
+- Declarative rendering with `createApp` and `data`
+- Attribute binding with `v-bind` or `:`
+- Event listener `v-on` and function declaration using `methods` option
+- Form two-way bindings using `v-model`
+- Conditional rendering with `v-if`
+- List rendering with `v-list`
+- Usage of computed property to track other reactive state used in its computation as dependencies, and change its states respectively
+- `props` to pass parameters to child component and `emit` to trigger event from parents 
+- Lifecycle Hooks: beforeCreate, mounted, updated, beforeUnmount (Vue 3) for DOM interaction.
 
 ### Java Gson library
+Gson is Google’s open-source Java library for serializing Java objects to JSON and deserializing JSON back into Java objects. It handles arbitrary object graphs (including generics and nested classes) via reflection, with customization options via GsonBuilder for pretty printing, custom serializers/deserializers, and exclusion strategies
+
+### JUnit testing
+JUnit is the de facto Java unit-testing framework (xUnit family) that supports annotation-driven test methods (@Test, @BeforeEach, @AfterEach), various assertions, and extensions through the JUnit Platform and TestEngine APIs. JUnit 5 (Jupiter) introduced modular architecture, parameterized tests, and more flexible lifecycle control
 
 
+### Cypress testing
+Cypress is a modern, JavaScript-based end-to-end testing framework that executes tests directly in the browser, providing real-time reloading, automatic waiting, and an all-in-one API for E2E, component, and accessibility testing.
+
+Some important techniques used in the development:
+- DOM interaction
+- Component testing

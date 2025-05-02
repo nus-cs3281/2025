@@ -21,6 +21,10 @@ But, it's important to not design the code in such a way that it causes a circul
 preset service relied on the filter service but the filter service also relied on the preset service. To fix it, we can redesign the code such that it doesn't
 have this circular dependency or we can extract out the parts into a 3rd service that is then injected into both.
 
+Models in Angular can be used to enforce the type of data. This can also make it easier to separate and isolate related methods, such as putting `preset`-related functions in the Preset model.
+
+Angular also has lifecycle hooks `ngOnInit()`, `ngOnDestroy()`. These setup and cleanup functions function quite similarly to React's `useEffect`, and are primarily used (among other things) to setup and clean up listeners, to prevent memory leaks
+
 
 ### Tool/Technology 2
 RxJS
@@ -41,5 +45,13 @@ most of the API is similar.
 
 Material Angular allows us to use pre-made components that follow the Material design style, allowing us to have a consistent and coherent UI experience. 
 
+Material Angular provides advanced customization through the `::ng-deep` CSS selector. Normally, any CSS written in the .css file will not apply to the generated Angular Material HTML components, however, by using `::ng-deep`, it can be. 
+However, it's important to note that this is a deprecated in future versions.
+
+### Tool/Technology 3
+Github API
+
+GraphQL API Queries to Github are used extensively in WATcher. As a result, it is not uncommon that rate limits will be hit when opening a large repository. 
+The rate limit of Github is 5k "points" per user per hour, and upon hitting this limit, we are locked out of the GraphQL API (but NOT normal Github API!) for 1 hour.
 
 ...

@@ -1,3 +1,7 @@
+## Summary
+
+I focused on reviewing code changes for CATcher and WATcher, discussed the implementation of the new phase for CATcher and discussed the UI of new features for WATcher.
+
 ### CATcher
 
 | Week | Achievements |

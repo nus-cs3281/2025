@@ -1,3 +1,12 @@
+### Summary
+As I moved into a mentorship position, I focused more on contributing outside of writing code.
+* Reviewed PRs to align with code standard, github practices, OOP principles, etc.
+* Pointed juniors to documentation especially of the new phase added to CATcher leading to PR [Add bug-trimming phase to user-workflow.md](https://github.com/CATcher-org/catcher-org.github.io/pull/43)
+* Contributed to in-person and online discussions on new and existing issues
+* Stepped in for time-sensitive, critical issues as in the PR [Add explicit engine.io dependency to resolve incompatibility errors](https://github.com/CATcher-org/CATcher/pull/1305)
+* Regular discussions with mentees about their contribution goals and how to achieve them
+* Stood by during critical periods such as in PE where application load is peaked
+
 ### CATcher
 | Week | Achievements |
 | ---- | ------------ |

@@ -246,6 +246,96 @@ To address this, I utilized annotations like `@AlsoLoad("oldName")` and `@Column
 Understanding and applying these annotations correctly was key for me in preventing errors and ensuring smooth database operations.
 
 
-### Tool/Technology 3
+### Tool/Technology 3: Selenium with Java
 
-...
+#### Aspects Learned
+
+- **Selenium WebDriver Basics:**
+
+  Selenium is a powerful tool for automating web applications for testing purposes. It provides a simple API to interact with web elements, simulating user actions like clicking buttons, entering text, and navigating through pages.
+
+  - **WebDriver**: The main interface for controlling the browser. It allows me to create an instance of a browser (like Chrome or Firefox) and perform actions on it.
+
+  - **Locators**: Selenium provides various ways to locate elements on a webpage, including:
+    - `By.id()`: Locates an element by its ID.
+    - `By.name()`: Locates an element by its name attribute.
+    - `By.className()`: Locates an element by its class name.
+    - `By.tagName()`: Locates an element by its tag name.
+    - `By.linkText()`: Locates a link by its visible text.
+    - `By.partialLinkText()`: Locates a link by part of its visible text.
+    - `By.cssSelector()`: Locates an element using CSS selectors.
+    - `By.xpath()`: Locates an element using XPath expressions.
+
+  Example:
+
+  ```java
+  WebDriver driver = new ChromeDriver();
+  driver.get("https://example.com");
+  WebElement element = driver.findElement(By.id("elementId"));
+  element.click();
+  ```
+
+- **Implicit and Explicit Waits:**
+
+  Selenium provides mechanisms to handle dynamic content loading on web pages.
+
+  - **Implicit Wait**: Sets a default wait time for the WebDriver to poll the DOM for a certain period when trying to find an element. It applies to all elements in the test.
+
+    ```java
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    ```
+
+  - **Explicit Wait**: Allows me to wait for a specific condition to occur before proceeding. It is more flexible and can be applied to specific elements.
+
+    ```java
+    WebDriverWait wait = new WebDriverWait(driver, 10);
+    WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("elementId")));
+    ```
+
+- **Page Object Model (POM):**
+
+  The Page Object Model is a design pattern that enhances test maintainability and readability by creating a separate class for each page of the application. Each class contains methods that represent actions that can be performed on that page.
+
+  Example:
+    
+  ```java
+  public class LoginPage {
+      private WebDriver driver;
+  
+      @FindBy(id = "username")
+      private WebElement usernameField;
+  
+      @FindBy(id = "password")
+      private WebElement passwordField;
+  
+      @FindBy(id = "loginButton")
+      private WebElement loginButton;
+  
+      public LoginPage(WebDriver driver) {
+          this.driver = driver;
+          PageFactory.initElements(driver, this);
+      }
+  
+      public void login(String username, String password) {
+          usernameField.sendKeys(username);
+          passwordField.sendKeys(password);
+          loginButton.click();
+      }
+  }
+  ```
+  
+  - **Advantages**:
+    - Improved code organization and readability.
+    - Easier maintenance: If the UI changes, I only need to update the page object class instead of every test case.
+    - Reusability: I can reuse page object methods across multiple test cases.
+
+#### Resources
+
+- [Selenium Official Documentation](https://www.selenium.dev/documentation/)
+
+  - Official documentation for Selenium, including guides and API references.
+
+#### Conclusion
+
+I learned how to use Selenium when trying to understand the existing E2E test code.
+It is definitely a powerful tool for automating web applications and testing.
