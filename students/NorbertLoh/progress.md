@@ -75,5 +75,5 @@ Over the semester, I have been actively contributing to both **CATcher** and **W
 | 13 | Reviewed PR: [Prevent label overflow in card with ellipsis and tooltip #475](https://github.com/CATcher-org/WATcher/pull/475) |
 | 13 | Merged PR: [Release minor improvements in V1.4.1 #476](https://github.com/CATcher-org/WATcher/pull/476) |
 | 13 | Released WATcher V1.4.1: [Release V1.4.1](https://github.com/CATcher-org/WATcher/releases/tag/V1.4.1) |
-| 13 | Created Issue: [Different coloured cards for PR and issues #480 Open](https://github.com/CATcher-org/WATcher/issues/480) |
+| 13 | Created Issue: [Different coloured cards for PR and issues #480](https://github.com/CATcher-org/WATcher/issues/480) |
 | 13 | Created Issue: [Truncated Name in big repos #481](https://github.com/CATcher-org/WATcher/issues/481) |
