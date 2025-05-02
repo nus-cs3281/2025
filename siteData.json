@@ -1123,8 +1123,8 @@
     {
       "src": "students/sikai00/knowledge.md",
       "headings": {
-        "tool-technology-1": "Tool/Technology 1",
-        "tool-technology-2": "Tool/Technology 2"
+        "sli-dev-and-various-other-developer-tailored-slide-making-tools": "sli.dev and various other developer-tailored slide making tools",
+        "java-records": "Java records"
       },
       "headingKeywords": {}
     },
@@ -1139,7 +1139,10 @@
     },
     {
       "src": "students/sikai00/progress.md",
-      "headings": {},
+      "headings": {
+        "progress": "Progress",
+        "summary": "Summary"
+      },
       "headingKeywords": {}
     },
     {
