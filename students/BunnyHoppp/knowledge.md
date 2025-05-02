@@ -40,3 +40,5 @@ Selenium is still a new tool for me and I hope to learn more as I write more E2E
 ### Final Thoughts
 
 After the course, I first understood the importance of testing the software, both in isolated environments like unit tests as well as end-to-end tests to ensure that the entire system works as expected when all the classes are integrated. Testing is definitely not an easy task and it might take longer to write certain unit tests but these are all crucial to identifying bugs in the code. Before writing tests, we should first understand the behaviour of the SUT and expected outcomes, then we can easily write the tests and find bugs if there are any. Working with such a huge codebase, I noticed a huge level of abstraction even just in the tests and I believe that this is important in keeping the code clean and readable for new developers. I think that working on real world projects definitely helped to give a little push towards learning the different tools such as Docker, Selenium, Mockito. This is also a great introduction towards tools that are used in real projects, which can help me to consider the different tech stacks better for future projects.
+
+
