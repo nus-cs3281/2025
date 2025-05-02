@@ -22,6 +22,13 @@ This feature improves the user experience by providing more intuitive YAML forma
 
 This enhancement reduces report generation time for users by eliminating the need to regenerate all report data (which could take several minutes) when only making text content changes.
 
+**Release Hosting:**
+
+* **Hosted the official release for [RepoSense v4.0](https://github.com/reposense/RepoSense/releases/tag/v4.0)**
+
+  * Consolidated contributions and merged features for the milestone
+  * Ensured updated documentation and changelog for end users
+
 **Bug Fixes and Documentation Improvements:**
 - Fixed outdated documentation in the developer guide (PR: [#2268](https://github.com/reposense/RepoSense/pull/2268))
 - Resolved an issue with HR elements not appearing in reports (PR: [#2279](https://github.com/reposense/RepoSense/pull/2279))
@@ -35,6 +42,7 @@ This enhancement reduces report generation time for users by eliminating the nee
 - Submitted several beginner-friendly issues (PR: [#2318](https://github.com/reposense/RepoSense/issues/2318) [#2430](https://github.com/reposense/RepoSense/issues/2430))
 
 - Contributed to resolving intermittent test failures (PR: [#2026](https://github.com/reposense/RepoSense/issues/2026))
+
 
 
 | Week | Achievements                                             |
