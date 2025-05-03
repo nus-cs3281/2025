@@ -459,7 +459,9 @@
     },
     {
       "src": "students/InfinityTwo/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary"
+      },
       "headingKeywords": {}
     },
     {
