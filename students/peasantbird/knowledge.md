@@ -68,3 +68,51 @@ public void loadTest() {
 #### Resources used:
 
 - [Official website](https://testng.org/#_testng_documentation) as well as ChatGPT for some examples.
+
+### Tool/Technology 3: Angular
+
+#### Aspects Learnt:
+
+- Structural directives: `*ngFor` and `*ngIf` for dynamic template rendering
+
+  - `*ngIf`: Conditionally includes or removes a chunk of the template based on a boolean expression.
+  - `*ngFor`: Renders a template once per item in an iterable.
+
+    ```
+    <ul>
+        <li *ngFor="let item of items; let i = index; trackBy: trackById">
+            {{ i + 1 }}. {{ item.name }}
+        </li>
+    </ul>
+    ```
+
+- Two-Way Binding with `[(ngModel)]`
+
+```
+<!-- Binds input value to component property and updates it on each keystroke -->
+<input [(ngModel)]="searchText" placeholder="Search items">
+<p>You’re searching for: {{ searchText }}</p>
+```
+
+- One-Way Binding + Change Event: `[ngModel]` & `(ngModelChange)`: Gives you explicit control over when and how changes propagate.
+
+```
+<!-- html -->
+<input
+  [ngModel]="searchText"
+  (ngModelChange)="onSearchTextChange($event)"
+  placeholder="Search items">
+
+<!-- ts -->
+searchText = '';
+onSearchTextChange(updated: string) {
+  this.searchText = updated.trim().toLowerCase();
+  this.filterItems();
+}
+```
+
+#### Resources Used
+
+- Angular Official Documentation
+  - [Structural Directives Guide](https://angular.io/guide/structural-directives) – Overview of *ngIf, *ngFor, and how to write your own structural directives
+  - [Forms Guide](https://angular.io/guide/forms) – Detailed coverage of template-driven forms, including ngModel and (ngModelChange)
