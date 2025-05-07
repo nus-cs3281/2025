@@ -49,7 +49,30 @@
 </span><span>    // This single test method will be invoked 6 times,
 </span><span>    // running up to 3 invocations concurrently.
 </span><span>}
-</span></code></pre><h4 id="resources-used-2">Resources used:<a class="fa fa-anchor" href="#resources-used-2" onclick="event.stopPropagation()"></a></h4> <ul><li><a href="https://testng.org/#_testng_documentation">Official website</a> as well as ChatGPT for some examples.</li></ul></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 6.0.0</a></strong> on Wed, 7 May 2025, 20:37:37 UTC]<br> <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span></p></div></footer><!--]--></div>
+</span></code></pre><h4 id="resources-used-2">Resources used:<a class="fa fa-anchor" href="#resources-used-2" onclick="event.stopPropagation()"></a></h4> <ul><li><a href="https://testng.org/#_testng_documentation">Official website</a> as well as ChatGPT for some examples.</li></ul> <h3 id="tool-technology-3-angular">Tool/Technology 3: Angular<a class="fa fa-anchor" href="#tool-technology-3-angular" onclick="event.stopPropagation()"></a></h3> <h4 id="aspects-learnt-3">Aspects Learnt:<a class="fa fa-anchor" href="#aspects-learnt-3" onclick="event.stopPropagation()"></a></h4> <ul><li><p>Structural directives: <code class="hljs inline no-lang">*ngFor</code> and <code class="hljs inline no-lang">*ngIf</code> for dynamic template rendering</p> <ul><li><p><code class="hljs inline no-lang">*ngIf</code>: Conditionally includes or removes a chunk of the template based on a boolean expression.</p></li> <li><p><code class="hljs inline no-lang">*ngFor</code>: Renders a template once per item in an iterable.</p> <pre><code class="hljs"><span>&lt;ul&gt;
+</span><span>    &lt;li *ngFor=&quot;let item of items; let i = index; trackBy: trackById&quot;&gt;
+</span><span>        NaN. 
+</span><span>    &lt;/li&gt;
+</span><span>&lt;/ul&gt;
+</span></code></pre></li></ul></li> <li><p>Two-Way Binding with <code class="hljs inline no-lang">[(ngModel)]</code></p></li></ul> <pre><code class="hljs"><span>&lt;!-- Binds input value to component property and updates it on each keystroke --&gt;
+</span><span>&lt;input [(ngModel)]=&quot;searchText&quot; placeholder=&quot;Search items&quot;&gt;
+</span><span>&lt;p&gt;You’re searching for: &lt;/p&gt;
+</span></code></pre><ul><li>One-Way Binding + Change Event: <code class="hljs inline no-lang">[ngModel]</code> &amp; <code class="hljs inline no-lang">(ngModelChange)</code>: Gives you explicit control over when and how changes propagate.</li></ul> <pre><code class="hljs"><span>&lt;!-- html --&gt;
+</span><span>&lt;input
+</span><span>  [ngModel]=&quot;searchText&quot;
+</span><span>  (ngModelChange)=&quot;onSearchTextChange($event)&quot;
+</span><span>  placeholder=&quot;Search items&quot;&gt;
+</span><span>
+</span><span>&lt;!-- ts --&gt;
+</span><span>searchText = &#39;&#39;;
+</span><span>onSearchTextChange(updated: string) {
+</span><span>  this.searchText = updated.trim().toLowerCase();
+</span><span>  this.filterItems();
+</span><span>}
+</span></code></pre><h4 id="resources-used-3">Resources Used<a class="fa fa-anchor" href="#resources-used-3" onclick="event.stopPropagation()"></a></h4> <ul><li><p>Angular Official Documentation</p> <pre><code>- [Structural Directives Guide](https://angular.io/guide/structural-directives) – Overview of *ngIf, *ngFor, and how to write your own structural directives
+
+- [Forms Guide](https://angular.io/guide/forms) – Detailed coverage of template-driven forms, including ngModel and (ngModelChange)
+</code></pre></li></ul></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 6.0.0</a></strong> on Wed, 7 May 2025, 21:23:08 UTC]<br> <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span></p></div></footer><!--]--></div>
 </body><script src="/2025/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/2025/markbind/js/polyfill.min.js"></script>
 <script src="/2025/markbind/js/vue.global.prod.min.js"></script>

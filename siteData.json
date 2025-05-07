@@ -894,7 +894,8 @@
         "final-thoughts-5": "Final Thoughts",
         "wong-xing-hui-bertrand": "WONG XING HUI BERTRAND",
         "tool-technology-1-mockito-3": "Tool/Technology 1: Mockito",
-        "tool-technology-2-testng": "Tool/Technology 2: TestNG"
+        "tool-technology-2-testng": "Tool/Technology 2: TestNG",
+        "tool-technology-3-angular": "Tool/Technology 3: Angular"
       },
       "headingKeywords": {}
     },
@@ -1085,7 +1086,8 @@
       "src": "students/peasantbird/knowledge.md",
       "headings": {
         "tool-technology-1-mockito": "Tool/Technology 1: Mockito",
-        "tool-technology-2-testng": "Tool/Technology 2: TestNG"
+        "tool-technology-2-testng": "Tool/Technology 2: TestNG",
+        "tool-technology-3-angular": "Tool/Technology 3: Angular"
       },
       "headingKeywords": {}
     },
